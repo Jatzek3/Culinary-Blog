@@ -1,0 +1,43 @@
+---
+title: "Cookie files, local storage, session storage"
+date: "2021-08-31"
+source: "https://www.rdegges.com/2018/please-stop-using-local-storage/"
+topic: programming
+---
+You might be wandering where the browser keeps information.
+There are three methods where the they are stored:
+*Cookies
+*Local Storage
+*Session Storage
+
+Cookies are small messages(4kb), which website send to you your 
+browser and then it is saved until it expires (or the browser window is closed
+if the expiry date isn't passed in the cookie. Storing information in
+cookies is relatively if they are encrypted. But still even encrypted
+information can get in to wrong hands, and be used in malicious ways, 
+so there shouldn't be any criticall unsecured data in cookies like passwords
+or credit card numbers.
+
+Local Storage is a Javascript object which is placed in the browser, it
+has 5MB of capacity. It is very easy to enter from the developer point of 
+view and allows for getting by without accessing backend. Since it is
+a Javascript object it can be easily entered and injected with malicious 
+code. According to the author of the article, there are massive ammount of 
+tutorials, materials which teach storing Jason Web Tokens(JWT - a sample of
+code which identifies a person entering from the browser) in Local Storage
+What is very unsecure and you should never store sensitive information in
+local storage, especcialy JWT.
+
+Local storage is good for information that:
+*Is not at all sensitive
+*Doesn’t need to be used in an ultra high performance app
+*Isn’t larger than 5MB
+*Consists of purely string data
+
+Session Storage
+
+Session Storage is simmilar to Local Storage(it also has 5MB), but it expieres at
+the end of the session, which doesen't make it that much more safe
+since your information can be stolen while using the unsecured website.
+
+

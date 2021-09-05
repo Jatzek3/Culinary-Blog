@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Jatzek3 gatsby blog",
+    title: "Jatzek3 Blog",
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
@@ -14,5 +14,6 @@ module.exports = {
       }
     },
     "gatsby-plugin-mdx",
+    "gatsby-transformer-sharp",
   ],
 };

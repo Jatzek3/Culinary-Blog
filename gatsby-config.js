@@ -11,7 +11,12 @@ module.exports = {
       options: {
         name: `blog`,
         path: `${__dirname}/blog`,
-      }
+      },
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `apps`,
+        path: `${__dirname}/apps`,
+      },
     },
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",

@@ -2,19 +2,19 @@ import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
 
-const BlogPage = ({ data }) => {
+const AppPage = ({ data }) => {
   return (
-    <Layout pageTitle="My Blog Posts">
+    <Layout pageTitle="My Apps">
       {
         data.allMdx.nodes.map(node => (
           <article key={node.id}>
             <h2>
               {console.log(node)}
-              <Link to={`/blog/${node.slug}`}>
+              <Link to={`/app/${node.slug}`}>
                 {node.frontmatter.title}
               </Link>
             </h2>
-            <p>Posted: {node.frontmatter.date}</p>
+            <p>Created: {node.frontmatter.date}</p>
           </article>
         ))
       }
@@ -37,4 +37,4 @@ export const query = graphql`
   }
 `
 
-export default BlogPage
+export default AppPage

@@ -1,6 +1,7 @@
--potrfolio branch
--styling
+
+- styling
 - fix english with grammarly
 - calendar for blog posts
 
--add rest of the pages
+
+- potrfolio branch

@@ -21,7 +21,6 @@ const BlogPost = ({ data }) => {
   )
 }
 
-// highlight-start
 export const query = graphql`
   query($slug: String) {
     mdx(slug: {eq: $slug}) {
@@ -41,6 +40,5 @@ export const query = graphql`
     }
   }
 `
-// highlight-end
 
 export default BlogPost

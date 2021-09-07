@@ -10,7 +10,7 @@ const AppPage = ({ data }) => {
           <article key={node.id}>
             <h2>
               {console.log(node)}
-              <Link to={`/app/${node.slug}`}>
+              <Link to={`/apps/${node.slug}`}>
                 {node.frontmatter.title}
               </Link>
             </h2>

@@ -20,12 +20,12 @@ const App = ({ data }) => {
   )
 }
 
-// highlight-start
 export const query = graphql`
   query($slug: String) {
     mdx(slug: {eq: $slug}) {
       body
       frontmatter {
+        technologies
         title
         date(formatString: "MMMM DD, YYYY")
         hero_image_alt

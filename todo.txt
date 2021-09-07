@@ -1,7 +1,4 @@
-
-
 - styling
 - fix english with grammarly
-
 
 - calendar for blog posts

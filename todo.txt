@@ -1,4 +1,4 @@
+- add a contact form
 - styling
-- fix english with grammarly
 
 - calendar for blog posts

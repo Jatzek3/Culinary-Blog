@@ -1,4 +1,18 @@
+- add - wpisy o nauce do way
 - add a contact form
-- styling
 
+Wpis o JWT
+Wpis o Spaghetti Carbonarra
+Wpis o Blade runner 2049
+wpis o GraphQL
+wpis o accessabillyty
+
+-apps - blackjack -dodac/poprawić Style
+-apps - Chat -poprawić Style
+-apps - Reviews-poprawić Style
+-apps - Weather-poprawić Style
+
+- styling
 - calendar for blog posts
+- animacja - do rozwijania w way
+- komentarze dla osób zalogowanych

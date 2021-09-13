@@ -20,6 +20,13 @@ module.exports = {
         path: `${__dirname}/apps`,
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `way`,
+        path: `${__dirname}/way`,
+      },
+    },
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
   ],

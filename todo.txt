@@ -8,8 +8,9 @@ Wpis o JWT
 Wpis o Spaghetti Carbonarra
 Wpis o Blade runner 2049
 wpis o accessabillyty
+wpis o TypeScript
 
--apps - blackjack -dodac/poprawić Style
+-apps - blackjack poprawić Style
 -apps - Chat -poprawić Style
 -apps - Reviews-poprawić Style
 -apps - Weather-poprawić Style

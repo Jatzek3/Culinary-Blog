@@ -1,7 +1,7 @@
 - add - wpisy o nauce do way
 - add a contact form
 - Zrobić About me rewelacyjny
-- zrobić sortowanie po tematach.
+- zrobić sortowanie po tematach (<Links> in a new container)
 - dodać favico
 
 Wpis o JWT
@@ -10,13 +10,14 @@ Wpis o Blade runner 2049
 wpis o accessabillyty
 wpis o TypeScript
 
--apps - blackjack poprawić Style
--apps - Chat -poprawić Style
+-apps - blackjack poprawić Style/ dodac delay po naciśnięciu 
+-apps - Chat -poprawić Style/ usunąć wstawianie imienia w alert na starcie
 -apps - Reviews-poprawić Style
--apps - Weather-poprawić Style
+-apps - Weather-poprawić Style / usunąć zapytanie o zgodę na geolokalizacje
+-apps -Captplication poprawić style
 
 
 - styling
 - calendar for blog posts
 - animacja - do rozwijania w way
-- komentarze dla osób zalogowanych
+- komentarze dla osób zalogowanych??

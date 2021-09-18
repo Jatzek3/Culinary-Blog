@@ -14,7 +14,7 @@ wpis o TypeScript
 -apps - Chat -poprawić Style/ usunąć wstawianie imienia w alert na starcie
 -apps - Reviews-poprawić Style
 -apps - Weather-poprawić Style / usunąć zapytanie o zgodę na geolokalizacje
--apps -Captplication poprawić style
+
 
 
 - styling

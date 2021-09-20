@@ -9,6 +9,7 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
+      <p>{data.mdx.frontmatter.subtitle} </p>
       <p>Posted: {data.mdx.frontmatter.date}</p>
       <GatsbyImage
         image={image}
@@ -28,6 +29,7 @@ export const query = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        subtitle
         hero_image_alt
         hero_image_credit_link
         hero_image_credit_text

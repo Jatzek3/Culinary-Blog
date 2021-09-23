@@ -4,7 +4,6 @@
 - zrobić sortowanie po tematach (<Links> in a new container)
 - dodać favico
 
-Wpis o JWT
 Wpis o Spaghetti Carbonarra
 Wpis o Blade runner 2049
 wpis o accessabillyty

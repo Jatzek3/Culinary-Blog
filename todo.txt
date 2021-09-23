@@ -19,5 +19,6 @@ wpis o TypeScript
 
 - styling
 - calendar for blog posts
-- animacja - do rozwijania w way
+- animacja - do rozwijania w way + wąż czasu
+- flexbox w blogu
 - komentarze dla osób zalogowanych??

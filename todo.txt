@@ -4,11 +4,17 @@
 - zrobić sortowanie po tematach (<Links> in a new container)
 - dodać favico
 
-Wpis o Spaghetti Carbonarra
-Wpis o Blade runner 2049
-	web sockets
-wpis o accessabillyty
+
+1. Wpis o Blade runner 2049
+2. Wpis o Spaghetti Carbonarra
+3. Wpis o web sockets
+4. wpis o accessabillity
+
+
 wpis o TypeScript
+wpis o XSS
+Wpis o CSRF
+
 
 -apps - blackjack poprawić Style/ dodac delay po naciśnięciu 
 -apps - Chat -poprawić Style/ usunąć wstawianie imienia w alert na starcie

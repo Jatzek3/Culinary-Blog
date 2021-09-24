@@ -14,7 +14,8 @@ const BlogPage = ({ data }) => {
                 {node.frontmatter.title}
               </Link>
             </h2>
-            <p>Posted: {node.frontmatter.date}</p>
+            <p>From: {node.frontmatter.from}</p>
+            <p>To: {node.frontmatter.till}</p>
           </article>
         ))
       }
@@ -25,12 +26,13 @@ const BlogPage = ({ data }) => {
 export const query = graphql`
   query {
     allMdx(
-      sort: {fields: frontmatter___date, order: DESC}
+      sort: {fields: frontmatter___from, order: DESC}
       filter: {fileAbsolutePath: {regex: "/way/"}}
     ) {
       nodes {
         frontmatter {
-          date(formatString: "MMMM D, YYYY")
+          from(formatString: "MMMM D, YYYY")
+          till(formatString: "MMMM D, YYYY")
           title
         }
         id

@@ -14,9 +14,11 @@ const BlogPage = ({ data }) => {
                 {node.frontmatter.title}
               </Link>
             </h2>
-            <p>Posted: {node.frontmatter.date}</p>
-            <p> {node.frontmatter.subtitle}</p>
 
+            <p> {node.frontmatter.subtitle}</p>
+            <p>Posted: {node.frontmatter.date}</p>
+            <span className={node.frontmatter.topic}>
+              {node.frontmatter.topic}</span>
           </article>
         ))
       }
@@ -35,6 +37,7 @@ export const query = graphql`
           date(formatString: "MMMM D, YYYY")
           title
           subtitle
+          topic
         }
         id
         slug

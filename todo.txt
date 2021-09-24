@@ -6,6 +6,7 @@
 
 Wpis o Spaghetti Carbonarra
 Wpis o Blade runner 2049
+	web sockets
 wpis o accessabillyty
 wpis o TypeScript
 

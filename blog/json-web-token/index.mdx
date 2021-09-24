@@ -1,6 +1,6 @@
 ---
 title: "JSON Web Tokens"
-subtitle: "Who is who behind the computer"
+subtitle: "Security and identification"
 date: "2021-09-23"
 source: "https://blog.logrocket.com/jwt-authentication-best-practices/"
 topic: "Programming"
@@ -18,9 +18,10 @@ A JWT is a mechanism that allows verifying the owner of some data.
 The information in the JWT is not encrypted and can be seen
 by anyone who intercepts it. So while using JWT it's highly recommended to use HTTPS.
 
-It's not recommended to use JWT as session tokens. This means JWT
-should remain longer in your browser to be useful. They cannot be invalidated
-at the end of a session and are relatively large.
+It's not advised to use JWT as session tokens. JWT
+should remain longer in your browser to be useful. Tokens cannot be invalidated
+at the end of a session and are relatively large, so sending them with
+each session is counterproductive.
 
 You never should store JWT in local storage, because it's easily
 accessible for hacker attacks. You should store JWT's in httpOnly cookie

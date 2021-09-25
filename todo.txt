@@ -5,12 +5,13 @@
 - dodać favico
 
 
-1. Wpis o Blade runner 2049
-2. Wpis o Spaghetti Carbonarra
+2. Wpis o Spaghetti Carbonara
 3. Wpis o web sockets
 4. wpis o accessabillity
 
 
+Wpis o Syntax
+Wpis o Talk Python to me
 wpis o TypeScript
 wpis o XSS
 Wpis o CSRF
@@ -27,4 +28,6 @@ Wpis o CSRF
 - calendar for blog posts
 - animacja - do rozwijania w way + wąż czasu
 - flexbox w blogu
+- przycisk do donatów
+
 - komentarze dla osób zalogowanych??

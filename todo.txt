@@ -3,12 +3,13 @@
 - Zrobić About me rewelacyjny
 - zrobić sortowanie po tematach (<Links> in a new container)
 - dodać favico
+- zrobić menu
 
 
 2. Wpis o Spaghetti Carbonara
 3. Wpis o web sockets
 4. wpis o accessabillity
-
+5 wpis o nightcrawler
 
 Wpis o Syntax
 Wpis o Talk Python to me
@@ -25,6 +26,7 @@ Wpis o CSRF
 
 
 - styling
+- google analytics
 - calendar for blog posts
 - animacja - do rozwijania w way + wąż czasu
 - flexbox w blogu

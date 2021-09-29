@@ -9,6 +9,7 @@ const MapPage = () => {
             <h3>Spaghetti</h3>
             <p><Link to={`/blog/spaghetti-bolognese/`}>Spaghetti Bolognese</Link></p>
             <p><Link to={`/blog/spaghetti-carbonara/`}>Spaghetti Carbonara</Link></p>
+            <p><Link to={`/blog/pepper-tomato-spaghetti/`}>Bell pepper and tomato spaghetti</Link></p>
             <h3>Other</h3>
             <p><Link to={`/blog/peasants-cauldron/`}>Peasants Caouldron</Link></p>
             <h2>Movies</h2>

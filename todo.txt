@@ -1,15 +1,14 @@
 - add - wpisy o nauce do way
-- add a contact form
 - Zrobić About me rewelacyjny
-- zrobić sortowanie po tematach (<Links> in a new container)
+- zrobić sortowanie po tematach 
 - dodać favico
-- zrobić menu
 
-
-2. Wpis o Spaghetti Carbonara
+1. Wpis o progresive web apps
+2 . Wpis o spaghetti bell peper tomato
 3. Wpis o web sockets
 4. wpis o accessabillity
-5 wpis o nightcrawler
+5  wpis o nightcrawler
+6. wpis o service workers
 
 Wpis o Syntax
 Wpis o Talk Python to me

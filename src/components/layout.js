@@ -57,6 +57,11 @@ const Layout = ({ pageTitle, children }) => {
                             Contact
                         </Link>
                     </li>
+                    <li className={navLinkItem}>
+                        <Link to="/map" className={navLinkText}>
+                            Map
+                        </Link>
+                    </li>
 
                 </ul>
             </nav>

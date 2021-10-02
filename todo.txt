@@ -1,10 +1,10 @@
 - add - wpisy o nauce do way
 - Zrobić About me rewelacyjny
-- zrobić sortowanie po tematach 
+- zrobić sortowanie po tematach /calendar for blog posts / po 10 wpisów i paginacja?
 - dodać favico
+- styling
 
 1. Wpis o progresive web apps
-2 . Wpis o spaghetti bell peper tomato
 3. Wpis o web sockets
 4. wpis o accessabillity
 5  wpis o nightcrawler
@@ -16,19 +16,15 @@ wpis o TypeScript
 wpis o XSS
 Wpis o CSRF
 
-
 -apps - blackjack poprawić Style/ dodac delay po naciśnięciu 
 -apps - Chat -poprawić Style/ usunąć wstawianie imienia w alert na starcie
 -apps - Reviews-poprawić Style
 -apps - Weather-poprawić Style / usunąć zapytanie o zgodę na geolokalizacje
 
 
-
-- styling
 - google analytics
-- calendar for blog posts
 - animacja - do rozwijania w way + wąż czasu
 - flexbox w blogu
 - przycisk do donatów
+- zrobić meta-tagi i odblokawać indexowanie
 
-- komentarze dla osób zalogowanych??

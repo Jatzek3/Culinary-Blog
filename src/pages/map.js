@@ -20,6 +20,7 @@ const MapPage = () => {
             <p><Link to={`/blog/loving-vincent/`}>Loving Vincent</Link></p>
             <p><Link to={`/blog/cable-guy/`}>Cable Guy</Link></p>
             <p><Link to={`/blog/tulip-fever/`}>Tulip Fever</Link></p>
+            <p><Link to={`/blog/philomena/`}>Philomena</Link></p>
             <h2>Programmming</h2>
             <p><Link to={`/blog/graphql/`}>GraphQL</Link></p>
             <p><Link to={`/blog/gatsby/`}>Gatsby</Link></p>

@@ -12,15 +12,36 @@ const BlogPage = ({ data }) => {
 
   useEffect(() => {
     setPosts(data.allMdx.nodes)
-  }, [])
+  }, []);
+
+  const handleProgrammingClick = (e) => {
+    e.preventDefault()
+    console.log(ProgrammingActive)
+    ProgrammingActive ? setProgrammmingActive(false) : setProgrammmingActive(true)
+  }
+  const handleCookingClick = (e) => {
+    e.preventDefault()
+    console.log(CookingActive)
+    CookingActive ? setCookingActive(false) : setCookingActive(true)
+  }
+  const handleMoviesClick = (e) => {
+    e.preventDefault()
+    console.log(MoviesActive)
+    MoviesActive ? setMoviesActive(false) : setMoviesActive(true)
+  }
+  const handleSocietyClick = (e) => {
+    e.preventDefault()
+    console.log(SocietyActive)
+    SocietyActive ? setSocietyActive(false) : setSocietyActive(true)
+  }
 
   return (
     <Layout pageTitle="My Blog Posts">
       <ul>
-        <li><button>Programming</button></li>
-        <li><button>Cooking</button></li>
-        <li><button>Movies</button></li>
-        <li><button>Society</button></li>
+        <li><button onClick={handleProgrammingClick}>Programming</button></li>
+        <li><button onClick={handleCookingClick}>Cooking</button></li>
+        <li><button onClick={handleMoviesClick}>Movies</button></li>
+        <li><button onClick={handleSocietyClick}>Society</button></li>
       </ul>
       {
         posts.map(blogPost => (

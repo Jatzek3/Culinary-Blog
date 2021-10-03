@@ -13,6 +13,7 @@ const MapPage = () => {
             <h3>Other</h3>
             <p><Link to={`/blog/peasants-cauldron/`}>Peasants Caouldron</Link></p>
             <p><Link to={`/blog/scrambled-eggs/`}>Scrambled Eggs</Link></p>
+            <p><Link to={`/blog/lemon-risotto/`}>Lemon risotto</Link></p>
             <h2>Movies</h2>
             <p><Link to={`/blog/blade-runner/`}>Blade runner part 1</Link></p>
             <p><Link to={`/blog/blade-runner-2/`}>Blade runner part 2</Link></p>

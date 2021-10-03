@@ -5,6 +5,7 @@
 - styling
 
 1. Wpis o progresive web apps
+2. Wpis o Costa Concordia
 3. Wpis o web sockets
 4. wpis o accessabillity
 5  wpis o nightcrawler

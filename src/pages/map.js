@@ -23,11 +23,12 @@ const MapPage = () => {
             <p><Link to={`/blog/tulip-fever/`}>Tulip Fever</Link></p>
             <p><Link to={`/blog/philomena/`}>Philomena</Link></p>
             <h2>Programmming</h2>
+            <h3>Modern Web technologies</h3>
             <p><Link to={`/blog/graphql/`}>GraphQL</Link></p>
             <p><Link to={`/blog/gatsby/`}>Gatsby</Link></p>
-            <h3>Progressive Web Apps</h3>
             <p><Link to={`/blog/json-web-token/`}>JSON web tokens</Link></p>
             <p><Link to={`/blog/cookie-files/`}>Cookie files</Link></p>
+            <p><Link to={`/blog/pwa/`}>Progressive web apps</Link></p>
             <h2>Society</h2>
             <p><Link to={`/blog/tataria/`}>Grand Tartaria</Link></p>
             <p><Link to={`/blog/theranos/`}>Theranos</Link></p>

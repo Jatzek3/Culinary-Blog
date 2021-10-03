@@ -13,6 +13,7 @@
 
 Wpis o Syntax
 Wpis o Talk Python to me
+wpis o hello roman
 wpis o TypeScript
 wpis o XSS
 Wpis o CSRF

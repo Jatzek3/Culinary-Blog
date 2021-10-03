@@ -1,24 +1,41 @@
-import * as React from 'react'
+import React, { useState, useEffect } from 'react';
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
 
 const BlogPage = ({ data }) => {
+
+  const [posts, setPosts] = useState([])
+  const [ProgrammingActive, setProgrammmingActive] = useState(true)
+  const [MoviesActive, setMoviesActive] = useState(true)
+  const [CookingActive, setCookingActive] = useState(true)
+  const [SocietyActive, setSocietyActive] = useState(true)
+
+  useEffect(() => {
+    setPosts(data.allMdx.nodes)
+  }, [])
+
   return (
     <Layout pageTitle="My Blog Posts">
+      <ul>
+        <li><button>Programming</button></li>
+        <li><button>Cooking</button></li>
+        <li><button>Movies</button></li>
+        <li><button>Society</button></li>
+      </ul>
       {
-        data.allMdx.nodes.map(node => (
-          <article key={node.id}>
+        posts.map(blogPost => (
+          <article key={blogPost.id}>
             <h2>
-              {console.log(node)}
-              <Link to={`/blog/${node.slug}`}>
-                {node.frontmatter.title}
+              {console.log(blogPost)}
+              <Link to={`/blog/${blogPost.slug}`}>
+                {blogPost.frontmatter.title}
               </Link>
             </h2>
 
-            <p> {node.frontmatter.subtitle}</p>
-            <p>Posted: {node.frontmatter.date}</p>
-            <span className={node.frontmatter.topic}>
-              {node.frontmatter.topic}</span>
+            <p> {blogPost.frontmatter.subtitle}</p>
+            <p>Posted: {blogPost.frontmatter.date}</p>
+            <span className={blogPost.frontmatter.topic}>
+              {blogPost.frontmatter.topic}</span>
           </article>
         ))
       }

@@ -5,34 +5,68 @@ import Layout from '../../components/layout'
 const BlogPage = ({ data }) => {
 
   const [posts, setPosts] = useState([])
-  const [ProgrammingActive, setProgrammmingActive] = useState(true)
-  const [MoviesActive, setMoviesActive] = useState(true)
-  const [CookingActive, setCookingActive] = useState(true)
-  const [SocietyActive, setSocietyActive] = useState(true)
+  const [ProgrammingActive, setProgrammmingActive] = useState(false)
+  const [MoviesActive, setMoviesActive] = useState(false)
+  const [CookingActive, setCookingActive] = useState(false)
+  const [SocietyActive, setSocietyActive] = useState(false)
+  const [displayedPosts, setDisplayedPosts] = useState([])
 
   useEffect(() => {
     setPosts(data.allMdx.nodes)
+    setDisplayedPosts(data.allMdx.nodes)
   }, []);
 
   const handleProgrammingClick = (e) => {
     e.preventDefault()
-    console.log(ProgrammingActive)
-    ProgrammingActive ? setProgrammmingActive(false) : setProgrammmingActive(true)
+    setMoviesActive(false);
+    setCookingActive(false)
+    setSocietyActive(false)
+    !ProgrammingActive ? setProgrammmingActive(true) : setProgrammmingActive(false)
+    if (ProgrammingActive) {
+      setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Programming"))
+    } else {
+      setDisplayedPosts(posts)
+
+    }
   }
   const handleCookingClick = (e) => {
     e.preventDefault()
-    console.log(CookingActive)
-    CookingActive ? setCookingActive(false) : setCookingActive(true)
+    setMoviesActive(false);
+    setProgrammmingActive(false)
+    setSocietyActive(false)
+    !CookingActive ? setCookingActive(true) : setCookingActive(false)
+    if (CookingActive) {
+      setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Cooking"))
+    } else {
+      setDisplayedPosts(posts)
+    }
   }
+
   const handleMoviesClick = (e) => {
     e.preventDefault()
-    console.log(MoviesActive)
-    MoviesActive ? setMoviesActive(false) : setMoviesActive(true)
+    setProgrammmingActive(false)
+    setSocietyActive(false)
+    setCookingActive(false)
+    !MoviesActive ? setMoviesActive(true) : setMoviesActive(false)
+    if (MoviesActive) {
+      setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Movies"))
+    } else {
+      setDisplayedPosts(posts)
+    }
   }
+
   const handleSocietyClick = (e) => {
     e.preventDefault()
     console.log(SocietyActive)
-    SocietyActive ? setSocietyActive(false) : setSocietyActive(true)
+    setMoviesActive(false)
+    setProgrammmingActive(false)
+    setCookingActive(false)
+    !SocietyActive ? setSocietyActive(true) : setSocietyActive(false)
+    if (SocietyActive) {
+      setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Society"))
+    } else {
+      setDisplayedPosts(posts)
+    }
   }
 
   return (
@@ -44,7 +78,7 @@ const BlogPage = ({ data }) => {
         <li><button onClick={handleSocietyClick}>Society</button></li>
       </ul>
       {
-        posts.map(blogPost => (
+        displayedPosts.map(blogPost => (
           <article key={blogPost.id}>
             <h2>
               {console.log(blogPost)}

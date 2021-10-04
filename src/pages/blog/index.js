@@ -18,9 +18,9 @@ const BlogPage = ({ data }) => {
 
 
   const handleProgrammingClick = () => {
-    setMoviesActive(false);
-    setCookingActive(false)
-    setSocietyActive(false)
+    setMoviesActive(true);
+    setCookingActive(true)
+    setSocietyActive(true)
     !ProgrammingActive ? setProgrammmingActive(true) : setProgrammmingActive(false)
     if (ProgrammingActive) {
       setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Programming"))
@@ -31,9 +31,9 @@ const BlogPage = ({ data }) => {
     }
   }
   const handleCookingClick = () => {
-    setMoviesActive(false);
-    setProgrammmingActive(false)
-    setSocietyActive(false)
+    setMoviesActive(true);
+    setProgrammmingActive(true)
+    setSocietyActive(true)
     !CookingActive ? setCookingActive(true) : setCookingActive(false)
     if (CookingActive) {
       setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Cooking"))
@@ -44,9 +44,9 @@ const BlogPage = ({ data }) => {
   }
 
   const handleMoviesClick = () => {
-    setProgrammmingActive(false)
-    setSocietyActive(false)
-    setCookingActive(false)
+    setProgrammmingActive(true)
+    setSocietyActive(true)
+    setCookingActive(true)
     !MoviesActive ? setMoviesActive(true) : setMoviesActive(false)
     if (MoviesActive) {
       setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Movies"))
@@ -57,9 +57,9 @@ const BlogPage = ({ data }) => {
   }
 
   const handleSocietyClick = () => {
-    setMoviesActive(false)
-    setProgrammmingActive(false)
-    setCookingActive(false)
+    setMoviesActive(true)
+    setProgrammmingActive(true)
+    setCookingActive(true)
     !SocietyActive ? setSocietyActive(true) : setSocietyActive(false)
     if (SocietyActive) {
       setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Society"))

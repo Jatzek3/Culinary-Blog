@@ -31,3 +31,6 @@ Wpis o CSRF
 - przycisk do donatów
 - zrobić meta-tagi i odblokawać indexowanie
 
+Fix
+Naprawić błąd w podziele na kategorie
+

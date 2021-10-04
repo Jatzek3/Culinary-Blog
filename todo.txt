@@ -2,7 +2,6 @@
 - Zrobić Home dobry
 - Zrobić About me rewelacyjny
 - calendar for blog posts 
-- zrobić linki programistycznie
 - dodać favico
 - styling od Weroniki
 

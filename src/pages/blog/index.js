@@ -5,10 +5,10 @@ import Layout from '../../components/layout'
 const BlogPage = ({ data }) => {
 
   const [posts, setPosts] = useState([])
-  const [ProgrammingActive, setProgrammmingActive] = useState(false)
-  const [MoviesActive, setMoviesActive] = useState(false)
-  const [CookingActive, setCookingActive] = useState(false)
-  const [SocietyActive, setSocietyActive] = useState(false)
+  const [ProgrammingActive, setProgrammmingActive] = useState(true)
+  const [MoviesActive, setMoviesActive] = useState(true)
+  const [CookingActive, setCookingActive] = useState(true)
+  const [SocietyActive, setSocietyActive] = useState(true)
   const [displayedPosts, setDisplayedPosts] = useState([])
 
   useEffect(() => {
@@ -16,54 +16,54 @@ const BlogPage = ({ data }) => {
     setDisplayedPosts(data.allMdx.nodes)
   }, []);
 
-  const handleProgrammingClick = (e) => {
-    e.preventDefault()
+
+  const handleProgrammingClick = () => {
     setMoviesActive(false);
     setCookingActive(false)
     setSocietyActive(false)
     !ProgrammingActive ? setProgrammmingActive(true) : setProgrammmingActive(false)
     if (ProgrammingActive) {
       setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Programming"))
+      console.log("render")
     } else {
       setDisplayedPosts(posts)
 
     }
   }
-  const handleCookingClick = (e) => {
-    e.preventDefault()
+  const handleCookingClick = () => {
     setMoviesActive(false);
     setProgrammmingActive(false)
     setSocietyActive(false)
     !CookingActive ? setCookingActive(true) : setCookingActive(false)
     if (CookingActive) {
       setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Cooking"))
+      console.log("render")
     } else {
       setDisplayedPosts(posts)
     }
   }
 
-  const handleMoviesClick = (e) => {
-    e.preventDefault()
+  const handleMoviesClick = () => {
     setProgrammmingActive(false)
     setSocietyActive(false)
     setCookingActive(false)
     !MoviesActive ? setMoviesActive(true) : setMoviesActive(false)
     if (MoviesActive) {
       setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Movies"))
+      console.log("render")
     } else {
       setDisplayedPosts(posts)
     }
   }
 
-  const handleSocietyClick = (e) => {
-    e.preventDefault()
-    console.log(SocietyActive)
+  const handleSocietyClick = () => {
     setMoviesActive(false)
     setProgrammmingActive(false)
     setCookingActive(false)
     !SocietyActive ? setSocietyActive(true) : setSocietyActive(false)
     if (SocietyActive) {
       setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Society"))
+      console.log("render")
     } else {
       setDisplayedPosts(posts)
     }

@@ -5,10 +5,10 @@ import Layout from '../../components/layout'
 const BlogPage = ({ data }) => {
 
   const [posts, setPosts] = useState([])
-  const [ProgrammingActive, setProgrammmingActive] = useState(true)
-  const [MoviesActive, setMoviesActive] = useState(true)
-  const [CookingActive, setCookingActive] = useState(true)
-  const [SocietyActive, setSocietyActive] = useState(true)
+  const [ProgrammingNotActive, setProgrammmingNotActive] = useState(true)
+  const [MoviesNotActive, setNotMoviesNotActive] = useState(true)
+  const [CookingNotActive, setCookingNotActive] = useState(true)
+  const [SocietyNotActive, setSocietyNotActive] = useState(true)
   const [displayedPosts, setDisplayedPosts] = useState([])
 
   useEffect(() => {
@@ -18,11 +18,11 @@ const BlogPage = ({ data }) => {
 
 
   const handleProgrammingClick = () => {
-    setMoviesActive(true);
-    setCookingActive(true)
-    setSocietyActive(true)
-    !ProgrammingActive ? setProgrammmingActive(true) : setProgrammmingActive(false)
-    if (ProgrammingActive) {
+    setNotMoviesNotActive(true);
+    setCookingNotActive(true)
+    setSocietyNotActive(true)
+    !ProgrammingNotActive ? setProgrammmingNotActive(true) : setProgrammmingNotActive(false)
+    if (ProgrammingNotActive) {
       setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Programming"))
       console.log("render")
     } else {
@@ -31,11 +31,11 @@ const BlogPage = ({ data }) => {
     }
   }
   const handleCookingClick = () => {
-    setMoviesActive(true);
-    setProgrammmingActive(true)
-    setSocietyActive(true)
-    !CookingActive ? setCookingActive(true) : setCookingActive(false)
-    if (CookingActive) {
+    setNotMoviesNotActive(true);
+    setProgrammmingNotActive(true)
+    setSocietyNotActive(true)
+    !CookingNotActive ? setCookingNotActive(true) : setCookingNotActive(false)
+    if (CookingNotActive) {
       setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Cooking"))
       console.log("render")
     } else {
@@ -44,11 +44,11 @@ const BlogPage = ({ data }) => {
   }
 
   const handleMoviesClick = () => {
-    setProgrammmingActive(true)
-    setSocietyActive(true)
-    setCookingActive(true)
-    !MoviesActive ? setMoviesActive(true) : setMoviesActive(false)
-    if (MoviesActive) {
+    setProgrammmingNotActive(true)
+    setSocietyNotActive(true)
+    setCookingNotActive(true)
+    !MoviesNotActive ? setNotMoviesNotActive(true) : setNotMoviesNotActive(false)
+    if (MoviesNotActive) {
       setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Movies"))
       console.log("render")
     } else {
@@ -57,11 +57,11 @@ const BlogPage = ({ data }) => {
   }
 
   const handleSocietyClick = () => {
-    setMoviesActive(true)
-    setProgrammmingActive(true)
-    setCookingActive(true)
-    !SocietyActive ? setSocietyActive(true) : setSocietyActive(false)
-    if (SocietyActive) {
+    setNotMoviesNotActive(true)
+    setProgrammmingNotActive(true)
+    setCookingNotActive(true)
+    !SocietyNotActive ? setSocietyNotActive(true) : setSocietyNotActive(false)
+    if (SocietyNotActive) {
       setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Society"))
       console.log("render")
     } else {

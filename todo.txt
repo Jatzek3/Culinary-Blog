@@ -1,6 +1,6 @@
 - add - wpisy o nauce do way
 - Zrobić About me rewelacyjny
-- zrobić sortowanie po tematach /calendar for blog posts / po 10 wpisów i paginacja?
+- calendar for blog posts / po 10 wpisów i paginacja?
 - dodać Category do frontmatter i zrobić linki programistycznie
 - dodać favico
 - styling
@@ -30,7 +30,5 @@ Wpis o CSRF
 - flexbox w blogu
 - przycisk do donatów
 - zrobić meta-tagi i odblokawać indexowanie
-
-Fix
-Naprawić błąd w podziele na kategorie
+- zrobić inactive button przez 1 s i animacje
 

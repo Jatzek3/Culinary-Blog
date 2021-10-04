@@ -1,18 +1,16 @@
 - add - wpisy o nauce do way
+- Zrobić Home dobry
 - Zrobić About me rewelacyjny
-- calendar for blog posts / po 10 wpisów i paginacja?
-- dodać Category do frontmatter i zrobić linki programistycznie
+- calendar for blog posts 
+- zrobić linki programistycznie
 - dodać favico
-- styling
+- styling od Weroniki
 
 -apps - blackjack poprawić Style/ dodac delay po naciśnięciu 
 -apps - Chat -poprawić Style/ usunąć wstawianie imienia w alert na starcie
 -apps - Reviews-poprawić Style
 -apps - Weather-poprawić Style / usunąć zapytanie o zgodę na geolokalizacje
 
-
-
-3. Wpis o web sockets
 2. Wpis o Costa Concordia
 -. Aglio e Olio
 4. wpis o accessabillity
@@ -34,6 +32,7 @@ Wpis o CSRF
 - przycisk do donatów
 - zrobić meta-tagi i odblokawać indexowanie
 - zrobić inactive button przez 1 s i animacje
+- po 10 wpisów i paginacja?
 
 Mamy dla Was nową jesienną 🍁🍂 promocję! Na hasło jesień z Tino🍁 od poniedziałku do czwartku 
 wybrane duże pizze🍕 w lokalu dostaniecie w cenie 9,90‼️ Promocja obejmuje pozycje od 1 do 5 z menu, zapraszamy!

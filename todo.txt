@@ -1,23 +1,25 @@
-
 - Zrobić About me rewelacyjny
-
-- zrobić inactive/active button przez 1 s i animacje
-- po 10 wpisów i paginacja?
-
+- dodać favico
 - clean up the graphQL
+- styling od Weroniki
 -apps - blackjack poprawić Style/ dodac delay po naciśnięciu 
 -apps - Chat -poprawić Style/ usunąć wstawianie imienia w alert na starcie
 -apps - Reviews-poprawić Style
 -apps - Weather-poprawić Style / usunąć zapytanie o zgodę na geolokalizacje
 
-- dodać favico
-- styling od Weroniki
-
-2. Wpis o Costa Concordia
--. Aglio e Olio
+- htmx
+-zupa marchewkowa Curry
 4. wpis o accessabillity
+Łysenkizm
 5  wpis o nightcrawler
+ziemniaki smażone w sosie piwnym
+
 6. wpis o service workers
+React
+Big short
+Social Network
+-placki ziemniaczane.
+-. Aglio e Olio
 
 Wpis o Syntax
 Wpis o Talk Python to me
@@ -27,6 +29,8 @@ wpis o TypeScript
 wpis o XSS
 Wpis o CSRF
 
+- po 10 wpisów i paginacja?
+- zrobić inactive/active button przez 1 s i animacje
 - calendar for blog posts 
 - add categories to map
 - google analytics

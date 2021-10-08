@@ -1,0 +1,48 @@
+---
+title: "HTMX"
+subtitle: "A peculiar way of handling frontend for backend developers"
+date: "2021-10-08"
+source: "https://www.rdegges.com/2018/please-stop-using-local-storage/"
+topic: "Programming"
+category: "Frontend"
+
+hero_image: "./htmx_logo.png"
+hero_image_alt: "lower case htmx sign"
+hero_image_credit_text: "https://github.com/bigskysoftware/htmx"
+hero_image_credit_link: "https://raw.githubusercontent.com/bigskysoftware/htmx/master/www/img/htmx_logo.1.png"
+---
+"htmx allows you to access AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, 
+using attributes, so you can build modern user interfaces with the simplicity and power of hypertext"
+                                    - https://htmx.org/
+
+
+You don't know JavaScript? You don't want to learn JavaScript, but want to use modern technologies as frontend frameworks do. At first glance, the HTMX  will be the solution to your problems.
+
+- It is small, so it doesn't affect the loading time of a webpage
+- It is simple to learn, just a little bit more familiar syntax to learn
+- It allows you to send requests to the server on various browser events
+- It allows WebSocket connection
+- It allows polling without JS (sending a request to the server to check if the state changed)
+- Also allows to Configure events and selection of elements similarly to JS 
+
+It also has one big advantage over different JS libraries. It doesn't have dependencies
+so it won't be compromised by a bug in a JS dependency.
+
+It looks nice, doesn't it?
+
+But in reality, there are some issues, which come to my mind.
+
+- It doesn't preserve the state. A complex application where you want to transfer state from one site to the other won't be using htmx.
+- You often want to make some calculations on the frontend, so your backend wont be 
+bombarded with thousands of slightly different requests.
+- You don't get this Single Page Application experience and are missing out in many ways 
+of optimizing your application
+
+Who can benefit the most from this technology?
+
+- This technology seems to be appropriate for people who don't want to learn JS or don't 
+have the time for it. 
+- It seems a nice addition for people creating a website with Django 
+and templates.
+- People learning to program on the backend.
+- For MVP applications

@@ -1,15 +1,17 @@
-- Zrobić About me rewelacyjny
-dodać do mapy aplikacje i way
+2 etap Styling
+
 - dodać favico
-- clean up the graphQL
 - styling od Weroniki
 -apps - blackjack poprawić Style/ dodac delay po naciśnięciu 
 -apps - Chat -poprawić Style/ usunąć wstawianie imienia w alert na starcie
 -apps - Reviews-poprawić Style
 -apps - Weather-poprawić Style / usunąć zapytanie o zgodę na geolokalizacje
-
+- clean up the graphQL
+dodać do mapy aplikacje i way?
+poprawic angielski/ ilustracje
 
 -zupa marchewkowa Curry
+-Kreacjoniści
 4. wpis o accessabillity
 Łysenkizm
 5  wpis o nightcrawler
@@ -17,12 +19,20 @@ ziemniaki smażone w sosie piwnym
 -wpis o svelte
 
 -Slavoj Żizek
+caching
+Firebase
+Headless CMS
+CMS
 6. wpis o service workers
+Dróżnik
 React
 Big short
 Social Network
 -placki ziemniaczane.
 -. Aglio e Olio
+Mc empire
+Hiroshima and Nagasaki/carpet bombings
+toxic masculinity
 
 
 Wpis o Syntax
@@ -41,6 +51,7 @@ Wpis o CSRF
 - animacja - do rozwijania w way + wąż czasu
 - flexbox w blogu
 - przycisk do donatów
+- domena
 - zrobić meta-tagi i odblokawać indexowanie
 
 

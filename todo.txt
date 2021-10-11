@@ -10,16 +10,14 @@
 dodać do mapy aplikacje i way?
 poprawic angielski/ ilustracje
 
--zupa marchewkowa Curry
--Kreacjoniści
--darwiniści społeczni/scjentyści/ateiści
-4. wpis o accessabillity
-Łysenkizm
+
 5  wpis o nightcrawler
 ziemniaki smażone w sosie piwnym
+4. wpis o accessabillity
+Łysenkizm
 -wpis o svelte
+SEO
 
--Slavoj Żizek
 caching
 Firebase
 Headless CMS
@@ -34,7 +32,11 @@ Social Network
 Mc empire
 Hiroshima and Nagasaki/carpet bombings
 toxic masculinity
-
+Lobster
+Her
+Moon
+-Slavoj Żizek
+8 Out Of 10 Cats Does Countdown
 
 Wpis o Syntax
 Wpis o Talk Python to me
@@ -45,6 +47,7 @@ wpis o XSS
 Wpis o CSRF
 
 - po 10 wpisów i paginacja?
+- dodać servings do gotowania
 - zrobić inactive/active button przez 1 s i animacje
 - calendar for blog posts 
 - add categories to map

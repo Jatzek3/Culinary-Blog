@@ -1,7 +1,9 @@
 2 etap Styling
 
+-Zrobić 404
 - dodać favico
 - styling od Weroniki
+
 -apps - blackjack poprawić Style/ dodac delay po naciśnięciu 
 -apps - Chat -poprawić Style/ usunąć wstawianie imienia w alert na starcie
 -apps - Reviews-poprawić Style

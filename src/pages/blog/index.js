@@ -1,6 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
+import {
+  postNav,
+  postNavItem,
+  postNavButton,
+  post,
+  postTitle,
+  postSubtitle,
+  postPosted,
+  Society,
+  Movies,
+  Programming,
+  Cooking
+
+} from "./blog.module.css"
 
 const BlogPage = ({ data }) => {
 
@@ -71,24 +85,23 @@ const BlogPage = ({ data }) => {
 
   return (
     <Layout pageTitle="My Blog Posts">
-      <ul>
-        <li><button onClick={handleProgrammingClick}>Programming</button></li>
-        <li><button onClick={handleCookingClick}>Cooking</button></li>
-        <li><button onClick={handleMoviesClick}>Movies</button></li>
-        <li><button onClick={handleSocietyClick}>Society</button></li>
+      <ul className={postNav}>
+        <li className={postNavItem}><button className={postNavButton} onClick={handleProgrammingClick}>Programming</button></li>
+        <li className={postNavItem}><button className={postNavButton} onClick={handleCookingClick}>Cooking</button></li>
+        <li className={postNavItem}><button className={postNavButton} onClick={handleMoviesClick}>Movies</button></li>
+        <li className={postNavItem}><button className={postNavButton} onClick={handleSocietyClick}>Society</button></li>
       </ul>
       {
         displayedPosts.map(blogPost => (
-          <article key={blogPost.id}>
+          <article className={post} key={blogPost.id}>
             <h2>
-              {console.log(blogPost)}
-              <Link to={`/blog/${blogPost.slug}`}>
+              <Link className={postTitle} to={`/blog/${blogPost.slug}`}>
                 {blogPost.frontmatter.title}
               </Link>
             </h2>
 
-            <p> {blogPost.frontmatter.subtitle}</p>
-            <p>Posted: {blogPost.frontmatter.date}</p>
+            <p className={postSubtitle}> {blogPost.frontmatter.subtitle}</p>
+            <p className={postPosted}>Posted: {blogPost.frontmatter.date}</p>
             <span className={blogPost.frontmatter.topic}>
               {blogPost.frontmatter.topic}</span>
           </article>

@@ -1,23 +1,31 @@
 import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
+import {
+  apps,
+  appContainer,
+  appName,
+} from "./apps.module.css"
 
 const AppPage = ({ data }) => {
   return (
     <Layout pageTitle="My Apps">
-      {
-        data.allMdx.nodes.map(node => (
-          <article key={node.id}>
-            <h2>
-              {console.log(node)}
-              <Link to={`/apps/${node.slug}`}>
-                {node.frontmatter.title}
-              </Link>
-            </h2>
-            <p>Created: {node.frontmatter.date}</p>
-          </article>
-        ))
-      }
+      <div className={apps}>
+        {
+          data.allMdx.nodes.map(node => (
+            <article className={appContainer} key={node.id}>
+              <h2 className={appName}>
+                {console.log(node)}
+                <Link to={`/apps/${node.slug}`}>
+                  {node.frontmatter.title}
+                </Link>
+              </h2>
+              {/* <p>Created: {node.frontmatter.date}</p> */}
+            </article>
+          ))
+        }
+      </div>
+
     </Layout>
   )
 }

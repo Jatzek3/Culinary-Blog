@@ -6,6 +6,8 @@
 -apps - Chat -poprawić Style/ usunąć wstawianie imienia w alert na starcie
 -apps - Reviews-poprawić Style
 -apps - Weather-poprawić Style / usunąć zapytanie o zgodę na geolokalizacje
+- po 10 wpisów i paginacja?
+- 3 najnowsze wpisy na stronie głównej
 - clean up the graphQL
 dodać do mapy aplikacje i way?
 poprawic angielski/ ilustracje
@@ -46,7 +48,7 @@ wpis o TypeScript
 wpis o XSS
 Wpis o CSRF
 
-- po 10 wpisów i paginacja?
+
 - dodać servings do gotowania
 - zrobić inactive/active button przez 1 s i animacje
 - calendar for blog posts 

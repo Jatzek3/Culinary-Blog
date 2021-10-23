@@ -1,5 +1,18 @@
-.intro{}
+/* 
+black
+white
+gold rgb(235,234,228)
+linen rgb(235,234,228)
+ */
+
+
+.intro{
+    width:40%
+}
 .intro-text{}
 .intro-button{}
 .intro-button-text{}
-.intro-img{}
+.intro-img{width: 60%;}
+.main-container{
+    display:flex
+}

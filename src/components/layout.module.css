@@ -3,29 +3,38 @@
   src: url(../fonts/Roboto-Regular.ttf);
 
 }
+/* 
+black
+white
+gold rgb(255,231,6)
+linen rgb(235,234,228)
+ */
 
 .container {
     margin: auto;
-    font-family: Roboto-Regular;
-    margin:2rem;
-    border-radius: 5rem;
-    padding: 2rem;
-    -webkit-box-shadow: 0px 0px 31px 19px rgba(0,0,0,0.62); 
-    box-shadow: 0px 0px 31px 19px rgba(0,0,0,0.62);
+    font-family: Roboto-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 98vh;
   }
   
   .heading {
   }
   .site-title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
+    padding-left: 2rem;
+  }
+  .mainbar{
+    display: flex;
+    background-color: rgb(255,231,6);
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
   }
   .nav-links {
     display: flex;
     list-style-type: none;
-    position: relative;
-    top: -3rem;
     justify-content: flex-end;
+
   }
   .nav-link-item {
     padding-right: 2rem;
@@ -33,4 +42,6 @@
   .nav-link-text {
     color: black;
     text-decoration: none;
+    font-size: 1.3rem;
+
   }

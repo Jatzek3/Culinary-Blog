@@ -4,17 +4,26 @@ import Layout from '../../components/layout'
 
 const BlogPage = ({ data }) => {
 
-  const [posts, setPosts] = useState([])
+  const posts = data.allMdx.nodes
   const [ProgrammingNotActive, setProgrammmingNotActive] = useState(true)
   const [MoviesNotActive, setNotMoviesNotActive] = useState(true)
   const [CookingNotActive, setCookingNotActive] = useState(true)
   const [SocietyNotActive, setSocietyNotActive] = useState(true)
   const [displayedPosts, setDisplayedPosts] = useState([])
+  const [siteNumber, setSiteNumber] = useState([0])
 
   useEffect(() => {
-    setPosts(data.allMdx.nodes)
-    setDisplayedPosts(data.allMdx.nodes)
-  }, []);
+    setDisplayedPosts(posts.slice(siteNumber * 9, (siteNumber + 1) * 9))
+  }, [siteNumber]);
+
+  const handleSiteUp = () => {
+    console.log("forward clicked")
+    setSiteNumber(Number(siteNumber + 1))
+  }
+  const handleSiteDown = () => {
+    console.log("back clicked")
+    setSiteNumber(Number(siteNumber - 1))
+  }
 
 
   const handleProgrammingClick = () => {
@@ -94,6 +103,9 @@ const BlogPage = ({ data }) => {
           </article>
         ))
       }
+      <button onClick={handleSiteDown}>Back</button>
+      <p>{siteNumber}</p>
+      <button onClick={handleSiteUp}>Forward</button>
     </Layout>
   )
 }

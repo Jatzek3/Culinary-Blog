@@ -26,7 +26,6 @@ Headless CMS
 CMS
 6. wpis o service workers
 Dróżnik
-React
 Big short
 Social Network
 -placki ziemniaczane.
@@ -48,7 +47,6 @@ wpis o TypeScript
 wpis o XSS
 Wpis o CSRF
 
-- po 10 wpisów i paginacja?
 - dodać servings do gotowania
 - zrobić inactive/active button przez 1 s i animacje
 - calendar for blog posts 
@@ -59,9 +57,3 @@ Wpis o CSRF
 - przycisk do donatów
 - domena
 - zrobić meta-tagi i odblokawać indexowanie
-
-
-
-Mamy dla Was nową jesienną 🍁🍂 promocję! Na hasło jesień z Tino🍁 od poniedziałku do czwartku 
-wybrane duże pizze🍕 w lokalu dostaniecie w cenie 9,90‼️ Promocja obejmuje pozycje od 1 do 5 z menu, zapraszamy!
-

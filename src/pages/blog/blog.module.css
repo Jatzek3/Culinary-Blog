@@ -1,7 +1,16 @@
+.allPosts{
+    display: flex;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}   
+
 .post-nav{}
 .post-nav-item{}
 .post-nav-button{}
-.post{}
 .post-title{}
 .post-subtitle{}
 .post-posted{}

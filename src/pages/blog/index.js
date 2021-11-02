@@ -14,7 +14,9 @@ import {
   Society,
   Movies,
   Programming,
-  Cooking
+  Cooking,
+  navButtonsDiv,
+  navButton,
 } from "./blog.module.css"
 
 const BlogPage = ({ data }) => {
@@ -96,11 +98,11 @@ const BlogPage = ({ data }) => {
 
   return (
     <Layout pageTitle="My Blog Posts">
-      <ul>
-        <li><button onClick={handleProgrammingClick}>Programming</button></li>
-        <li><button onClick={handleCookingClick}>Cooking</button></li>
-        <li><button onClick={handleMoviesClick}>Movies</button></li>
-        <li><button onClick={handleSocietyClick}>Society</button></li>
+      <ul className={postNav}>
+        <li><button className={postNavItem} onClick={handleProgrammingClick}>Programming</button></li>
+        <li><button className={postNavItem} onClick={handleCookingClick}>Cooking</button></li>
+        <li><button className={postNavItem} onClick={handleMoviesClick}>Movies</button></li>
+        <li><button className={postNavItem} onClick={handleSocietyClick}>Society</button></li>
       </ul>
       <ul className={allPosts}>
         {
@@ -126,9 +128,11 @@ const BlogPage = ({ data }) => {
           ))
         }
       </ul>
+      <div className={navButtonsDiv}>
+        <button className={navButton} disabled={siteNumber === 0 ? true : false} onClick={handleSiteDown}>Back</button>
+        <button className={navButton} disabled={siteNumber - 1 >= (displayedPosts.length / 9)} onClick={handleSiteUp}>Forward</button>
+      </div>
 
-      <button disabled={siteNumber === 0 ? true : false} onClick={handleSiteDown}>Back</button>
-      <button disabled={siteNumber - 1 >= (displayedPosts.length / 9)} onClick={handleSiteUp}>Forward</button>
     </Layout>
   )
 }

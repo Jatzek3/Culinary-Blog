@@ -1,5 +1,35 @@
-.post{}
+/* 
+black
+white
+gold rgb(255,231,6)
+linen rgb(235,234,228)
+ */
+
+
+
+.post-container{
+    display: flex;
+}
+.post{
+    background-color: rgb(235,234,228);
+    width: 70%;
+
+}
+.postBody{
+    margin:6rem;
+    width: 600px;
+    margin-right: 16rem;
+}
+
 .post-subtitle{}
 .post-posted{}
-.post-image{}
-.post-body{}
+.post-image{
+    position: relative;
+    top: 7rem;
+    left:-10rem;
+    max-height: 600px;
+
+}
+.image-background{
+}
+

@@ -1,15 +1,32 @@
+/* 
+black
+white
+gold rgb(255,231,6)
+linen rgb(235,234,228)
+ */
+
 .allPosts{
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .post{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
+    margin: 3rem;
+    padding: 0rem;
+    max-width: 300px;
+    background-color: rgb(255,231,6);
 }   
 
-.post-nav{}
-.post-nav-item{}
+.post-nav{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: space-around;
+}
+.post-nav-item{
+}
 .post-nav-button{}
 .post-title{}
 .post-subtitle{}
@@ -18,3 +35,11 @@
 .Movies{}
 .Programming{}
 .Cooking{}
+
+.nav-buttons-div{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: space-around;
+}
+.navButton{}

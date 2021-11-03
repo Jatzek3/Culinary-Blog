@@ -3,20 +3,24 @@ import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Layout from '../../components/layout'
+import { part, partBody } from "./part.module.css"
 
 const WayPost = ({ data }) => {
   const image = getImage(data.mdx.frontmatter.hero_image)
 
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
-      <p>Posted: {data.mdx.frontmatter.date}</p>
-      <GatsbyImage
-        image={image}
-        alt={data.mdx.frontmatter.hero_image_alt}
-      />
-      <MDXRenderer>
-        {data.mdx.body}
-      </MDXRenderer>
+      <div className={part}>
+        <p>Posted: {data.mdx.frontmatter.date}</p>
+        <GatsbyImage
+          image={image}
+          alt={data.mdx.frontmatter.hero_image_alt}
+        />
+        <MDXRenderer className={partBody}>
+          {data.mdx.body}
+        </MDXRenderer>
+      </div>
+
     </Layout>
   )
 }

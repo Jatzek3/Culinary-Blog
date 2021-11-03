@@ -2,22 +2,28 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
+import {
+  mainContainer,
+  intro,
+  introText,
+  introButton,
+  introButtonText,
+  introImg,
+} from "../css/indexjs.module.css"
 
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
-      <p>Dig into the mine of fascinating ideas.</p>
-      {/* <p>Tasty recipes, thoughts about movies and programing
-        technologies simply explained You can find on<Link to="/blog">my blog</Link>
-      </p>
-      <p>Some of my <Link to="/apps">Apps</Link></p>
-      <p>And description of my <Link to="/way">Programming Journey</Link></p>
-      <p>List of blog posts by category<Link to="/map">Map</Link></p> */}
-      <button><Link to="/about">Explore</Link></button>
-      <StaticImage
-        alt="An Img from the internet"
-        src="../images/_HYHtD8F.webp"
-      />
+      <div className={mainContainer}>
+        <div className={intro}>
+          <p className={introText}>Dig into the mine of fascinating ideas.</p>
+          <Link classname={introButtonText} to="/about"><button className={introButton}>Explore</button></Link>
+        </div>
+        <StaticImage className={introImg}
+          alt="An Img from the internet"
+          src="../images/_HYHtD8F.webp"
+        />
+      </div>
     </Layout>
   )
 }

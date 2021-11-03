@@ -1,7 +1,9 @@
 2 etap Styling
 
+-Zrobić 404
 - dodać favico
 - styling od Weroniki
+
 -apps - blackjack poprawić Style/ dodac delay po naciśnięciu 
 -apps - Chat -poprawić Style/ usunąć wstawianie imienia w alert na starcie
 -apps - Reviews-poprawić Style
@@ -12,7 +14,7 @@
 dodać do mapy aplikacje i way?
 poprawic angielski/ ilustracje
 
-
+Czerwone Zagłębie.
 5  wpis o nightcrawler
 ziemniaki smażone w sosie piwnym
 4. wpis o accessabillity
@@ -26,7 +28,6 @@ Headless CMS
 CMS
 6. wpis o service workers
 Dróżnik
-React
 Big short
 Social Network
 -placki ziemniaczane.
@@ -48,7 +49,6 @@ wpis o TypeScript
 wpis o XSS
 Wpis o CSRF
 
-
 - dodać servings do gotowania
 - zrobić inactive/active button przez 1 s i animacje
 - calendar for blog posts 
@@ -59,9 +59,3 @@ Wpis o CSRF
 - przycisk do donatów
 - domena
 - zrobić meta-tagi i odblokawać indexowanie
-
-
-
-Mamy dla Was nową jesienną 🍁🍂 promocję! Na hasło jesień z Tino🍁 od poniedziałku do czwartku 
-wybrane duże pizze🍕 w lokalu dostaniecie w cenie 9,90‼️ Promocja obejmuje pozycje od 1 do 5 z menu, zapraszamy!
-

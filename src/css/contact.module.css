@@ -1,3 +1,36 @@
-.contact{}
-.contact-header{}
-.contact-paragraph{}
+/* 
+black
+white
+gold rgb(255,231,6)
+linen rgb(235,234,228)
+ */
+
+.contact{
+    background: linear-gradient(90deg, rgb(235,234,228) 65%, rgb(255,231,6) 35%);
+    margin:0rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    height: 71vh;
+}
+.contact-info{
+    width:30%;
+}
+.contact-header{
+    font-size: 3rem;
+}
+.contact-paragraph{
+    font-size: 2rem;
+}
+.text-paragraph-link{
+
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    text-decoration: none;
+
+}

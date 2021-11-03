@@ -31,4 +31,5 @@ linen rgb(235,234,228)
     flex: 1 1 30%; /*grow | shrink | basis */
 
     margin: 0.5rem;
+    font-size: 1.5rem;
 }

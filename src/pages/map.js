@@ -14,41 +14,45 @@ const MapPage = ({ data }) => {
         <Layout pageTitle="Map of the blog posts">
             <div className={map}>
                 <h2 className={mapHeader}>Cooking</h2>
-                {data.allMdx.nodes.filter
-                    (node => node.frontmatter.topic === "Cooking")
-                    .map(node => (
-                        <p className={mapWindow}>
-                            <Link className={mapWindowLink} to={`/apps/${node.slug}`}>
+                <div className={mapWindow}>
+                    {data.allMdx.nodes.filter
+                        (node => node.frontmatter.topic === "Cooking")
+                        .map(node => (
+
+                            <Link className={mapWindowLink} to={`/blog/${node.slug}`}>
                                 {node.frontmatter.title}
-                            </Link></p>
-                    ))}
+                            </Link>
+                        ))}</div>
                 <h2 className={mapHeader}>Movies</h2>
-                {data.allMdx.nodes.filter
-                    (node => node.frontmatter.topic === "Movies")
-                    .map(node => (
-                        <p lassName={mapWindow}>
-                            <Link className={mapWindowLink} to={`/apps/${node.slug}`}>
+                <div className={mapWindow}>
+                    {data.allMdx.nodes.filter
+                        (node => node.frontmatter.topic === "Movies")
+                        .map(node => (
+
+                            <Link className={mapWindowLink} to={`/blog/${node.slug}`}>
                                 {node.frontmatter.title}
-                            </Link></p>
-                    ))}
+                            </Link>
+                        ))}</div>
                 <h2 className={mapHeader}>Programming</h2>
-                {data.allMdx.nodes.filter
-                    (node => node.frontmatter.topic === "Programming")
-                    .map(node => (
-                        <p className={mapWindow}>
-                            <Link className={mapWindowLink} to={`/apps/${node.slug}`}>
+                <div className={mapWindow}>
+                    {data.allMdx.nodes.filter
+                        (node => node.frontmatter.topic === "Programming")
+                        .map(node => (
+
+                            <Link className={mapWindowLink} to={`/blog/${node.slug}`}>
                                 {node.frontmatter.title}
-                            </Link></p>
-                    ))}
+                            </Link>
+                        ))}</div>
                 <h2 className={mapHeader}>Society</h2>
-                {data.allMdx.nodes.filter
-                    (node => node.frontmatter.topic === "Society")
-                    .map(node => (
-                        <p className={mapWindow}>
-                            <Link className={mapWindowLink} to={`/apps/${node.slug}`}>
+                <div className={mapWindow}>
+                    {data.allMdx.nodes.filter
+                        (node => node.frontmatter.topic === "Society")
+                        .map(node => (
+
+                            <Link className={mapWindowLink} to={`/blog/${node.slug}`}>
                                 {node.frontmatter.title}
-                            </Link></p>
-                    ))}
+                            </Link>
+                        ))}</div>
             </div>
 
         </Layout>

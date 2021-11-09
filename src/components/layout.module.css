@@ -14,6 +14,7 @@ linen rgb(235,234,228)
     margin: auto;
     font-family: Roboto-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin:0rem;
+    overflow-y: hidden;
   }
   
   .heading {

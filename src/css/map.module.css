@@ -14,8 +14,7 @@ linen rgb(235,234,228)
 .map-window{
     display:flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: rgb(235,234,228);
 }
 .map-window-link{
@@ -28,7 +27,7 @@ linen rgb(235,234,228)
 	outline: inherit;
     text-decoration: none;
 
-    flex: 1 1 30%; /*grow | shrink | basis */
+    flex: 0 0 30%; /*grow | shrink | basis */
 
     margin: 0.5rem;
     font-size: 1.5rem;

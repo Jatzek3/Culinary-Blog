@@ -6,6 +6,8 @@ linen rgb(235,234,228)
  */
 .about-page{
     display: flex;
+    height: 77vh;
+    width: auto;
 }
  
 .text{
@@ -39,4 +41,8 @@ linen rgb(235,234,228)
     color:black;
     font-weight: 400;
     font-size: 1rem;
+}
+
+.aboutImg{
+    width:35%
 }

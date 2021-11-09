@@ -110,7 +110,7 @@ const BlogPage = ({ data }) => {
           displayedPosts.map(blogPost => (
             <article key={blogPost.id} className={post}>
               <h2>
-                {console.log(blogPost)}
+                {console.log(displayedPosts, posts)}
                 <GatsbyImage
                   image={getImage(blogPost.frontmatter.hero_image)}
                   alt={blogPost.frontmatter.hero_image_alt}
@@ -131,7 +131,7 @@ const BlogPage = ({ data }) => {
       </ul>
       <div className={navButtonsDiv}>
         <button className={navButton} disabled={siteNumber === 0 ? true : false} onClick={handleSiteDown}>Back</button>
-        <button className={navButton} disabled={siteNumber - 1 >= (displayedPosts.length / 9)} onClick={handleSiteUp}>Forward</button>
+        <button className={navButton} disabled={siteNumber + 1 >= (posts.length / 9)} onClick={handleSiteUp}>Forward</button>
       </div>
 
     </Layout >

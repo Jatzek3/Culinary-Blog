@@ -5,19 +5,8 @@ gold rgb(255,231,6)
 linen rgb(235,234,228)
  */
 
-.allPosts{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
 
-}
 
-.post{
-    margin: 3rem;
-    padding: 0rem;
-    max-width: 300px;
-    background-color: rgb(255,231,6);
-}   
 
 .post-nav{
     display: flex;
@@ -28,7 +17,45 @@ linen rgb(235,234,228)
 .post-nav-item{
 }
 .post-nav-button{}
-.post-title{}
+
+
+.allPosts{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+
+    height: 220px;
+    width: 330px;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    border-radius: 0.3rem;
+    background-color: rgb(255,231,6);
+
+
+}   
+
+
+.post-title{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    text-decoration: none; /*reset link style*/
+
+    margin-bottom: 0px;
+
+
+}
 .post-subtitle{}
 .post-posted{}
 .Society{}

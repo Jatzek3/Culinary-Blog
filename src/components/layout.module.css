@@ -20,7 +20,7 @@ linen rgb(235,234,228)
   .heading {
       background-color: rgb(255,231,6);
       margin:0rem;
-      padding: 2rem;
+      padding-bottom: 1rem;
       padding-left: 2rem;
       font-size: 2rem;
       font-weight: 400;
@@ -30,7 +30,6 @@ linen rgb(235,234,228)
     font-size: 3rem;
     font-weight: 700;
     padding-left: 2rem;
-    padding-top: 2rem;
   }
   .mainbar{
     display: flex;

@@ -100,31 +100,28 @@ const BlogPage = ({ data }) => {
   return (
     <Layout pageTitle="My Blog Posts">
       <ul className={postNav}>
-        <li><button className={postNavItem} onClick={handleProgrammingClick}>Programming</button></li>
-        <li><button className={postNavItem} onClick={handleCookingClick}>Cooking</button></li>
-        <li><button className={postNavItem} onClick={handleMoviesClick}>Movies</button></li>
-        <li><button className={postNavItem} onClick={handleSocietyClick}>Society</button></li>
+        <li className={postNavButton}><button className={postNavItem} onClick={handleProgrammingClick}>Programming</button></li>
+        <li className={postNavButton}><button className={postNavItem} onClick={handleCookingClick}>Cooking</button></li>
+        <li className={postNavButton}><button className={postNavItem} onClick={handleMoviesClick}>Movies</button></li>
+        <li className={postNavButton}><button className={postNavItem} onClick={handleSocietyClick}>Society</button></li>
       </ul>
       <ul className={allPosts}>
         {
           displayedPosts.map(blogPost => (
             <article key={blogPost.id} className={post}>
-              <h2>
-                {console.log(displayedPosts, posts)}
-                <GatsbyImage
-                  image={getImage(blogPost.frontmatter.hero_image)}
-                  alt={blogPost.frontmatter.hero_image_alt}
-                />
-                <Link to={`/blog/${blogPost.slug}`}>
+              <Link className={postTitle} to={`/blog/${blogPost.slug}`}>
+                <h2>
+                  {console.log(displayedPosts, posts)}
 
                   {blogPost.frontmatter.title}
-                </Link>
-              </h2>
 
-              <p> {blogPost.frontmatter.subtitle}</p>
-              <p>Posted: {blogPost.frontmatter.date}</p>
-              <span className={blogPost.frontmatter.topic}>
-                {blogPost.frontmatter.topic}</span>
+                </h2>
+
+                <p className={postSubtitle}> {blogPost.frontmatter.subtitle}</p>
+                <p className={postPosted}>Posted: {blogPost.frontmatter.date}</p>
+                <span className={blogPost.frontmatter.topic}>
+                  {blogPost.frontmatter.topic}</span>
+              </Link>
             </article>
           ))
         }
@@ -133,7 +130,6 @@ const BlogPage = ({ data }) => {
         <button className={navButton} disabled={siteNumber === 0 ? true : false} onClick={handleSiteDown}>Back</button>
         <button className={navButton} disabled={siteNumber + 1 >= (posts.length / 9)} onClick={handleSiteUp}>Forward</button>
       </div>
-
     </Layout >
   )
 }

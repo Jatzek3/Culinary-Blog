@@ -25,7 +25,7 @@ linen rgb(235,234,228)
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
-    text-decoration: none;
+    text-decoration: none; /*reset link style*/
 
     flex: 0 0 30%; /*grow | shrink | basis */
 

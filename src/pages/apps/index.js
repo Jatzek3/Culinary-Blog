@@ -5,6 +5,7 @@ import {
   apps,
   appContainer,
   appName,
+  singleApp,
 } from "./apps.module.css"
 
 const AppPage = ({ data }) => {
@@ -13,15 +14,13 @@ const AppPage = ({ data }) => {
       <div className={apps}>
         {
           data.allMdx.nodes.map(node => (
-            <article className={appContainer} key={node.id}>
-              <h2 className={appName}>
-                {console.log(node)}
-                <Link to={`/apps/${node.slug}`}>
+            <Link className={appContainer} to={`/apps/${node.slug}`}>
+              <article key={node.id} className={singleApp}>
+                <div className={appName}>
                   {node.frontmatter.title}
-                </Link>
-              </h2>
-              {/* <p>Created: {node.frontmatter.date}</p> */}
-            </article>
+                </div>
+              </article>
+            </Link>
           ))
         }
       </div>

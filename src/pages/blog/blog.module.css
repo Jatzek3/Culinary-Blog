@@ -42,8 +42,9 @@ linen rgb(235,234,228)
 }   
 
 
-.post-title{
-    background: none;
+.post-title {
+
+    background: none; /*reset link style*/
 	color: inherit;
 	border: none;
 	padding: 0;
@@ -53,7 +54,6 @@ linen rgb(235,234,228)
     text-decoration: none; /*reset link style*/
 
     margin-bottom: 0px;
-
 
 }
 .post-subtitle{}

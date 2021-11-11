@@ -111,7 +111,6 @@ const BlogPage = ({ data }) => {
             <article key={blogPost.id} className={post}>
               <Link className={postTitle} to={`/blog/${blogPost.slug}`}>
                 <h2>
-                  {console.log(displayedPosts, posts)}
 
                   {blogPost.frontmatter.title}
 

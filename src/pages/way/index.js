@@ -4,6 +4,7 @@ import Layout from '../../components/layout'
 import {
   way,
   partContainer,
+  part,
   partName,
   partFrom,
   partTo,
@@ -15,15 +16,21 @@ const BlogPage = ({ data }) => {
       <div className={way}>
         {
           data.allMdx.nodes.map(node => (
-            <article className={partContainer} key={node.id}>
-              <h2 className={partName}>
-                <Link to={`/blog/${node.slug}`}>
+
+
+            <Link className={partContainer} to={`/blog/${node.slug}`}>
+              <article key={node.id} className={part}>
+                <h2 className={partName} >
+
                   {node.frontmatter.title}
-                </Link>
-              </h2>
-              <p className={partFrom}>From: {node.frontmatter.from}</p>
-              <p className={partTo}>To: {node.frontmatter.till}</p>
-            </article>
+
+                </h2>
+                <p className={partFrom}>From: {node.frontmatter.from}</p>
+                <p className={partTo}>To: {node.frontmatter.till}</p>
+              </article>
+            </Link>
+
+
           ))
         }
       </div>

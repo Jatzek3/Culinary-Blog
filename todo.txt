@@ -8,16 +8,15 @@
 -apps - Chat -poprawić Style/ usunąć wstawianie imienia w alert na starcie
 -apps - Reviews-poprawić Style
 -apps - Weather-poprawić Style / usunąć zapytanie o zgodę na geolokalizacje
-- po 10 wpisów i paginacja?
 - 3 najnowsze wpisy na stronie głównej
 - clean up the graphQL
 dodać do mapy aplikacje i way?
 poprawic angielski/ ilustracje
 
-Czerwone Zagłębie.
+
+toxic masculinity
 5  wpis o nightcrawler
 ziemniaki smażone w sosie piwnym
-4. wpis o accessabillity
 Łysenkizm
 -wpis o svelte
 SEO
@@ -34,7 +33,7 @@ Social Network
 -. Aglio e Olio
 Mc empire
 Hiroshima and Nagasaki/carpet bombings
-toxic masculinity
+
 Lobster
 Her
 Moon

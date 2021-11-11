@@ -1,5 +1,33 @@
-.way{}
-.part-container{}
+/* 
+black
+white
+gold rgb(255,231,6)
+linen rgb(235,234,228)
+ */
+
+.way{
+    background-color: rgb(235,234,228);
+}
+.part-container{
+    background: none; /*reset link style*/
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    text-decoration: none; /*reset link style*/
+
+    margin-bottom: 0px;
+}
+.part{
+    margin: 2rem;
+    height: 140px;
+    width: 330px;
+    padding-left: 2rem;
+    border-radius: 0.3rem;
+    background-color: rgb(255,231,6);
+}
 .part-name{}
 .part-from{}
 .part-to{}

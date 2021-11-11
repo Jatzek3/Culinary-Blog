@@ -1,3 +1,42 @@
-.apps{}
-.app-name{}
-.app-Container{}
+/* 
+black
+white
+gold rgb(255,231,6)
+linen rgb(235,234,228)
+ */
+
+.apps{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.single-app{
+
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    height: 220px;
+    width: 330px;
+    padding-left: 2rem;
+    border-radius: 0.3rem;
+    background-color: rgb(255,231,6);
+}
+
+.app-container{
+    background: none; /*reset link style*/
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    text-decoration: none; /*reset link style*/
+
+    margin-bottom: 0px;
+}
+
+.app-name {
+
+}

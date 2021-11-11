@@ -32,8 +32,8 @@ const AboutPage = () => {
                     <p className={textParagraph}>Don't hesitate to <Link className={textParagraphLink} to="/contact">Contact</Link> me if you want to work together!</p>
                 </div>
                 <StaticImage className={aboutImg}
-                    alt="An Img from the internet"
-                    src="../images/_HYHtD8F.webp"
+                    alt="a person looking at the shadow in a dark room"
+                    src="../images/about.jpg"
                 />
             </div>
         </Layout >

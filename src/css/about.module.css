@@ -14,12 +14,13 @@ linen rgb(235,234,228)
     background-color: rgb(235,234,228);
     padding:6rem;
     padding-top: 3rem;
+    font-size: 1.2rem;
 }
 .text-header{
     font-size: 3rem;
 }
 .text-paragraph{
-    padding-top: 1rem;
+    padding-top: 0.4rem;
 }
 .text-paragraph-link{
     background: none;
@@ -40,9 +41,9 @@ linen rgb(235,234,228)
     padding-right: 1rem;
     color:black;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .aboutImg{
-    width:35%
+    width:60%
 }

@@ -12,11 +12,16 @@ linen rgb(235,234,228)
 }
 
 .intro{
-    width:40%
+    width:55%
+}
+.introGreeting{
+    margin-left: 2rem;
+    margin-top: 12rem;
+    font-size: 2rem;
 }
 .intro-text{
-    padding-top: 10rem;
-    padding-left:2rem;
+    margin-top: 3.5rem;
+    margin-left:2rem;
     font-size: 4rem;;
 
 }
@@ -35,7 +40,7 @@ linen rgb(235,234,228)
 
     margin-left:2rem;
     border-radius: 0.4rem;
-    padding: 2rem;
+    padding: 2.5rem;
     padding-left: 5rem;
     padding-right: 5rem;
     color:black;

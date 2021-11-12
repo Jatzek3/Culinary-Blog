@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import {
+  blogContainer,
   allPosts,
   postNav,
   postNavItem,
@@ -99,35 +100,37 @@ const BlogPage = ({ data }) => {
 
   return (
     <Layout pageTitle="My Blog Posts">
-      <ul className={postNav}>
-        <li className={postNavButton}><button className={postNavItem} onClick={handleProgrammingClick}>Programming</button></li>
-        <li className={postNavButton}><button className={postNavItem} onClick={handleCookingClick}>Cooking</button></li>
-        <li className={postNavButton}><button className={postNavItem} onClick={handleMoviesClick}>Movies</button></li>
-        <li className={postNavButton}><button className={postNavItem} onClick={handleSocietyClick}>Society</button></li>
-      </ul>
-      <ul className={allPosts}>
-        {
-          displayedPosts.map(blogPost => (
-            <article key={blogPost.id} className={post}>
-              <Link className={postTitle} to={`/blog/${blogPost.slug}`}>
-                <h2>
+      <div className={blogContainer}>
+        <ul className={postNav}>
+          <li className={postNavButton}><button className={postNavItem} onClick={handleProgrammingClick}>Programming</button></li>
+          <li className={postNavButton}><button className={postNavItem} onClick={handleCookingClick}>Cooking</button></li>
+          <li className={postNavButton}><button className={postNavItem} onClick={handleMoviesClick}>Movies</button></li>
+          <li className={postNavButton}><button className={postNavItem} onClick={handleSocietyClick}>Society</button></li>
+        </ul>
+        <ul className={allPosts}>
+          {
+            displayedPosts.map(blogPost => (
+              <article key={blogPost.id} className={post}>
+                <Link className={postTitle} to={`/blog/${blogPost.slug}`}>
+                  <h2>
 
-                  {blogPost.frontmatter.title}
+                    {blogPost.frontmatter.title}
 
-                </h2>
+                  </h2>
 
-                <p className={postSubtitle}> {blogPost.frontmatter.subtitle}</p>
-                <p className={postPosted}>Posted: {blogPost.frontmatter.date}</p>
-                <span className={blogPost.frontmatter.topic}>
-                  {blogPost.frontmatter.topic}</span>
-              </Link>
-            </article>
-          ))
-        }
-      </ul>
-      <div className={navButtonsDiv}>
-        <button className={navButton} disabled={siteNumber === 0 ? true : false} onClick={handleSiteDown}>Back</button>
-        <button className={navButton} disabled={siteNumber + 1 >= (posts.length / 9)} onClick={handleSiteUp}>Forward</button>
+                  <p className={postSubtitle}> {blogPost.frontmatter.subtitle}</p>
+                  <p className={postPosted}>Posted: {blogPost.frontmatter.date}</p>
+                  <span className={blogPost.frontmatter.topic}>
+                    {blogPost.frontmatter.topic}</span>
+                </Link>
+              </article>
+            ))
+          }
+        </ul>
+        <div className={navButtonsDiv}>
+          <button className={navButton} disabled={siteNumber === 0 ? true : false} onClick={handleSiteDown}>Back</button>
+          <button className={navButton} disabled={siteNumber + 1 >= (posts.length / 9)} onClick={handleSiteUp}>Forward</button>
+        </div>
       </div>
     </Layout >
   )

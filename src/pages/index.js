@@ -18,7 +18,7 @@ const IndexPage = () => {
       <div className={mainContainer}>
         <div className={intro}>
           <h2 className={introGreeting}>Hiya!</h2>
-          <p className={introText}>Take a deep dive to unsurface astonishing ideas.</p>
+          <p className={introText}>Take a deep dive to surface astonishing ideas.</p>
           <Link classname={introButtonText} to="/about"><button className={introButton}>Explore</button></Link>
         </div>
         <StaticImage className={introImg}

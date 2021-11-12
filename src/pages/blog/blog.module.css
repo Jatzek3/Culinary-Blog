@@ -6,7 +6,10 @@ linen rgb(235,234,228)
  */
 
 
-
+.blogContainer{
+    background: linear-gradient(90deg, rgb(235,234,228) 65%, white 35%);
+    margin-top: -1rem;    
+}
 
 .post-nav{
     display: flex;

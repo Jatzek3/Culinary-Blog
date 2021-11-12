@@ -9,18 +9,21 @@ import {
 } from "./apps.module.css"
 
 const AppPage = ({ data }) => {
+
   return (
     <Layout pageTitle="My Apps">
       <div className={apps}>
         {
           data.allMdx.nodes.map(node => (
-            <Link className={appContainer} to={`/apps/${node.slug}`}>
-              <article key={node.id} className={singleApp}>
+
+            <article key={node.id} className={singleApp}>
+              <Link className={appContainer} to={`/apps/${node.slug}`}>
                 <div className={appName}>
                   {node.frontmatter.title}
                 </div>
-              </article>
-            </Link>
+              </Link>
+            </article>
+
           ))
         }
       </div>

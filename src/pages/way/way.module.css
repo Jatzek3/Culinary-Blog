@@ -7,6 +7,13 @@ linen rgb(235,234,228)
 
 .way{
     background-color: rgb(235,234,228);
+    display: flex;
+}
+.way-img{
+    max-width: 40%;
+}
+.all-parts{
+    margin-left: 2rem;
 }
 .part-container{
     background: none; /*reset link style*/

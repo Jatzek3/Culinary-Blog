@@ -13,7 +13,7 @@ import {
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="About Me">
+        <Layout pageTitle="About">
 
             <div className={aboutPage}>
                 <div className={text}>

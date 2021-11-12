@@ -99,7 +99,7 @@ const BlogPage = ({ data }) => {
   }
 
   return (
-    <Layout pageTitle="My Blog Posts">
+    <Layout pageTitle="Blog Posts">
       <div className={blogContainer}>
         <ul className={postNav}>
           <li className={postNavButton}><button className={postNavItem} onClick={handleProgrammingClick}>Programming</button></li>

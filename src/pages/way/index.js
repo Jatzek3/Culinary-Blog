@@ -15,7 +15,7 @@ import {
 
 const BlogPage = ({ data }) => {
   return (
-    <Layout pageTitle="My Blog Posts">
+    <Layout pageTitle="Road">
       <div className={way}>
         <StaticImage className={wayImg}
           alt="black and white picture of a road with surrounding trees"

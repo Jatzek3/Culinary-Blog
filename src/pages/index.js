@@ -10,6 +10,7 @@ import {
   introButtonText,
   introImg,
   introGreeting,
+  hvrUnderline,
 } from "../css/indexjs.module.css"
 
 const IndexPage = () => {
@@ -19,7 +20,7 @@ const IndexPage = () => {
         <div className={intro}>
           <h2 className={introGreeting}>Hiya!</h2>
           <p className={introText}>Take a deep dive to surface astonishing ideas.</p>
-          <Link classname={introButtonText} to="/about"><button className={introButton}>Explore</button></Link>
+          <Link classname={introButtonText, hvrUnderline} to="/about"><button className={introButton}>Explore</button></Link>
         </div>
         <StaticImage className={introImg}
           alt="Two people sitting on a couach with a baloon looking at the see."

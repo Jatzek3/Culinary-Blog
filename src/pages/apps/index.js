@@ -11,7 +11,7 @@ import {
 const AppPage = ({ data }) => {
 
   return (
-    <Layout pageTitle="My Apps">
+    <Layout pageTitle="Apps">
       <div className={apps}>
         {
           data.allMdx.nodes.map(node => (

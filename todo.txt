@@ -1,8 +1,10 @@
 2 etap Styling
 
--Zrobić 404
+-zrobić guziki
+- Zrobić 404
 - dodać favico
-- styling od Weroniki
+- dodać animacjce on hover
+- zrobić ładnie podstrony wszystkie 
 
 -apps - blackjack poprawić Style/ dodac delay po naciśnięciu 
 -apps - Chat -poprawić Style/ usunąć wstawianie imienia w alert na starcie

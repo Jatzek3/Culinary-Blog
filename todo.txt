@@ -1,14 +1,17 @@
 2 etap Styling
 
-- zrobić ładnie podstrony wszystkie 
+
 - zrobić guziki
 - Zrobić 404
 - dodać favico
 - zrobić RWD
+
+
 -apps - blackjack poprawić Style/ dodac delay po naciśnięciu 
 -apps - Chat -poprawić Style/ usunąć wstawianie imienia w alert na starcie
 -apps - Reviews-poprawić Style
 -apps - Weather-poprawić Style / usunąć zapytanie o zgodę na geolokalizacje
+-zrobić Apps + RWD
 - poprawic angielski/ ilustracje
 
 

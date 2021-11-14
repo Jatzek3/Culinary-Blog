@@ -23,7 +23,7 @@ const WayPost = ({ data }) => {
               <p>From: {data.mdx.frontmatter.from}</p>
               <p>Till: {data.mdx.frontmatter.till}</p>
             </div>
-            <MDXRenderer className={partText}>
+            <MDXRenderer >
               {data.mdx.body}
             </MDXRenderer>
           </div>

@@ -1,0 +1,10 @@
+.pnf-container{
+    background: linear-gradient(90deg, rgb(235,234,228) 65%, rgb(255,231,6) 35%);
+    height: 80vh;
+    margin-top: -3rem;
+}
+.pnf-container h2{
+    margin-left: 40%;
+    padding-top: 20rem;
+    font-size: 3rem;
+}

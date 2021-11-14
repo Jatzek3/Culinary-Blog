@@ -1,16 +1,22 @@
 .road-part{
     min-height: 80vh;
-    background: linear-gradient(90deg, rgb(235,234,228) 65%, rgb(255,231,6) 35%);
+    background: linear-gradient(90deg, rgb(235,234,228) 70%, rgb(255,231,6) 30%);
 }
 .part-container{
     background-color: rgb(235,234,228);
-    width: 70%;
-    margin-top: -1rem;
+    width: 60%;
+    padding:3rem;
+}
+.part-body{    
+    width: 600px;
 
 }
-.part-body{
-
+.part-dates{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
 }
-.part-dates{}
 
-.part-text{}
+.part-text{
+}

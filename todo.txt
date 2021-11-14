@@ -1,41 +1,35 @@
 2 etap Styling
 
--zrobić guziki
+- zrobić ładnie podstrony wszystkie 
+- zrobić guziki
 - Zrobić 404
 - dodać favico
-- dodać animacjce on hover
-- zrobić ładnie podstrony wszystkie 
-
+- zrobić RWD
 -apps - blackjack poprawić Style/ dodac delay po naciśnięciu 
 -apps - Chat -poprawić Style/ usunąć wstawianie imienia w alert na starcie
 -apps - Reviews-poprawić Style
 -apps - Weather-poprawić Style / usunąć zapytanie o zgodę na geolokalizacje
-- 3 najnowsze wpisy na stronie głównej
-- clean up the graphQL
-dodać do mapy aplikacje i way?
-poprawic angielski/ ilustracje
+- poprawic angielski/ ilustracje
 
 
+Tematy na wpisy
+caching
+6. wpis o service workers
 toxic masculinity
 5  wpis o nightcrawler
 ziemniaki smażone w sosie piwnym
 Łysenkizm
 -wpis o svelte
 SEO
-
-caching
 Firebase
 Headless CMS
 CMS
-6. wpis o service workers
 Dróżnik
 Big short
 Social Network
--placki ziemniaczane.
 -. Aglio e Olio
 Mc empire
 Hiroshima and Nagasaki/carpet bombings
-
 Lobster
 Her
 Moon
@@ -50,12 +44,17 @@ wpis o TypeScript
 wpis o XSS
 Wpis o CSRF
 
+
+- poprawic guziki(żeby wyswitlały całą zawartość + scrollowanie)
+- 3 najnowsze wpisy na stronie głównej?
+- w Road zrobić pojawienie się tekstu po prawej stronie? po klikniekciu.
+- clean up the graphQL
+- dodać do mapy aplikacje i road?
 - dodać servings do gotowania
 - zrobić inactive/active button przez 1 s i animacje
-- calendar for blog posts 
+- calendar for blog posts
 - add categories to map
 - google analytics
-- animacja - do rozwijania w way + wąż czasu
 - flexbox w blogu
 - przycisk do donatów
 - domena

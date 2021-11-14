@@ -6,7 +6,7 @@ import Layout from '../../components/layout'
 import {
   post,
   postSubtitle,
-  postPosted,
+  // postPosted,
   postImage,
   postContainer,
   imageBackground,
@@ -21,7 +21,7 @@ const BlogPost = ({ data }) => {
       <div className={postContainer}>
         <div className={post}>
           <p className={postSubtitle}>{data.mdx.frontmatter.subtitle} </p>
-          <p className={postPosted}>Posted: {data.mdx.frontmatter.date}</p>
+          {/* <p className={postPosted}>Posted: {data.mdx.frontmatter.date}</p> */}
           <div className={postBody}>
             <MDXRenderer >
               {data.mdx.body}

@@ -3,24 +3,32 @@ import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Layout from '../../components/layout'
-import { part, partBody } from "./part.module.css"
+import {
+  roadPart,
+  partContainer,
+  partBody,
+  partDates,
+  partText
+} from "./part.module.css"
 
 const WayPost = ({ data }) => {
   const image = getImage(data.mdx.frontmatter.hero_image)
 
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
-      <div className={part}>
-        <p>Posted: {data.mdx.frontmatter.date}</p>
-        <GatsbyImage
-          image={image}
-          alt={data.mdx.frontmatter.hero_image_alt}
-        />
-        <MDXRenderer className={partBody}>
-          {data.mdx.body}
-        </MDXRenderer>
+      <div className={roadPart}>
+        <div className={partContainer}>
+          <div className={partBody}>
+            <div className={partDates}>
+              <p>From: {data.mdx.frontmatter.from}</p>
+              <p>Till: {data.mdx.frontmatter.till}</p>
+            </div>
+            <MDXRenderer className={partText}>
+              {data.mdx.body}
+            </MDXRenderer>
+          </div>
+        </div>
       </div>
-
     </Layout>
   )
 }
@@ -32,14 +40,11 @@ export const query = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        from(formatString: "MMMM D, YYYY")
+        till(formatString: "MMMM D, YYYY")
         hero_image_alt
         hero_image_credit_link
         hero_image_credit_text
-        hero_image {
-          childImageSharp {
-            gatsbyImageData
-          }
-        }
       }
     }
   }

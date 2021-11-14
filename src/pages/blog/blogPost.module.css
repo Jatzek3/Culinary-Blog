@@ -7,6 +7,7 @@ linen rgb(235,234,228)
 
 .post-container{
     display: flex;
+    min-height: 80vh;
 }
 .post{
     background-color: rgb(235,234,228);
@@ -16,16 +17,20 @@ linen rgb(235,234,228)
 .postBody{
     margin:6rem;
     width: 600px;
-    margin-right: 16rem;
 }
 
-.post-subtitle{}
+.post-subtitle{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
 .post-posted{}
 .post-image{
     position: relative;
     top: 7rem;
     left:-10rem;
     max-height: 600px;
+    max-width: 30rem;
 
 }
 .image-background{

@@ -1,8 +1,6 @@
 2 etap Styling
 
-
 - zrobić guziki
-- Zrobić 404
 - dodać favico
 - zrobić RWD
 

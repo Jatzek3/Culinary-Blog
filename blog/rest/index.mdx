@@ -1,0 +1,50 @@
+---
+title: "RESt"
+subtitle: "Standard way of comunication beetween frontend and backend"
+date: "2021-11-19"
+source: "https://en.wikipedia.org/wiki/Representational_state_transfer"
+topic: "Programming"
+category: "Various"
+
+hero_image: "./rest.png"
+hero_image_alt: "A simple representation of communication"
+hero_image_credit_text: "https://www.quora.com/How-do-you-document-communicate-the-xml-structure-of-a-REST-API-call"
+hero_image_credit_link: "https://qph.fs.quoracdn.net/main-qimg-2e9beabab9ce3bfcae6b70c889d5fb6e"
+---
+
+Did you ever wonder how and where the websites get
+the information to show them on the screen? There is a standard
+widely adopted on the internet how frontend applications should send questions and receive answers, and it is named REST. The rest of the article
+is a little bit more technical.
+
+REST stands for representational state transfer and is a standard created so programmers can have a common, understandable way of creating applications.
+REST is not a part of the HTTP protocol, it is just a way of
+using this protocol, and the most often used HTTP methods in REST are GET, POST, PUT, DELETE.
+They correspond to CRUD (create, read, update, delete), the most common functions in applications.
+RESTful web services can use YAML, XML, JSON, or other formats to transmit data,
+but JSON is today's standard. 
+
+Architectural guidelines:
+
+1. Client-server architecture - stating that application should be split into client-side and server-side. 
+Thanks to this, it's not necessary to change the application on the server-side to ensure the functioning of the application on many different browsers. This rule  enables easy scalability on the server-side, and allow to develop
+application separately. 
+
+2. Statelessness - All queries from the client-side, can be computed separately from previous
+requests. 
+
+3. Cacheability - Thanks to cached responses, it is possible to take some load of the server.
+
+4. Layered system - The server can have proxies or load balancers to improve performance and security.
+
+5. Code on demand - Servers can transfer executable code to the client, such as client-side scripts as
+JavaScript.
+
+6. Uniform interface - fundamental for any RESTful system four constraints
+- Resource identification in requests - Individual resources are identified in the request, for example in URLs in RESTful web services. Resources are separate from the response sent to the client.
+For example, the server sends a response in JSON, but data is stored in an SQL database.
+- Resource manipulation through representation - if a client holds the representation of resources it has,
+enough information to modify or delete the resource's state
+- Self-descriptive messages - Each message includes enough information to describe how to process the message.
+- Hypermedia as the engine of application state  - A user of the web should have the possibility 
+to access all of the contents of the web page by using hyperlinks.

@@ -29,8 +29,8 @@ const BlogPage = ({ data }) => {
                   <h2 className={partName} >
                     {node.frontmatter.title}
                   </h2>
-                  <p className={partFrom}>From: {node.frontmatter.from}</p>
                   <p className={partTo}>To: {node.frontmatter.till}</p>
+                  <p className={partFrom}>From: {node.frontmatter.from}</p>
                 </article>
               </Link>
             ))

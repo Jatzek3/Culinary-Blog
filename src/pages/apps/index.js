@@ -1,18 +1,24 @@
 import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
+import { StaticImage } from 'gatsby-plugin-image'
 import {
   apps,
   appContainer,
   appName,
   singleApp,
+  IMG,
 } from "./apps.module.css"
 
 const AppPage = ({ data }) => {
 
   return (
     <Layout pageTitle="Apps">
-      <div className={apps}>
+      <StaticImage className={IMG}
+        alt="Two people sitting on a couach with a baloon looking at the see."
+        src="./workinprogress.png"
+      />
+      {/* <div className={apps}>
         {
           data.allMdx.nodes.map(node => (
 
@@ -26,7 +32,7 @@ const AppPage = ({ data }) => {
 
           ))
         }
-      </div>
+      </div> */}
 
     </Layout>
   )

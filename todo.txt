@@ -14,16 +14,19 @@
 
 
 Tematy na wpisy
+self-help ( https://www.youtube.com/watch?v=dmLTLkCBSN8, https://www.youtube.com/watch?v=qMmgDeyhamI )
 HTTP
+Cors
 caching
+Analiza Transakcyjna
 6. wpis o service workers
 toxic masculinity
 5  wpis o nightcrawler
 ziemniaki smażone w sosie piwnym
+glazurowana wieprzowina z warzywami
 Łysenkizm
 -wpis o svelte
 SEO
-Firebase
 Headless CMS
 CMS
 Dróżnik

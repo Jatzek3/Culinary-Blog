@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
+import { slide as Menu } from 'react-burger-menu'
 import {
     container,
     heading,
@@ -29,6 +30,11 @@ const Layout = ({ pageTitle, children }) => {
             <title>{pageTitle} | {data.site.siteMetadata.title}</title>
             <div className={mainbar}>
                 <header className={siteTitle}>{data.site.siteMetadata.title}</header>
+                {/* <Menu right>
+                    <Link to="/" className="">Home</Link>
+                    <Link to="/about" className="" href="/about">About</Link>
+                    <Link to="/contact" className="" href="/contact">Contact</Link>
+                </Menu> */}
                 <nav>
                     <ul className={navLinks}>
                         <li className={navLinkItem}>
@@ -74,7 +80,7 @@ const Layout = ({ pageTitle, children }) => {
             <main>
                 {children}
             </main>
-        </div>
+        </div >
     )
 }
 

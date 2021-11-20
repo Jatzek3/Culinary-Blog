@@ -20,23 +20,24 @@ const App = ({ data }) => {
   )
 }
 
-export const query = graphql`
-  query($slug: String) {
-    mdx(slug: {eq: $slug}) {
-      body
-      frontmatter {
-        technologies
-        title
-        date(formatString: "MMMM DD, YYYY")
-        hero_image_alt
-        hero_image {
-          childImageSharp {
-            gatsbyImageData
-          }
-        }
-      }
-    }
-  }
-`
+// For future use
+// export const query = graphql`
+//   query($slug: String) {
+//     mdx(slug: {eq: $slug}) {
+//       body
+//       frontmatter {
+//         technologies
+//         title
+//         date(formatString: "MMMM DD, YYYY")
+//         hero_image_alt
+//         hero_image {
+//           childImageSharp {
+//             gatsbyImageData
+//           }
+//         }
+//       }
+//     }
+//   }
+// `
 
 export default App

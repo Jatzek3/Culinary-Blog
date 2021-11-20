@@ -18,7 +18,8 @@ const AppPage = ({ data }) => {
         alt="Two people sitting on a couach with a baloon looking at the see."
         src="./workinprogress.png"
       />
-      {/* <div className={apps}>
+      {/* For future use 
+      <div className={apps}>
         {
           data.allMdx.nodes.map(node => (
 
@@ -38,22 +39,23 @@ const AppPage = ({ data }) => {
   )
 }
 
-export const query = graphql`
-  query {
-    allMdx(
-      sort: {fields: frontmatter___date, order: DESC}
-      filter: {fileAbsolutePath: {regex: "/apps/"}}
-    ) {
-      nodes {
-        frontmatter {
-          date(formatString: "MMMM D, YYYY")
-          title
-        }
-        id
-        slug
-      }
-    }
-  }
-`
+// For future use 
+// export const query = graphql`
+//   query {
+//     allMdx(
+//       sort: {fields: frontmatter___date, order: DESC}
+//       filter: {fileAbsolutePath: {regex: "/apps/"}}
+//     ) {
+//       nodes {
+//         frontmatter {
+//           date(formatString: "MMMM D, YYYY")
+//           title
+//         }
+//         id
+//         slug
+//       }
+//     }
+//   }
+// `
 
 export default AppPage

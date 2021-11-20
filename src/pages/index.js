@@ -18,7 +18,7 @@ const IndexPage = () => {
     <Layout pageTitle="Home Page">
       <div className={mainContainer}>
         <div className={intro}>
-          <h2 className={introGreeting}>Hiya!</h2>
+          <h2 className={introGreeting}>Hey!</h2>
           <p className={introText}>Take a deep dive to surface astonishing ideas.</p>
           <Link classname={introButtonText, hvrUnderline} to="/about"><button className={introButton}>Explore</button></Link>
         </div>

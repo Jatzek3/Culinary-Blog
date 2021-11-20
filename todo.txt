@@ -1,16 +1,19 @@
 2 etap Styling
 
-- zrobić guziki
+- hamburger menu 
+react-burger-menu
+- zrobić guziki + -
 - dodać favico
 - zrobić RWD
+- sprawdzić na wszystkich urządzeniach
 
+3 etap wykończenie 
 
--apps - blackjack poprawić Style/ dodac delay po naciśnięciu 
--apps - Chat -poprawić Style/ usunąć wstawianie imienia w alert na starcie
--apps - Reviews-poprawić Style
--apps - Weather-poprawić Style / usunąć zapytanie o zgodę na geolokalizacje
--zrobić Apps + RWD
+- sprawdzić prawa autorskie dla ilustracji
 - poprawic angielski/ ilustracje
+- dodać google analitics
+- domena
+- zrobić meta-tagi i odblokawać indexowanie
 
 
 Tematy na wpisy
@@ -54,6 +57,7 @@ Wpis o CSRF
 - 3 najnowsze wpisy na stronie głównej?
 - w Road zrobić pojawienie się tekstu po prawej stronie? po klikniekciu.
 - clean up the graphQL
+- zrobić Apps + RWD
 - dodać do mapy aplikacje i road?
 - dodać servings do gotowania
 - zrobić inactive/active button przez 1 s i animacje
@@ -62,5 +66,3 @@ Wpis o CSRF
 - google analytics
 - flexbox w blogu
 - przycisk do donatów
-- domena
-- zrobić meta-tagi i odblokawać indexowanie

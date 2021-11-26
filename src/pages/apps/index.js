@@ -39,23 +39,23 @@ const AppPage = ({ data }) => {
   )
 }
 
-// For future use 
-// export const query = graphql`
-//   query {
-//     allMdx(
-//       sort: {fields: frontmatter___date, order: DESC}
-//       filter: {fileAbsolutePath: {regex: "/apps/"}}
-//     ) {
-//       nodes {
-//         frontmatter {
-//           date(formatString: "MMMM D, YYYY")
-//           title
-//         }
-//         id
-//         slug
-//       }
-//     }
-//   }
-// `
+
+export const query = graphql`
+  query {
+    allMdx(
+      sort: {fields: frontmatter___date, order: DESC}
+      filter: {fileAbsolutePath: {regex: "/apps/"}}
+    ) {
+      nodes {
+        frontmatter {
+          date(formatString: "MMMM D, YYYY")
+          title
+        }
+        id
+        slug
+      }
+    }
+  }
+`
 
 export default AppPage

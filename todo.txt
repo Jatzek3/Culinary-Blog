@@ -1,7 +1,6 @@
 2 etap Styling
 
 - hamburger menu 
-react-burger-menu
 - zrobić guziki + -
 - dodać favico
 - zrobić RWD
@@ -35,7 +34,6 @@ CMS
 Dróżnik
 Big short
 Social Network
--. Aglio e Olio
 Mc empire
 Hiroshima and Nagasaki/carpet bombings
 Lobster

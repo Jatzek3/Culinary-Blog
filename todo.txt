@@ -16,6 +16,9 @@
 
 
 Tematy na wpisy
+mikronacje- Rose island
+mikronacje - Sealand
+mikronacje - Atlantium
 self-help ( https://www.youtube.com/watch?v=dmLTLkCBSN8, https://www.youtube.com/watch?v=qMmgDeyhamI )
 HTTP
 Cors
@@ -41,7 +44,6 @@ Her
 Moon
 -Slavoj Żizek
 8 Out Of 10 Cats Does Countdown
-
 Wpis o Syntax
 Wpis o Talk Python to me
 wpis o hello roman
@@ -51,7 +53,7 @@ wpis o XSS
 Wpis o CSRF
 
 
-- poprawic guziki(żeby wyswitlały całą zawartość + scrollowanie)
+
 - 3 najnowsze wpisy na stronie głównej?
 - w Road zrobić pojawienie się tekstu po prawej stronie? po klikniekciu.
 - clean up the graphQL

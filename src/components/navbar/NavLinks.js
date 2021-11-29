@@ -1,15 +1,10 @@
 import React from 'react';
 import { Link } from "gatsby"
 import {
-    container,
-    heading,
     navLinks,
     navLinkItem,
     navLinkText,
-    siteTitle,
-    mainbar,
-    site,
-} from '../layout.module.css'
+} from './navBar.module.css'
 
 const NavLinks = () => {
     return (

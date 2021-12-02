@@ -1,32 +1,39 @@
 2 etap Styling
 
-- hamburger menu 
 - zrobić guziki + -
-- dodać favico
-- zrobić RWD
+- zrobić RWD(zdjęcie przeskakuje z prawej na tekst)
+- flexbox w blogu (namniejszych urządzeniach)
 - sprawdzić na wszystkich urządzeniach
 
 3 etap wykończenie 
 
 - sprawdzić prawa autorskie dla ilustracji
-- poprawic angielski/ ilustracje
 - dodać google analitics
 - domena
 - zrobić meta-tagi i odblokawać indexowanie
 
+4. Rozwijanie
+
+- rozwinąć pierwszą stronę
+- 3 najnowsze wpisy na stronie głównej?
+- zrobić animacje
+- przycisk do donatów
+- w Road zrobić pojawienie się tekstu po prawej stronie? po klikniekciu.
+- zmienić favicon
+
 
 Tematy na wpisy
-mikronacje- Rose island
+mikronacje - Rose island
 mikronacje - Sealand
 mikronacje - Atlantium
 self-help ( https://www.youtube.com/watch?v=dmLTLkCBSN8, https://www.youtube.com/watch?v=qMmgDeyhamI )
+Kurczak pomarańczowy / Orange chicken
 HTTP
 Cors
 caching
 Analiza Transakcyjna
 6. wpis o service workers
 toxic masculinity
-5  wpis o nightcrawler
 ziemniaki smażone w sosie piwnym
 glazurowana wieprzowina z warzywami
 Łysenkizm
@@ -42,6 +49,7 @@ Hiroshima and Nagasaki/carpet bombings
 Lobster
 Her
 Moon
+Du Pont i teflon
 -Slavoj Żizek
 8 Out Of 10 Cats Does Countdown
 Wpis o Syntax
@@ -53,16 +61,9 @@ wpis o XSS
 Wpis o CSRF
 
 
-
-- 3 najnowsze wpisy na stronie głównej?
-- w Road zrobić pojawienie się tekstu po prawej stronie? po klikniekciu.
-- clean up the graphQL
 - zrobić Apps + RWD
+- clean up the graphQL
 - dodać do mapy aplikacje i road?
 - dodać servings do gotowania
-- zrobić inactive/active button przez 1 s i animacje
 - calendar for blog posts
 - add categories to map
-- google analytics
-- flexbox w blogu
-- przycisk do donatów

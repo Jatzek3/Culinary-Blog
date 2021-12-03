@@ -1,8 +1,6 @@
 2 etap Styling
 
 - zrobić guziki + -
-- zrobić RWD(zdjęcie przeskakuje z prawej na tekst)
-- flexbox w blogu (namniejszych urządzeniach)
 - sprawdzić na wszystkich urządzeniach
 
 3 etap wykończenie 

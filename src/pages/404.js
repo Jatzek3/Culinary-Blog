@@ -4,7 +4,6 @@ import {
   pnfContainer,
 } from "../css/404.module.css"
 
-// markup
 const NotFoundPage = () => {
   return (
     <Layout pageTitle="Page not Found">

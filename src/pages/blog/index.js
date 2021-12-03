@@ -45,70 +45,9 @@ const BlogPage = ({ data }) => {
     setSiteNumber(siteNumber - 1)
   }
 
-  // For future use
-  //
-  // const handleProgrammingClick = () => {
-  //   setNotMoviesNotActive(true);
-  //   setCookingNotActive(true)
-  //   setSocietyNotActive(true)
-  //   !ProgrammingNotActive ? setProgrammmingNotActive(true) : setProgrammmingNotActive(false)
-  //   if (ProgrammingNotActive) {
-  //     setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Programming"))
-  //     console.log("render")
-  //   } else {
-  //     setDisplayedPosts(posts.slice(siteNumber * 9, (siteNumber + 1) * 9))
-
-  //   }
-  // }
-  // const handleCookingClick = () => {
-  //   setNotMoviesNotActive(true);
-  //   setProgrammmingNotActive(true)
-  //   setSocietyNotActive(true)
-  //   !CookingNotActive ? setCookingNotActive(true) : setCookingNotActive(false)
-  //   if (CookingNotActive) {
-  //     setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Cooking"))
-  //     console.log("render")
-  //   } else {
-  //     setDisplayedPosts(posts.slice(siteNumber * 9, (siteNumber + 1) * 9))
-  //   }
-  // }
-
-  // const handleMoviesClick = () => {
-  //   setProgrammmingNotActive(true)
-  //   setSocietyNotActive(true)
-  //   setCookingNotActive(true)
-  //   !MoviesNotActive ? setNotMoviesNotActive(true) : setNotMoviesNotActive(false)
-  //   if (MoviesNotActive) {
-  //     setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Movies"))
-  //     console.log("render")
-  //   } else {
-  //     setDisplayedPosts(posts.slice(siteNumber * 9, (siteNumber + 1) * 9))
-  //   }
-  // }
-
-  // const handleSocietyClick = () => {
-  //   setNotMoviesNotActive(true)
-  //   setProgrammmingNotActive(true)
-  //   setCookingNotActive(true)
-  //   !SocietyNotActive ? setSocietyNotActive(true) : setSocietyNotActive(false)
-  //   if (SocietyNotActive) {
-  //     setDisplayedPosts(posts.filter(post => post.frontmatter.topic === "Society"))
-  //     console.log("render")
-  //   } else {
-  //     setDisplayedPosts(posts.slice(siteNumber * 9, (siteNumber + 1) * 9))
-  //   }
-  // }
-
   return (
     <Layout pageTitle="Blog Posts">
       <div className={blogContainer}>
-        {/* For future use
-         <ul className={postNav}>
-          <li className={postNavButton}><button className={postNavItem} onClick={handleProgrammingClick}>Programming</button></li>
-          <li className={postNavButton}><button className={postNavItem} onClick={handleCookingClick}>Cooking</button></li>
-          <li className={postNavButton}><button className={postNavItem} onClick={handleMoviesClick}>Movies</button></li>
-          <li className={postNavButton}><button className={postNavItem} onClick={handleSocietyClick}>Society</button></li>
-        </ul> */}
         <ul className={allPosts}>
           {
             displayedPosts.map(blogPost => (

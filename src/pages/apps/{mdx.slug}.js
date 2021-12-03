@@ -20,7 +20,6 @@ const App = ({ data }) => {
   )
 }
 
-// For future use
 export const query = graphql`
   query($slug: String) {
     mdx(slug: {eq: $slug}) {

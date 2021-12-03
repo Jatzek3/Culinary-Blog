@@ -8,7 +8,6 @@ import {
   partContainer,
   partBody,
   partDates,
-  partText
 } from "./part.module.css"
 
 const WayPost = ({ data }) => {

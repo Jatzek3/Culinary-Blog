@@ -1,11 +1,4 @@
-/* 
-black
-white
-gold rgb(235,234,228)
-linen rgb(235,234,228)
- */
-
- .main-container{
+.main-container{
     display:flex;
     background-color: rgb(255,231,6);
     min-height: 85vh;
@@ -46,9 +39,6 @@ linen rgb(235,234,228)
     color:black;
     font-weight: 700;
     font-size: 1.5rem;
-}
-
-.intro-button-text{
 }
 
 .intro-img{

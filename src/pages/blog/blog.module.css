@@ -16,31 +16,22 @@ linen rgb(235,234,228)
     margin-right: 25%;
     justify-content: space-around;
 }
-.post-nav-item{
-}
-.post-nav-button{}
-
 
 .all-posts{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-
-
 }
 
 .post{
     display: flex;
     flex-direction: column;
-
     height: 220px;
     width: 330px;
     margin-bottom: 2rem;
     padding-left: 2rem;
     border-radius: 0.3rem;
     background-color: rgb(255,231,6);
-
-
 }   
 
 
@@ -54,17 +45,8 @@ linen rgb(235,234,228)
 	cursor: pointer;
 	outline: inherit;
     text-decoration: none; /*reset link style*/
-
     margin-bottom: 0px;
-
 }
-.post-subtitle{}
-.post-posted{
-}
-.Society{}
-.Movies{}
-.Programming{}
-.Cooking{}
 
 .nav-buttons-div{
     display: flex;

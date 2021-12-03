@@ -6,7 +6,6 @@ import Layout from '../../components/layout'
 import {
   post,
   postSubtitle,
-  // postPosted,
   postImage,
   postImageMobile,
   postContainer,
@@ -22,13 +21,11 @@ const BlogPost = ({ data }) => {
       <div className={postContainer}>
         <div className={post}>
           <p className={postSubtitle}>{data.mdx.frontmatter.subtitle} </p>
-          {/* <p className={postPosted}>Posted: {data.mdx.frontmatter.date}</p> */}
           <div className={postBody}>
             <MDXRenderer >
               {data.mdx.body}
             </MDXRenderer>
           </div>
-
         </div>
         <div className={imageBackground}>
           <GatsbyImage
@@ -37,7 +34,6 @@ const BlogPost = ({ data }) => {
             className={postImage}
           />
         </div>
-
       </div>
     </Layout>
   )

@@ -8,7 +8,7 @@ linen rgb(235,234,228)
  .main-container{
     display:flex;
     background-color: rgb(255,231,6);
-    height: 85vh;
+    min-height: 85vh;
 }
 
 .intro{

@@ -52,5 +52,6 @@ linen rgb(235,234,228)
     
     .about-img{
         display: none;
+        padding:0rem;
     }
 }

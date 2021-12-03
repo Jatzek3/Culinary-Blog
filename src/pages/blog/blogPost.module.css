@@ -49,6 +49,7 @@ linen rgb(235,234,228)
     width: 100%;
 }
 .post-body{
-    margin-left: 2rem;
+    margin-left: 1rem;
+    width: 360px;
 }
 }

@@ -39,18 +39,11 @@ linen rgb(235,234,228)
 }
 
 @media (max-width: 1200px){
-   .post-image{
-       display: none;
-   }
+
    .post-subtitle{
        margin-left: 2rem;
    }
 
-   .post-image-mobile{
-    display: inline-block;
-    max-height: 20rem;
-    margin-left: 2rem;
-   }
    .post{
     background-color: rgb(235,234,228);
     width: 100%;

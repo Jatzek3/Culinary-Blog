@@ -23,11 +23,6 @@ const BlogPost = ({ data }) => {
         <div className={post}>
           <p className={postSubtitle}>{data.mdx.frontmatter.subtitle} </p>
           {/* <p className={postPosted}>Posted: {data.mdx.frontmatter.date}</p> */}
-          <GatsbyImage
-            image={image}
-            alt={data.mdx.frontmatter.hero_image_alt}
-            className={postImageMobile}
-          />
           <div className={postBody}>
             <MDXRenderer >
               {data.mdx.body}

@@ -9,6 +9,7 @@ import {
     textParagraph,
     textParagraphLink,
     aboutImg,
+    imgContainer,
 } from "../css/about.module.css"
 
 const AboutPage = () => {
@@ -31,10 +32,12 @@ const AboutPage = () => {
                         few are on <Link className={textParagraphLink} to="/apps">Apps</Link>.</p>
                     <p className={textParagraph}>Don't hesitate to <Link className={textParagraphLink} to="/contact">Contact</Link> me if you want to work together!</p>
                 </div>
-                <StaticImage className={aboutImg}
-                    alt="a person looking at the shadow in a dark room"
-                    src="../images/about4.jpg"
-                />
+                <div className={imgContainer}>
+                    <StaticImage className={aboutImg}
+                        alt="a lamp"
+                        src="../images/about.jpg"
+                    />
+                </div>
             </div>
         </Layout >
     )

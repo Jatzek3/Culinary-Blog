@@ -8,6 +8,7 @@ import {
   introText,
   introButton,
   introButtonText,
+  imgContainer,
   introImg,
   introGreeting,
 } from "../css/indexjs.module.css"
@@ -21,10 +22,12 @@ const IndexPage = () => {
           <p className={introText}>Take a deep dive to surface astonishing ideas.</p>
           <Link classname={introButtonText} to="/about"><button className={introButton}>Explore</button></Link>
         </div>
-        <StaticImage className={introImg}
-          alt="Two people sitting on a couach with a baloon looking at the see."
-          src="../images/intro.jpg"
-        />
+        <div className={imgContainer}>
+          <StaticImage className={introImg}
+            alt="Staircase with a sign on it 'All ideas grow out of other ideas."
+            src="../images/intro.jpg"
+          />
+        </div>
       </div>
     </Layout>
   )

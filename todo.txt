@@ -4,7 +4,7 @@
 - dodać google analitics
 - domena
 - zrobić meta-tagi i odblokawać indexowanie
-- poprawić kod i strukturę plików
+- strukturę plików
 
 4. Rozwijanie
 

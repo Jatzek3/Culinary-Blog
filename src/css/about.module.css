@@ -47,7 +47,7 @@
 @media (max-width: 990px){
     
     .about-img{
-        display: none;
-        padding:0rem;
+        height: 1px;
+        width: 1px;
     }
 }

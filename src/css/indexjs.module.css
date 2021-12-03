@@ -53,7 +53,8 @@
 @media (max-width: 990px){
     
     .intro-img{
-        display: none;
+        height: 1px;
+        width: 1px;
     }
     
 .intro{

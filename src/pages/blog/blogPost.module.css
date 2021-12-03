@@ -1,6 +1,6 @@
 .post-container{
     display: flex;
-    min-height: 80vh;
+    min-height: 85vh;
 }
 .post{
     background-color: rgb(235,234,228);
@@ -27,6 +27,7 @@
 .post-image-mobile{
     display: none;
 }
+.image-background{}
 
 @media (max-width: 1200px){
 

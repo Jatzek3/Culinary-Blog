@@ -1,21 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
-import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import {
   blogContainer,
   allPosts,
-  postNav,
-  postNavItem,
-  postNavButton,
   post,
   postTitle,
   postSubtitle,
   postPosted,
-  Society,
-  Movies,
-  Programming,
-  Cooking,
   navButtonsDiv,
   navButton,
 } from "./blog.module.css"
@@ -23,17 +15,13 @@ import {
 const BlogPage = ({ data }) => {
 
   const posts = data.allMdx.nodes
-  const [ProgrammingNotActive, setProgrammmingNotActive] = useState(true)
-  const [MoviesNotActive, setNotMoviesNotActive] = useState(true)
-  const [CookingNotActive, setCookingNotActive] = useState(true)
-  const [SocietyNotActive, setSocietyNotActive] = useState(true)
   const [displayedPosts, setDisplayedPosts] = useState([])
   const [siteNumber, setSiteNumber] = useState(0)
 
 
   useEffect(() => {
     setDisplayedPosts(posts.slice(siteNumber * 9, (siteNumber + 1) * 9))
-  }, [siteNumber]);
+  }, [siteNumber, posts]);
 
   const handleSiteUp = () => {
     console.log("forward clicked")

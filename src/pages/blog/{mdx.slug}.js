@@ -7,7 +7,6 @@ import {
   post,
   postSubtitle,
   postImage,
-  postImageMobile,
   postContainer,
   imageBackground,
   postBody,

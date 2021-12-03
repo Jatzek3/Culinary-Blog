@@ -1,6 +1,7 @@
 .road-part{
     min-height: 80vh;
     background: linear-gradient(90deg, rgb(235,234,228) 70%, rgb(255,231,6) 30%);
+    min-height: 85vh;
 }
 .part-container{
     background-color: rgb(235,234,228);

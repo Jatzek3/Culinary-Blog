@@ -1,6 +1,7 @@
 .way{
     background-color: rgb(235,234,228);
     display: flex;
+
 }
 .way-img{
     max-width: 40%;

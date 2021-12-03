@@ -34,9 +34,9 @@
 
 @media (max-width: 900px){
 .way-img{
-    display: none;
+    height: 1px;
+    width:1px;
 }
-.part{
-}
+
 }
  

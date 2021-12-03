@@ -1,16 +1,20 @@
 3 etap wykończenie 
 
+- animacje
+- strukturę plików
 - sprawdzić prawa autorskie dla ilustracji
 - dodać google analitics
 - domena
 - zrobić meta-tagi i odblokawać indexowanie
-- strukturę plików
+
 
 4. Rozwijanie
 
-- rozwinąć pierwszą stronę
-- 3 najnowsze wpisy na stronie głównej?
-- zrobić animacje
+ rozwinąć pierwszą stronę
+ 3 najnowsze wpisy na stronie głównej?
+ mój tech stack - Specjalizuje się/ Znam 
+ Strona tworzona przy użyciu
+
 - przycisk do donatów
 - w Road zrobić pojawienie się tekstu po prawej stronie? po klikniekciu.
 - zmienić favicon

@@ -7,7 +7,8 @@ linen rgb(235,234,228)
 
 
 .blogContainer{
-    margin-top: -1rem;    
+    margin-top: 2rem;  
+    min-height: 85vh;  
 }
 
 .post-nav{
@@ -21,7 +22,7 @@ linen rgb(235,234,228)
 .post-nav-button{}
 
 
-.allPosts{
+.all-posts{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -73,3 +74,13 @@ linen rgb(235,234,228)
     justify-content: space-around;
 }
 .navButton{}
+
+@media (max-width: 990px){
+    .all-posts{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

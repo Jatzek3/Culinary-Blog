@@ -9,7 +9,6 @@
 }
 .part-body{    
     width: 600px;
-
 }
 .part-dates{
     display: flex;
@@ -20,3 +19,14 @@
 
 .part-text{
 }
+@media (max-width: 900px){
+.part-dates{
+    flex-direction: column;
+
+}
+.road-part{
+    background:  rgb(235,234,228);
+    width:100%;
+}
+    }
+     

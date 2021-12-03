@@ -6,7 +6,7 @@ linen rgb(235,234,228)
  */
 .about-page{
     display: flex;
-    height: 77vh;
+    min-height: 85vh;
     width: auto;
 }
  
@@ -44,6 +44,13 @@ linen rgb(235,234,228)
     font-size: 1.2rem;
 }
 
-.aboutImg{
+.about-img{
     width:60%
+}
+
+@media (max-width: 990px){
+    
+    .about-img{
+        display: none;
+    }
 }

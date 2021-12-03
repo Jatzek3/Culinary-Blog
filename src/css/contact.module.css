@@ -11,10 +11,10 @@ linen rgb(235,234,228)
     padding: 2rem;
     display: flex;
     justify-content: center;
-    height: 71vh;
+    height: 85vh;
 }
 .contact-info{
-    width:30%;
+    width:50%;
 }
 .contact-header{
     font-size: 3rem;
@@ -33,4 +33,14 @@ linen rgb(235,234,228)
 	outline: inherit;
     text-decoration: none;
 
+}
+
+@media (max-width: 990px){
+.contact{
+    background:rgb(235,234,228);
+}
+.contact-info{
+    margin-left: -2rem;
+}
+    
 }

@@ -38,3 +38,14 @@ linen rgb(235,234,228)
 .part-name{}
 .part-from{}
 .part-to{}
+
+@media (max-width: 900px){
+.way-img{
+    display: none;
+}
+.part{
+    margin-right: 25%;
+    margin-left: 25%;
+}
+}
+ 

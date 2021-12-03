@@ -14,25 +14,48 @@ linen rgb(235,234,228)
     width: 70%;
 
 }
-.postBody{
+.post-body{
     margin:6rem;
     width: 600px;
 }
 
 .post-subtitle{
     font-size: 1.5rem;
-    margin-left: 2rem;
+    margin-left: 6rem;
     margin-top: 3rem;
 }
 .post-posted{}
 .post-image{
     position: relative;
     top: 7rem;
-    left:-10rem;
+    left:-6rem;
     max-height: 600px;
     max-width: 30rem;
-
+}
+.post-image-mobile{
+    display: none;
 }
 .image-background{
 }
 
+@media (max-width: 1200px){
+   .post-image{
+       display: none;
+   }
+   .post-subtitle{
+       margin-left: 2rem;
+   }
+
+   .post-image-mobile{
+    display: inline-block;
+    max-height: 20rem;
+    margin-left: 2rem;
+   }
+   .post{
+    background-color: rgb(235,234,228);
+    width: 100%;
+}
+.post-body{
+    margin-left: 2rem;
+}
+}

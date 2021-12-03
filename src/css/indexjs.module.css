@@ -36,7 +36,7 @@ linen rgb(235,234,228)
     text-decoration: none;
 
 
-    background-color: white;
+    background-color: rgb(235,234,228);
 
     margin-left:2rem;
     border-radius: 0.4rem;
@@ -62,5 +62,6 @@ linen rgb(235,234,228)
     
 .intro{
     width:100%
+    
 }
 }

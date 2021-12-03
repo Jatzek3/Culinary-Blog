@@ -72,7 +72,15 @@ linen rgb(235,234,228)
     margin-right: 25%;
     justify-content: space-around;
 }
-.navButton{}
+.navButton{
+    border-radius:2px;
+    background-color: rgb(235,234,228);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 1.3rem;
+}
 
 @media (max-width: 990px){
     .all-posts{

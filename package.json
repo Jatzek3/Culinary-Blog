@@ -1,8 +1,8 @@
 {
-  "name": "jatzek3-culinary-blog",
+  "name": "jatzek3-blog",
   "version": "1.0.0",
   "private": true,
-  "description": "Jatzek3 culinary blog",
+  "description": "Jatzek3 blog",
   "author": "Jacek Kawalec",
   "keywords": [
     "gatsby"
@@ -17,14 +17,14 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
-    "gatsby": "^3.12.1",
-    "gatsby-plugin-gatsby-cloud": "^3.0.0",
-    "gatsby-plugin-image": "^1.12.0",
+    "gatsby": "^4.3.0",
+    "gatsby-plugin-gatsby-cloud": "^4.3.0",
+    "gatsby-plugin-image": "^2.3.0",
     "gatsby-plugin-manifest": "^4.3.0",
-    "gatsby-plugin-mdx": "^2.12.0",
-    "gatsby-plugin-sharp": "^3.12.0",
-    "gatsby-source-filesystem": "^3.12.0",
-    "gatsby-transformer-sharp": "^3.13.0",
+    "gatsby-plugin-mdx": "^3.3.0",
+    "gatsby-plugin-sharp": "^4.3.0",
+    "gatsby-source-filesystem": "^4.3.0",
+    "gatsby-transformer-sharp": "^4.3.0",
     "react": "^17.0.1",
     "react-burger-menu": "^3.0.6",
     "react-dom": "^17.0.1",

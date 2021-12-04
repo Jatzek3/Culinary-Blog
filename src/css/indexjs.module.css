@@ -27,7 +27,7 @@
 	outline: inherit;
     text-decoration: none;
 
-    background-color: rgb(235,234,228);
+    background-color: white;
 
     margin-left:2rem;
     border-radius: 0.4rem;
@@ -50,7 +50,7 @@
 }
 .site-break{
     min-height: 10rem;
-    background: linear-gradient(5deg, rgb(235,234,228)50%, rgb(255,231,6) 50%);
+    background: linear-gradient(355deg, rgb(235,234,228)50%, rgb(255,231,6) 50%);
 }
 .newest-posts{
 

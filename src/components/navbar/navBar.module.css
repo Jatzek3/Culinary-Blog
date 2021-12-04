@@ -12,9 +12,7 @@
   }
   .nav-link-item:hover{
     border-bottom: 4px solid black;
-    border-right: 1rem;
   }
-
 
   .nav-link-text {
     color: black;

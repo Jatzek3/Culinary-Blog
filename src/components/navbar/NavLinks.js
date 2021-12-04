@@ -4,14 +4,14 @@ import {
     navLinks,
     navLinkItem,
     navLinkText,
-    active,
 } from './navBar.module.css'
 
 const NavLinks = () => {
     return (
         <ul className={navLinks}>
             <li className={navLinkItem}>
-                <Link to="/" className={navLinkText}
+                <Link to="/"
+                    className={navLinkText}
                     activeStyle={{ borderRight: "1rem", borderBottom: "4px solid black" }}>
                     HOME
                 </Link>

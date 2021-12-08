@@ -13,11 +13,16 @@
  Strona tworzona przy użyciu
  rozwinąć pierwszą stronę
  mój tech stack - Specjalizuje się/ Znam 
-
-
 - przycisk do donatów
 - w Road zrobić pojawienie się tekstu po prawej stronie? po klikniekciu.
 - zmienić favicon
+- zrobić Apps + RWD
+- clean up the graphQL
+- dodać do mapy aplikacje i road?
+- dodać servings do gotowania
+- calendar for blog posts
+- add categories to map
+
 
 
 Tematy na wpisy
@@ -59,9 +64,3 @@ wpis o XSS
 Wpis o CSRF
 
 
-- zrobić Apps + RWD
-- clean up the graphQL
-- dodać do mapy aplikacje i road?
-- dodać servings do gotowania
-- calendar for blog posts
-- add categories to map

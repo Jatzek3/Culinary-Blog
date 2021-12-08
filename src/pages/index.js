@@ -13,7 +13,14 @@ import {
   introImg,
   introGreeting,
   siteBreak,
+  secondPage,
   newestPosts,
+  introImg2,
+  post,
+  postTitle,
+  postSubtitle,
+  postPosted,
+  introText2,
 } from "../css/indexjs.module.css"
 
 const IndexPage = ({ data }) => {
@@ -26,19 +33,43 @@ const IndexPage = ({ data }) => {
         <div className={intro}>
           <h2 className={introGreeting}>Hey!</h2>
           <p className={introText}>Take a deep dive to surface astonishing ideas.</p>
-          <Link classname={introButtonText} to="/about"><button className={introButton}>Explore</button></Link>
+          <Link classname={introButtonText} to="/about"><button className={introButton}>Get started</button></Link>
         </div>
         <div className={imgContainer}>
           <StaticImage className={introImg}
-            alt="Staircase with a sign on it 'All ideas grow out of other ideas."
-            src="../images/intro.jpg"
+            alt="Old bike."
+            src="../images/introImg.jpg"
           />
         </div>
       </div>
       <div className={siteBreak}>
       </div>
-      <div className={newestPosts}>
-        Check out the newest blog posts:
+      <div className={secondPage}>
+        <StaticImage className={introImg2}
+          alt="Staircase with a sign on it 'All ideas grow out of other ideas."
+          src="../images/intro.jpg"
+        />
+        <div className={newestPosts}>
+          <p className={introText2}>
+            Check out the newest blog posts:
+          </p>
+          {
+            newPosts.map(blogPost => (
+              <article key={blogPost.id} className={post}>
+                <Link className={postTitle} to={`/blog/${blogPost.slug}`}>
+                  <h2>
+                    {blogPost.frontmatter.title}
+                  </h2>
+                  <p className={postSubtitle}> {blogPost.frontmatter.subtitle}</p>
+                  <p className={postPosted}>Posted: {blogPost.frontmatter.date}</p>
+                  <span className={blogPost.frontmatter.topic}>
+                    {blogPost.frontmatter.topic}</span>
+                </Link>
+              </article>
+            ))
+          }
+        </div>
+
       </div>
     </Layout>
   )

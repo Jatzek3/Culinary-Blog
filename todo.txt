@@ -10,10 +10,10 @@
 
 4. Rozwijanie
 
- rozwinąć pierwszą stronę
- 3 najnowsze wpisy na stronie głównej?
- mój tech stack - Specjalizuje się/ Znam 
  Strona tworzona przy użyciu
+ rozwinąć pierwszą stronę
+ mój tech stack - Specjalizuje się/ Znam 
+
 
 - przycisk do donatów
 - w Road zrobić pojawienie się tekstu po prawej stronie? po klikniekciu.

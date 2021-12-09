@@ -62,6 +62,9 @@
         height: 1px;
         width: 1px;
     }
+    .text{
+        padding:1rem
+    }
 }
 @keyframes from-left{
     0% {transform: translateX(-1000px);}

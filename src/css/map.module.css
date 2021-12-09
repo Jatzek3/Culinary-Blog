@@ -23,7 +23,6 @@
 
     margin: 0.5rem;
     font-size: 1.5rem;
-
 }
 
 .from-left{
@@ -35,6 +34,11 @@
     animation-name: from-right;
     animation-duration: 1.5s;
     animation-timing-function:ease-out;
+}
+@media (max-width: 990px){
+.map{
+    margin: 1rem;
+ }
 }
 
 @keyframes from-left{

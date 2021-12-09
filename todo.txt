@@ -1,7 +1,5 @@
 3 etap wykończenie 
 
-
-- przyciski back forth
 - strukturę plików
 - sprawdzić prawa autorskie dla ilustracji
 - domena
@@ -12,6 +10,7 @@
 
  Strona tworzona przy użyciu
  rozwinąć pierwszą stronę
+intersection observer?
  mój tech stack - Specjalizuje się/ Znam 
 - przycisk do donatów
 - w Road zrobić pojawienie się tekstu po prawej stronie? po klikniekciu.

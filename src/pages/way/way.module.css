@@ -48,7 +48,9 @@ transition: 1s;
     height: 1px;
     width:1px;
 }
-
+.all-parts{
+    margin-left: -1rem;
+}
 }
 @keyframes from-bottom{
     0% {transform: translateY(1000px);}

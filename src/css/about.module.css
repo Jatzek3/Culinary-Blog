@@ -35,6 +35,12 @@
     font-weight: 400;
     font-size: 1.2rem;
 }
+
+.text-paragraph-link:hover{
+    background-color: black;
+    color:white;
+    transition: 1s;
+}
 .img-container{
     width:50%;
     background-color: rgb(235,234,228);

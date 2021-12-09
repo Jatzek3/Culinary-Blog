@@ -2,8 +2,8 @@
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
-    animation-name: from-top;
-    animation-duration: 1s;
+    /* animation-name: from-top;
+    animation-duration: 1s; */
   }
 
 
@@ -59,7 +59,7 @@
     }
 }
 
-@keyframes from-top{
+/* @keyframes from-top{
   0% {transform: translateY(-100px);}
   100% {transform: translateY(0px);}
-}
+} */

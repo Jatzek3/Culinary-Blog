@@ -22,8 +22,8 @@ linen rgb(235,234,228)
     font-size: 3rem;
     font-weight: 700;
     padding-left: 2rem;
-    animation-name: from-top;
-    animation-duration: 1s;
+    /* animation-name: from-top;
+    animation-duration: 1s; */
   }
   .mainbar{
     display: flex;
@@ -42,12 +42,12 @@ linen rgb(235,234,228)
     padding-left: 2rem;
     font-size: 2rem;
     font-weight: 400;
-    animation-name: from-top;
-    animation-duration: 1s;
+    /* animation-name: from-top;
+    animation-duration: 1s; */
 }
 
-
+/* 
   @keyframes from-top{
     0% {transform: translateY(-100px);}
     100% {transform: translateY(0px);}
-  }
+  } */

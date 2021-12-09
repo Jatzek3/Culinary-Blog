@@ -1,9 +1,9 @@
 3 etap wykończenie 
 
-- animacje
+
+- przyciski back forth
 - strukturę plików
 - sprawdzić prawa autorskie dla ilustracji
-- dodać google analitics
 - domena
 - zrobić meta-tagi i odblokawać indexowanie
 
@@ -22,11 +22,11 @@
 - dodać servings do gotowania
 - calendar for blog posts
 - add categories to map
+- filtrowanie po dziedzinach.
 
 
 
 Tematy na wpisy
-mikronacje - Rose island
 mikronacje - Sealand
 mikronacje - Atlantium
 self-help ( https://www.youtube.com/watch?v=dmLTLkCBSN8, https://www.youtube.com/watch?v=qMmgDeyhamI )

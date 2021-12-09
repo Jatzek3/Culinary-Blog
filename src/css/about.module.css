@@ -2,13 +2,16 @@
     display: flex;
     min-height: 85vh;
     width: auto;
+    background-color: rgb(235,234,228);
 }
  
 .text{
-    background-color: rgb(235,234,228);
     padding:6rem;
     padding-top: 3rem;
     font-size: 1.2rem;
+    animation-name: from-left;
+    animation-duration: 1.5s;
+    animation-timing-function:ease-out;
 }
 .text-header{
     font-size: 3rem;
@@ -48,6 +51,9 @@
 
 .about-img{
     height:80%;
+    animation-name: from-left;
+    animation-duration: 1.5s;
+    animation-timing-function:ease-out;
 }
 
 @media (max-width: 990px){
@@ -57,3 +63,7 @@
         width: 1px;
     }
 }
+@keyframes from-left{
+    0% {transform: translateX(-1000px);}
+    100% {transform: translateX(0px);}
+  }

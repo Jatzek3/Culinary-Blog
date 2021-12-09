@@ -4,7 +4,9 @@
     min-height: 70vh;
 }
 .intro{
-    width:50%
+    width:50%;
+    animation-name: from-left;
+    animation-duration: 1.5s;
 }
 .introGreeting{
     margin-left: 2rem;
@@ -53,6 +55,8 @@
 .intro-img{
     height: 80%;
     margin-top:3rem;
+    animation-name: from-right;
+    animation-duration: 1.5s;
 }
 .site-break{
     min-height: 10rem;
@@ -123,3 +127,11 @@ transition: 1s;
 }
 }
 
+@keyframes from-left{
+    0% {transform: translateX(-500px);}
+    100% {transform: translateX(0px);}
+  }
+  @keyframes from-right{
+    0% {transform: translateX(500px);}
+    100% {transform: translateX(0px);}
+  }

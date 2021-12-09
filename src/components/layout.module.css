@@ -17,20 +17,13 @@ linen rgb(235,234,228)
     overflow-y: hidden;
   }
   
-.heading {
-    background-color: rgb(255,231,6);
-    margin:0rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-    font-size: 2rem;
-    font-weight: 400;
-}
+
   .site-title {
     font-size: 3rem;
     font-weight: 700;
     padding-left: 2rem;
     animation-name: from-top;
-    animation-duration: 500ms;
+    animation-duration: 1s;
   }
   .mainbar{
     display: flex;
@@ -39,6 +32,20 @@ linen rgb(235,234,228)
     min-height: 10vh;
     align-items: center;
   }
+
+  .pageTitleStyle{
+    background-color: rgb(255,231,6);
+  }
+  .heading {
+    margin:0rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    animation-name: from-top;
+    animation-duration: 1s;
+}
+
 
   @keyframes from-top{
     0% {transform: translateY(-100px);}

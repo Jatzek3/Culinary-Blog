@@ -8,6 +8,10 @@
 }
 .all-parts{
     margin-left: 2rem;
+    animation-name: from-bottom;
+    animation-duration: 1s;
+    animation-timing-function:ease-out;
+
 }
 .part-container{
     background: none; /*reset link style*/
@@ -46,4 +50,7 @@ transition: 1s;
 }
 
 }
- 
+@keyframes from-bottom{
+    0% {transform: translateY(1000px);}
+    100% {transform: translateX(0px);}
+  }

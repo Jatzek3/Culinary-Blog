@@ -31,7 +31,9 @@ const Layout = ({ pageTitle, children }) => {
         <MobileNavigation />
         <Navigation />
       </div>
-      <h1 className={heading}><span className={pageTitleStyle}>{pageTitle}</span></h1>
+      <div className={pageTitleStyle}>
+        <h1 className={heading}>{pageTitle}</h1>
+      </div>
       <main>
         {children}
       </main>

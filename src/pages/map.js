@@ -5,6 +5,8 @@ import {
     map,
     mapHeader,
     mapWindow,
+    fromLeft,
+    fromRight,
     mapWindowLink,
 } from "../css/map.module.css"
 
@@ -12,7 +14,7 @@ const MapPage = ({ data }) => {
 
     return (
         <Layout pageTitle="Map of the blog posts">
-            <div className={map}>
+            <div className={fromLeft}>
                 <h2 className={mapHeader}>Cooking</h2>
                 <div className={mapWindow}>
                     {data.allMdx.nodes.filter
@@ -22,7 +24,10 @@ const MapPage = ({ data }) => {
                             <Link className={mapWindowLink} to={`/blog/${node.slug}`}>
                                 {node.frontmatter.title}
                             </Link>
-                        ))}</div>
+                        ))}
+                </div>
+            </div>
+            <div className={fromRight}>
                 <h2 className={mapHeader}>Movies</h2>
                 <div className={mapWindow}>
                     {data.allMdx.nodes.filter
@@ -33,6 +38,9 @@ const MapPage = ({ data }) => {
                                 {node.frontmatter.title}
                             </Link>
                         ))}</div>
+
+            </div>
+            <div className={fromLeft}>
                 <h2 className={mapHeader}>Programming</h2>
                 <div className={mapWindow}>
                     {data.allMdx.nodes.filter
@@ -42,7 +50,10 @@ const MapPage = ({ data }) => {
                             <Link className={mapWindowLink} to={`/blog/${node.slug}`}>
                                 {node.frontmatter.title}
                             </Link>
-                        ))}</div>
+                        ))}
+                </div>
+            </div>
+            <div className={fromRight}>
                 <h2 className={mapHeader}>Society</h2>
                 <div className={mapWindow}>
                     {data.allMdx.nodes.filter
@@ -52,10 +63,11 @@ const MapPage = ({ data }) => {
                             <Link className={mapWindowLink} to={`/blog/${node.slug}`}>
                                 {node.frontmatter.title}
                             </Link>
-                        ))}</div>
+                        ))}
+                </div>
             </div>
 
-        </Layout>
+        </Layout >
     )
 }
 export const query = graphql`

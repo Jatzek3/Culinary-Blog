@@ -24,3 +24,26 @@
     margin: 0.5rem;
     font-size: 1.5rem;
 }
+.map-window-link:hover{
+    background-color: rgb(255,231,6);
+}
+
+.from-left{
+    animation-name: from-left;
+    animation-duration: 1.5s;
+    animation-timing-function:ease-out;
+}
+.from-right{
+    animation-name: from-right;
+    animation-duration: 1.5s;
+    animation-timing-function:ease-out;
+}
+
+@keyframes from-left{
+    0% {transform: translateX(-500px);}
+    100% {transform: translateX(0px);}
+  }
+  @keyframes from-right{
+    0% {transform: translateX(500px);}
+    100% {transform: translateX(0px);}
+  }

@@ -7,6 +7,7 @@ import {
   heading,
   siteTitle,
   mainbar,
+  pageTitleStyle,
 } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
@@ -30,7 +31,7 @@ const Layout = ({ pageTitle, children }) => {
         <MobileNavigation />
         <Navigation />
       </div>
-      <h1 className={heading}>{pageTitle}</h1>
+      <h1 className={heading}><span className={pageTitleStyle}>{pageTitle}</span></h1>
       <main>
         {children}
       </main>

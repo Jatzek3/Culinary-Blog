@@ -8,6 +8,7 @@
 }
 .contact-info{
     width:50%;
+    animation: show 500ms ease-in;
 }
 .contact-header{
     font-size: 3rem;
@@ -36,3 +37,7 @@
 }
     
 }
+@keyframes show{
+    0% {transform: scale(0.25) rotate(360deg);}
+    100% {transform: scale(1);}
+  }

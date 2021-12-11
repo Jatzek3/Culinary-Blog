@@ -27,11 +27,16 @@ const BlogPost = ({ data }) => {
           </div>
         </div>
         <div className={imageBackground}>
-          <GatsbyImage
-            image={image}
-            alt={data.mdx.frontmatter.hero_image_alt}
-            className={postImage}
-          />
+          <figure>
+            <GatsbyImage
+              image={image}
+              alt={data.mdx.frontmatter.hero_image_alt}
+              className={postImage}
+            />
+            <figcaption>{data.mdx.frontmatter.hero_image_credit_text}</figcaption>
+          </figure>
+
+
         </div>
       </div>
     </Layout>

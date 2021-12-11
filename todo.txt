@@ -9,9 +9,10 @@
 4. Rozwijanie
 
  Strona tworzona przy użyciu
- rozwinąć pierwszą stronę
 intersection observer?
- mój tech stack - Specjalizuje się/ Znam 
+ mój tech stack - Specjalizuje się/ Znam
+
+- featured blog post - Co tydzień?
 - przycisk do donatów
 - w Road zrobić pojawienie się tekstu po prawej stronie? po klikniekciu.
 - zmienić favicon
@@ -29,7 +30,7 @@ Tematy na wpisy
 mikronacje - Sealand
 mikronacje - Atlantium
 self-help ( https://www.youtube.com/watch?v=dmLTLkCBSN8, https://www.youtube.com/watch?v=qMmgDeyhamI )
-Kurczak pomarańczowy / Orange chicken
+sałatka z Surimi
 HTTP
 Cors
 caching

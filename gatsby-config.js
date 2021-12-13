@@ -4,11 +4,16 @@ module.exports = {
     siteUrl: `https://jatzek3.gatsbyjs.io`,
   },
   plugins: [
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        output: "/", // temporary workaround around not working plugin 
+      }
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {

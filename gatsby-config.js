@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: "Jatzek3",
+    siteUrl: `https://jatzek3.gatsbyjs.io`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",

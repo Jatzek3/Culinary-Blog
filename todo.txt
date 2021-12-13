@@ -1,18 +1,9 @@
-3 etap wykończenie 
-
-- dodać autora w Title 
-- strukturę plików
-- domena
-- zrobić meta-tagi i odblokawać indexowanie
-
-
 4. Rozwijanie
 
  Strona tworzona przy użyciu
-Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
-+ Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
-
-intersection observer?
+ Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
+ Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
+ intersection observer?
  mój tech stack - Specjalizuje się/ Znam
 - featured blog post - Co tydzień?
 - przycisk do donatów

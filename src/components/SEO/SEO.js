@@ -63,13 +63,13 @@ const Seo = ({ description, lang, meta, title }) => {
                     content: title,
                 },
                 {
-                    name="google-site-verification",
-                    content="6c4eAoSPkeHAGO6wSVHJ3NUM8OwBynGXGsaC8ukyeUM"
-                } 
-                {
                     name: `twitter:description`,
                     content: metaDescription,
                 },
+                {
+                    name: "google-site-verification",
+                    content: "6c4eAoSPkeHAGO6wSVHJ3NUM8OwBynGXGsaC8ukyeUM"
+                }
             ].concat(meta)}
         />
     )
@@ -78,7 +78,7 @@ const Seo = ({ description, lang, meta, title }) => {
 Seo.defaultProps = {
     lang: `en`,
     meta: ["Programming", "Cooking", "Society", "Movies", "Jatzek3", "Blog", "Portfolio"],
-    description: `Jatzek3 Personal blog about interesting facts`,
+    description: `Personal blog about interesting facts`,
 }
 
 Seo.propTypes = {

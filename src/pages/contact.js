@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import Seo from '../components/SEO/SEO';
 import {
     contact,
     contactHeader,
@@ -11,6 +12,7 @@ import {
 const ContactPage = () => {
     return (
         <Layout pageTitle="Contact Page">
+            <Seo />
             <div className={contact}>
                 <div className={contactInfo}>
                     <h2 className={contactHeader}>Lets get in touch!</h2>

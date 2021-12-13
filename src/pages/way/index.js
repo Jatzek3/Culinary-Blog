@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
+import Seo from '../../components/SEO/SEO';
 import { StaticImage } from 'gatsby-plugin-image'
 import {
   way,
@@ -16,6 +17,7 @@ import {
 const BlogPage = ({ data }) => {
   return (
     <Layout pageTitle="Road">
+      <Seo />
       <div className={way}>
         <StaticImage className={wayImg}
           alt="black and white picture of a road with surrounding trees"

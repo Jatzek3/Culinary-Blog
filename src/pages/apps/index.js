@@ -2,6 +2,7 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 // import { Link } from 'gatsby'
 import Layout from '../../components/layout'
+import Seo from '../../components/SEO/SEO';
 import { StaticImage } from 'gatsby-plugin-image'
 import {
   // apps,
@@ -15,6 +16,7 @@ const AppPage = ({ data }) => {
 
   return (
     <Layout pageTitle="Apps">
+      <Seo />
       <StaticImage className={IMG}
         alt="Two people sitting on a couach with a baloon looking at the see."
         src="./workinprogress.png"

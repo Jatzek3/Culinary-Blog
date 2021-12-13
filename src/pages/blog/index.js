@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
+import Seo from '../../components/SEO/SEO';
 import {
   blogContainer,
   allPosts,
@@ -35,6 +36,7 @@ const BlogPage = ({ data }) => {
 
   return (
     <Layout pageTitle="Blog Posts">
+      <Seo />
       <div className={blogContainer}>
         <ul className={allPosts}>
           {

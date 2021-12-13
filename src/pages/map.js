@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import Seo from '../components/SEO/SEO';
 import { Link, graphql } from 'gatsby'
 import {
     map,
@@ -14,6 +15,7 @@ const MapPage = ({ data }) => {
 
     return (
         <Layout pageTitle="Map of the blog posts">
+            <Seo />
             <div className={map}>
                 <div className={fromLeft}>
                     <h2 className={mapHeader}>Cooking</h2>

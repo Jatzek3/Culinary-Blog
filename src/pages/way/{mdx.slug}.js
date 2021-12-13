@@ -2,6 +2,7 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import Layout from '../../components/layout'
+import Seo from '../../components/SEO/SEO';
 import {
   roadPart,
   partContainer,
@@ -12,6 +13,7 @@ import {
 const WayPost = ({ data }) => {
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
+      <Seo />
       <div className={roadPart}>
         <div className={partContainer}>
           <div className={partBody}>

@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import Seo from '../components/SEO/SEO';
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import {
@@ -15,7 +16,7 @@ import {
 const AboutPage = () => {
     return (
         <Layout pageTitle="About">
-
+            <Seo />
             <div className={aboutPage}>
                 <div className={text}>
                     <h2 className={textHeader}>Hello there!</h2>

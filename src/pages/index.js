@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import Seo from '../components/SEO/SEO';
 import { Link, graphql } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 
@@ -28,6 +29,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout pageTitle="Home Page">
+      <Seo />
       <div className={mainContainer}>
         {console.log(newPosts)}
         <div className={intro}>

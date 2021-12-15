@@ -1,25 +1,37 @@
 4. Rozwijanie
 
+
+Podzielić katalog blog na częsci i zrobić odpowiedni file system oraz dodać odpowiednie { data.allMDX }  
+- dodać google analytics
+
  Strona tworzona przy użyciu
+ mój tech stack - Specjalizuje się/ Znam
  Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
  Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
- intersection observer?
- mój tech stack - Specjalizuje się/ Znam
+
+
+- clean up the graphQL
+- dodać servings do gotowania
+- filtrowanie po dziedzinach
+- zmienić favicon
+
+
+- Dodać Dev diaries
+- intersection observer?
+- popracować nad SEO
 - featured blog post - Co tydzień?
 - przycisk do donatów
 - w Road zrobić pojawienie się tekstu po prawej stronie? po klikniekciu.
-- zmienić favicon
 - zrobić Apps + RWD
-- clean up the graphQL
 - dodać do mapy aplikacje i road?
-- dodać servings do gotowania
 - calendar for blog posts
 - add categories to map
-- filtrowanie po dziedzinach.
+
 
 
 
 Tematy na wpisy
+BEM
 mikronacje - Sealand
 mikronacje - Atlantium
 self-help ( https://www.youtube.com/watch?v=dmLTLkCBSN8, https://www.youtube.com/watch?v=qMmgDeyhamI )

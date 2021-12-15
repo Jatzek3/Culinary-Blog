@@ -22,7 +22,7 @@ import {
   postSubtitle,
   postPosted,
   introText2,
-} from "../css/indexjs.module.css"
+} from "./indexjs.module.css"
 
 const IndexPage = ({ data }) => {
   const newPosts = data.allMdx.nodes

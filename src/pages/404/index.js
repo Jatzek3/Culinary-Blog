@@ -1,9 +1,9 @@
 import * as React from 'react'
-import Layout from '../components/layout'
-import Seo from '../components/SEO/SEO';
+import Layout from '../../components/layout'
+import Seo from '../../components/SEO/SEO';
 import {
   pnfContainer,
-} from "../css/404.module.css"
+} from "./404.module.css"
 
 const NotFoundPage = () => {
   return (

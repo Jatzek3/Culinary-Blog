@@ -1,6 +1,6 @@
 import * as React from 'react'
-import Layout from '../components/layout'
-import Seo from '../components/SEO/SEO';
+import Layout from '../../components/layout'
+import Seo from '../../components/SEO/SEO';
 import { Link, graphql } from 'gatsby'
 import {
     map,
@@ -9,7 +9,7 @@ import {
     fromLeft,
     fromRight,
     mapWindowLink,
-} from "../css/map.module.css"
+} from "./map.module.css"
 
 const MapPage = ({ data }) => {
 

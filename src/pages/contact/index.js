@@ -1,13 +1,13 @@
 import * as React from 'react'
-import Layout from '../components/layout'
-import Seo from '../components/SEO/SEO';
+import Layout from '../../components/layout'
+import Seo from '../../components/SEO/SEO';
 import {
     contact,
     contactHeader,
     contactParagraph,
     contactInfo,
     textParagraphLink
-} from "../css/contact.module.css"
+} from "./contact.module.css"
 
 const ContactPage = () => {
     return (

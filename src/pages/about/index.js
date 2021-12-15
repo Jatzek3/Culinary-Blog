@@ -1,6 +1,6 @@
 import * as React from 'react'
-import Layout from '../components/layout'
-import Seo from '../components/SEO/SEO';
+import Layout from '../../components/layout'
+import Seo from '../../components/SEO/SEO';
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import {
@@ -11,7 +11,7 @@ import {
     textParagraphLink,
     aboutImg,
     imgContainer,
-} from "../css/about.module.css"
+} from "./about.module.css"
 
 const AboutPage = () => {
     return (
@@ -36,7 +36,7 @@ const AboutPage = () => {
                 <div className={imgContainer}>
                     <StaticImage className={aboutImg}
                         alt="a lamp"
-                        src="../images/about.jpg"
+                        src="../../images/about.jpg"
                     />
                 </div>
             </div>

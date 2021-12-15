@@ -36,7 +36,7 @@ const AboutPage = () => {
                 <div className={imgContainer}>
                     <StaticImage className={aboutImg}
                         alt="a lamp"
-                        src="../../images/about.jpg"
+                        src="./about.jpg"
                     />
                 </div>
             </div>

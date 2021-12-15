@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Jatzek3",
+    title: "Jatzek3 blog",
     siteUrl: `https://jatzek3.gatsbyjs.io`,
   },
   plugins: [
@@ -44,7 +44,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+        icon: `src/favicon/favicon.png`, // This path is relative to the root of the site.
       },
     },
     "gatsby-plugin-mdx",

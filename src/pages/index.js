@@ -40,7 +40,7 @@ const IndexPage = ({ data }) => {
         <div className={imgContainer}>
           <StaticImage className={introImg}
             alt="Old bike."
-            src="../images/introImg.jpg"
+            src="./introImg.jpg"
           />
         </div>
       </div>
@@ -49,7 +49,7 @@ const IndexPage = ({ data }) => {
       <div className={secondPage}>
         <StaticImage className={introImg2}
           alt="Staircase with a sign on it 'All ideas grow out of other ideas."
-          src="../images/intro.jpg"
+          src="./intro.jpg"
         />
         <div className={newestPosts}>
           <p className={introText2}>

@@ -1,8 +1,7 @@
 4. Rozwijanie
 
 
-Podzielić katalog blog na częsci i zrobić odpowiedni file system oraz dodać odpowiednie { data.allMDX }  
-- dodać google analytics
+Podzielić katalog blog na częsci i zrobić odpowiedni file system oraz dodać odpowiednie { data.allMDX } 
 
  Strona tworzona przy użyciu
  mój tech stack - Specjalizuje się/ Znam

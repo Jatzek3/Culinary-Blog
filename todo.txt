@@ -12,7 +12,7 @@ Podzielić katalog blog na częsci i zrobić odpowiedni file system oraz dodać 
 
 - clean up the graphQL
 - dodać servings do gotowania
-- filtrowanie po dziedzinach
+- filtrowanie po dziedzinach?
 - zmienić favicon
 
 
@@ -32,6 +32,7 @@ Podzielić katalog blog na częsci i zrobić odpowiedni file system oraz dodać 
 
 Tematy na wpisy
 BEM
+Commit naming convention https://www.conventionalcommits.org/en/v1.0.0/
 mikronacje - Sealand
 mikronacje - Atlantium
 self-help ( https://www.youtube.com/watch?v=dmLTLkCBSN8, https://www.youtube.com/watch?v=qMmgDeyhamI )

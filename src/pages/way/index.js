@@ -21,7 +21,7 @@ const BlogPage = ({ data }) => {
       <div className={way}>
         <StaticImage className={wayImg}
           alt="black and white picture of a road with surrounding trees"
-          src="../../images/way.jpg"
+          src="./way.jpg"
         />
         <div className={allParts}>
           {

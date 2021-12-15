@@ -1,0 +1,48 @@
+---
+title: "BEM"
+subtitle:  "CSS class naming methodology"
+date: "2021-12-15"
+source: ""
+topic: "Programming"
+category: "Frontend"
+
+hero_image: ""
+hero_image_alt: ""
+hero_image_credit_text: ""
+hero_image_credit_link: ""
+---
+"BEM (Block, Element, Modifier) is a component-based approach 
+to web development. The idea behind it is to divide the user
+interface into independent blocks. This makes interface development easy and fast even 
+with a complex UI, and it allows reuse of existing code without copying and pasting."
+                                                    -  BEM documentation
+
+Bem stands for:
+- Block - A functionally independent page component that can be reused.
+- Element - A composite part of a block that can't be used separately from it.
+- Modifier - An entity that defines the appearance, state, or behavior of a block or element.
+
+An element is always part of a block, and you shouldn't use it separately from the block. A modifier can't be used alone.
+
+HTML class naming convention looks like this:
+- Block__Element
+- Block--Modifier
+- Block__Element--modifier
+
+# Example
+
+        <form class="search-form search-form--focused">
+            <input class="search-form__input">
+
+            <button class="search-form__button search-form__button--disabled">Search</button>
+        </form>
+
+
+It's a short introduction to BEM methodology. It's commonly adapted in HTML/CSS classes, but can be 
+also used in other different fields as file structure naming, XML, or JavaScript. 
+If you want to learn more, documentation is a good choice.
+
+Documentation(https://en.bem.info/methodology/)
+
+It takes some time to get used to it, but it's standard worth learning. There are some drawbacks, and 
+flooding HTML with classes never was close to my heart.

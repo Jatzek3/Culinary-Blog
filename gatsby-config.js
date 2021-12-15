@@ -8,6 +8,8 @@ module.exports = {
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-mdx",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-plugin-sitemap",
       options: {
@@ -47,8 +49,21 @@ module.exports = {
         icon: `src/favicon/favicon.png`, // This path is relative to the root of the site.
       },
     },
-    "gatsby-plugin-mdx",
-    "gatsby-transformer-sharp",
+
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "GA-G-RX9YGFX7DV", // Google Analytics / GA
+        ],
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+        },
+      },
+    },
 
   ],
 };

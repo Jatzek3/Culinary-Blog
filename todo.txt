@@ -1,8 +1,5 @@
 4. Rozwijanie
 
-
-oraz dodać odpowiednie { data.allMDX } 
-
  Strona tworzona przy użyciu
  mój tech stack - Specjalizuje się/ Znam
  Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
@@ -10,12 +7,12 @@ oraz dodać odpowiednie { data.allMDX }
 
 
 - clean up the graphQL
-- dodać servings do gotowania
 - filtrowanie po dziedzinach?
 - zmienić favicon
 
 
 - Dodać Dev diaries
+- oraz dodać odpowiednie { data.allMDX } 
 - intersection observer?
 - popracować nad SEO
 - featured blog post - Co tydzień?
@@ -25,12 +22,13 @@ oraz dodać odpowiednie { data.allMDX }
 - dodać do mapy aplikacje i road?
 - calendar for blog posts
 - add categories to map
+- Zmienić nazwę bloga i domenę na Yellow pages
 
 
 
 
 Tematy na wpisy
-BEM
+- Material UI
 Commit naming convention https://www.conventionalcommits.org/en/v1.0.0/
 mikronacje - Sealand
 mikronacje - Atlantium

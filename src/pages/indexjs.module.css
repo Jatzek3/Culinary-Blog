@@ -50,11 +50,11 @@
 
 .img-container{
     background-color: rgb(255,231,6);
-    max-width: 50%;
+    max-width: 40%;
+    margin-left:12rem;
 }
 .intro-img{
     height: 80%;
-    margin-top:3rem;
     animation-name: from-right;
     animation-duration: 1.5s;
 }

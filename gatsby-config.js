@@ -26,6 +26,12 @@ module.exports = {
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        configFile: 'robots-txt.config.js'
+      }
+    },
+    {
       resolve: "gatsby-plugin-offline",  // have to be after gatsby plugin manifest -- read documentation after removing
       options: {
         workboxConfig: {

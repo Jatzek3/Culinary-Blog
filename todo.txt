@@ -1,18 +1,14 @@
 4. Rozwijanie
 
-Zrobić ruszające się strzałki w dół
+Zrobić ruszające się strzałki w dół na stronie głównej.
 Zrobić underline animacje
-Podpis Title dla Creative commons - oraz dodać odpowiednie { data.allMDX } 
+Dodać atrybuty alt do obrazów.
 
 
-gatsby-plugin-next-seo
-
-
-
- Strona tworzona przy użyciu
- mój tech stack - Specjalizuje się/ Znam
- Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
- Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
+Strona tworzona przy użyciu
+mój tech stack - Specjalizuje się/ Znam
+Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
+Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
 
 - clean up the graphQL
 - filtrowanie po dziedzinach?

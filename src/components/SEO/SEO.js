@@ -65,9 +65,29 @@ const Seo = ({ description, lang, meta, title }) => {
                 {
                     name: "google-site-verification",
                     content: "6c4eAoSPkeHAGO6wSVHJ3NUM8OwBynGXGsaC8ukyeUM"
+                },
+                {
+                    name: 'keywords',
+                    content: meta,
                 }
             ].concat(meta)}
-        />
+        >
+            <script type="application/ld+json">
+                {`
+                    {
+                    "@type": "Personal",
+                    "author": "Jacek Kawalec",
+                    "url": "https://www.theyellowpages.live",
+                    "name": "Jatzek3",
+                    "contactPoint": {
+                        "@type": "ContactPoint",
+                        "e-mail": "jokerchocolate@gmail.com",
+                        "contactType": "Personal email"
+                    }
+                    }
+                `}
+            </script>
+        </Helmet>
     )
 }
 

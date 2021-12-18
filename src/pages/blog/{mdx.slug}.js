@@ -18,7 +18,7 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
-      <Seo />
+      <Seo title={data.mdx.frontmatter.title} description={data.mdx.frontmatter.description} />
       <div className={postContainer}>
         <div className={post}>
           <p className={postSubtitle}>{data.mdx.frontmatter.subtitle} </p>

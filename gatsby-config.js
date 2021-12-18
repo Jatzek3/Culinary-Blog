@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    author: 'Jacek Kawalec',
     title: "The Yellow Pages",
     siteUrl: `https://jatzek3.gatsbyjs.io`,
   },

@@ -14,6 +14,7 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/favicon/favicon.png`, // This path is relative to the root of the site.
+        cache_busting_mode: 'none',
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -22,7 +23,14 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
-    "gatsby-plugin-offline", // have to be after gatsby plugin manifest -- read documentation after removing
+    {
+      resolve: "gatsby-plugin-offline",  // have to be after gatsby plugin manifest -- read documentation after removing
+      options: {
+        workboxConfig: {
+          globPatterns: ['src/favicon/favicon.png']
+        }
+      }
+    },
     {
       resolve: "gatsby-plugin-sitemap",
       options: {

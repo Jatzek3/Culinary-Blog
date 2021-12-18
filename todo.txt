@@ -1,18 +1,24 @@
 4. Rozwijanie
 
+Zrobić ruszające się strzałki w dół
+Zrobić underline animacje
+Podpis Title dla Creative commons - oraz dodać odpowiednie { data.allMDX } 
+Seo
+gatsby-plugin-next-seo
+Page is blocked from indexing 
+Document doesn't have a <title> element 
+
+
  Strona tworzona przy użyciu
  mój tech stack - Specjalizuje się/ Znam
  Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
  Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
 
-
 - clean up the graphQL
 - filtrowanie po dziedzinach?
 - zmienić favicon
 
-
 - Dodać Dev diaries
-- oraz dodać odpowiednie { data.allMDX } 
 - intersection observer?
 - popracować nad SEO
 - featured blog post - Co tydzień?
@@ -22,7 +28,6 @@
 - dodać do mapy aplikacje i road?
 - calendar for blog posts
 - add categories to map
-- Zmienić nazwę bloga i domenę na Yellow pages
 
 
 

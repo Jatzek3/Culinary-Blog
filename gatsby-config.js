@@ -4,12 +4,25 @@ module.exports = {
     siteUrl: `https://jatzek3.gatsbyjs.io`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `src/favicon/favicon.png`, // This path is relative to the root of the site.
+      },
+    },
     `gatsby-plugin-react-helmet`,
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-offline", // have to be after gatsby plugin manifest -- read documentation after removing
     {
       resolve: "gatsby-plugin-sitemap",
       options: {
@@ -58,18 +71,6 @@ module.exports = {
         path: `${__dirname}/way`,
       },
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/favicon/favicon.png`, // This path is relative to the root of the site.
-      },
-    },
 
     {
       resolve: `gatsby-plugin-google-gtag`,
@@ -85,6 +86,5 @@ module.exports = {
         },
       },
     },
-
   ],
 };

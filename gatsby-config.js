@@ -35,7 +35,7 @@ module.exports = {
       resolve: "gatsby-plugin-offline",  // have to be after gatsby plugin manifest -- read documentation after removing
       options: {
         workboxConfig: {
-          globPatterns: ['src/favicon/favicon.png']
+          globPatterns: ['**/src/favicon/favicon.png*']
         }
       }
     },

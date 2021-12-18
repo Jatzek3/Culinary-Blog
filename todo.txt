@@ -1,8 +1,10 @@
 4. Rozwijanie
 
+poprawić wpis o sałatce - dodać tekst
 Zrobić ruszające się strzałki w dół na stronie głównej.
 Zrobić underline animacje
 Dodać atrybuty alt do obrazów.
+Improve SEO with Microdata on your Gatsby MDX blog, Schema.org (often called schema) is a semantic vocabulary of tags
 
 
 Strona tworzona przy użyciu

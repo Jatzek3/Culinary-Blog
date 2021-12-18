@@ -3,9 +3,9 @@
 Zrobić ruszające się strzałki w dół
 Zrobić underline animacje
 Podpis Title dla Creative commons - oraz dodać odpowiednie { data.allMDX } 
-Seo
+
+
 gatsby-plugin-next-seo
-Page is blocked from indexing 
 
 
 

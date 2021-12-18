@@ -24,7 +24,7 @@ const Seo = ({ description, lang, meta, title }) => {
     )
 
     const metaDescription = description || site.siteMetadata.description
-    const defaultTitle = site.siteMetadata?.title || props.title
+    const defaultTitle = site.siteMetadata?.title || title
 
     return (
         <Helmet
@@ -81,8 +81,8 @@ const Seo = ({ description, lang, meta, title }) => {
                     "name": "Jatzek3",
                     "contactPoint": {
                         "@type": "ContactPoint",
-                        "e-mail": "jokerchocolate@gmail.com",
-                        "contactType": "Personal email"
+                        "e-mail": "jacekkawalec@yahoo.com",
+                        "contactType": "jokerchocolate@gmail.com"
                     }
                     }
                 `}
@@ -95,7 +95,7 @@ Seo.defaultProps = {
     title: 'The Yellow Pages',
     lang: `en`,
     meta: ["Programming", "Cooking", "Society", "Movies", "Jatzek3", "Blog", "Portfolio"],
-    description: `Personal blog about interesting facts`,
+    description: `A personal blog about cooking, society, movies, and programming.`,
 }
 
 Seo.propTypes = {

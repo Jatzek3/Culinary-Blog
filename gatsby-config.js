@@ -18,6 +18,7 @@ module.exports = {
         cache_busting_mode: 'none',
       },
     },
+    `gatsby-plugin-preact`,
     `gatsby-plugin-react-helmet`,
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",

@@ -33,6 +33,7 @@ const BlogPost = ({ data }) => {
             image={image}
             alt={data.mdx.frontmatter.hero_image_alt}
             className={postImage}
+            title={`a photo by ${data.mdx.frontmatter.hero_image_credit_text} more content on ${data.mdx.frontmatter.hero_image_credit_link}`}
           />
         </div>
       </div>

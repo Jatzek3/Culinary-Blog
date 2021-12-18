@@ -24,7 +24,7 @@ const Seo = ({ description, lang, meta, title }) => {
     )
 
     const metaDescription = description || site.siteMetadata.description
-    const defaultTitle = site.siteMetadata?.title
+    const defaultTitle = site.siteMetadata?.title || props.title
 
     return (
         <Helmet
@@ -92,6 +92,7 @@ const Seo = ({ description, lang, meta, title }) => {
 }
 
 Seo.defaultProps = {
+    title: 'The Yellow Pages',
     lang: `en`,
     meta: ["Programming", "Cooking", "Society", "Movies", "Jatzek3", "Blog", "Portfolio"],
     description: `Personal blog about interesting facts`,

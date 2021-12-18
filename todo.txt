@@ -6,7 +6,7 @@ Podpis Title dla Creative commons - oraz dodać odpowiednie { data.allMDX }
 Seo
 gatsby-plugin-next-seo
 Page is blocked from indexing 
-Document doesn't have a <title> element 
+
 
 
  Strona tworzona przy użyciu

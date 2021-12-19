@@ -22,6 +22,9 @@ import {
   postSubtitle,
   postPosted,
   introText2,
+  scrollDown,
+  scrollDownArrows,
+  scrollDownStick,
 } from "./indexjs.module.css"
 
 const IndexPage = ({ data }) => {
@@ -37,9 +40,18 @@ const IndexPage = ({ data }) => {
           <p className={introText}>Take a deep dive to surface astonishing ideas.</p>
           <Link classname={introButtonText} to="/about"><button className={introButton}>Get started</button></Link>
         </div>
+
+        <div className={scrollDown}>
+          <div className={scrollDownArrows}>
+            <span className={scrollDownStick}></span>
+            <span className={scrollDownStick}></span>
+            <span className={scrollDownStick}></span>
+            <span className={scrollDownStick}></span>
+          </div>
+        </div>
         <div className={imgContainer}>
           <StaticImage className={introImg}
-            alt="Old bike."
+            alt="A gitl dancing"
             src="./introImg.jpg"
           />
         </div>

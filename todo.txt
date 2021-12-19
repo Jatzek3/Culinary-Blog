@@ -1,6 +1,5 @@
 4. Rozwijanie
 
-poprawić wpis o sałatce - dodać tekst
 Zrobić ruszające się strzałki w dół na stronie głównej.
 Zrobić underline animacje
 Dodać atrybuty alt do obrazów.

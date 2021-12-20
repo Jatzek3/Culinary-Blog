@@ -9,17 +9,19 @@
     animation-name: from-left;
     animation-duration: 1.5s;
 }
-.introGreeting{
+.intro-greeting{
     margin-left: 2rem;
-    margin-top: 8rem; 
+    margin-top: 10rem; 
     font-size: 2rem;
 }
 .intro-text{
     margin-top: 2rem;
     margin-left:2rem;
+    margin-bottom: 1rem;
     font-size: 4rem;
 }
 .intro-description{
+    margin-top: 1rem;
     margin-left:2rem;
     font-size: 2rem;;
 }

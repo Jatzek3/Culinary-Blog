@@ -28,7 +28,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        configFile: 'robots-txt.config.js'
+        host: 'https://jatzek3.gatsby.io.com',
+        sitemap: 'https://jatzek3.gatsby.io/sitemap-0.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
       }
     },
     {

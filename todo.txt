@@ -2,28 +2,27 @@
 
 mikronacje - Sealand
 Zrobić underline animacje
-Zrobić linki w blogu do artykułów.
-
 
 Strona tworzona przy użyciu
 mój tech stack - Specjalizuje się/ Znam
 Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
 Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
 
---zmienić way na road
+- Zrobić linki w blogu do artykułów.
+- zmienić way na road
 - Dodać Dev diaries - co miesiąc jeden wpis
+
 
 - clean up the graphQL
 - filtrowanie po dziedzinach?
 - zmienić favicon
-
 - intersection observer?
 - popracować nad SEO
 - Improve SEO with Microdata on your Gatsby MDX blog, Schema.org (often called schema) is a semantic vocabulary of tags
 - featured blog post - Co tydzień?
 - przycisk do donatów
 - w Road zrobić pojawienie się tekstu po prawej stronie? po klikniekciu.
-- zrobić Apps + RWD
+- zrobić Apps
 - dodać do mapy aplikacje i road?
 - calendar for blog posts
 - add categories to map

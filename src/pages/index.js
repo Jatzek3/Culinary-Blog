@@ -13,6 +13,7 @@ import {
   imgContainer,
   introImg,
   introGreeting,
+  introDescription,
   siteBreak,
   secondPage,
   newestPosts,
@@ -37,7 +38,8 @@ const IndexPage = ({ data }) => {
         {console.log(newPosts)}
         <div className={intro}>
           <h2 className={introGreeting}>Hey!</h2>
-          <p className={introText}>Take a deep dive to surface astonishing ideas.</p>
+          <p className={introText}>Welcome to my blog.</p>
+          <p className={introDescription}>Be sure to check it out further. You will find many exciting topics.</p>
           <Link classname={introButtonText} to="/about"><button className={introButton}>Get started</button></Link>
         </div>
 

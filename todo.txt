@@ -1,6 +1,6 @@
 4. Rozwijanie
 
-Zrobić underline animacje
+
 
 Strona tworzona przy użyciu
 mój tech stack - Specjalizuje się/ Znam
@@ -12,10 +12,8 @@ Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
 - Dodać Dev diaries - co miesiąc jeden wpis
 
 
-
 - clean up the graphQL
 - filtrowanie po dziedzinach?
-- zmienić favicon
 - intersection observer?
 - popracować nad SEO
 - Improve SEO with Microdata on your Gatsby MDX blog, Schema.org (often called schema) is a semantic vocabulary of tags
@@ -33,7 +31,6 @@ Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
 Tematy na wpisy
 - Material UI
 Commit naming convention https://www.conventionalcommits.org/en/v1.0.0/
-
 mikronacje - Atlantium
 self-help ( https://www.youtube.com/watch?v=dmLTLkCBSN8, https://www.youtube.com/watch?v=qMmgDeyhamI )
 sałatka z Surimi

@@ -14,7 +14,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/favicon/favicon.png`, // This path is relative to the root of the site.
+        icon: `src/favicon/apple-touch-icon.png`, // This path is relative to the root of the site.
         cache_busting_mode: 'none',
       },
     },
@@ -35,7 +35,7 @@ module.exports = {
       resolve: "gatsby-plugin-offline",  // have to be after gatsby plugin manifest -- read documentation after removing
       options: {
         workboxConfig: {
-          globPatterns: ['**/src/favicon/favicon.png*']
+          globPatterns: ['**/src/favicon/apple-touch-icon.png*']
         }
       }
     },

@@ -1,0 +1,11 @@
+1.Yellow Pages Content. Micronations (Introduction, Rose Island, Sealand, Atlantia) and cooking (simple crab stick salad,
+scrambled eggs, orange chicken, spaghetti and meatballs) Programming (BEM), 
+
+2. Yellow Pages SEO. Optimized Seo-React( helmet, robots.txt, preact,gatsby plugin offline ) added Domain,
+ google analytics and google search console, images accessible and copyright correct.
+
+3. Yellow Pages configuration. cleaned up the directory structure, fixed warnings, added newest blog posts to home page
+
+4. Yellow Pages CSS. Added animations(call to action button, yellow card animation, links animation)
+added css features for navigation(underline on active site, on hover, arrows down on main page),
+ made site responsive(burger menu,display none on pictures, @media screen size 990 for mobile)

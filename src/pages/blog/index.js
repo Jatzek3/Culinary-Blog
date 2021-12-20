@@ -59,8 +59,8 @@ const BlogPage = ({ data }) => {
           }
         </ul>
         <div className={navButtonsDiv}>
-          <button className={navButton} disabled={siteNumber === 0 ? true : false} onClick={handleSiteDown}> Forth </button>
-          <button className={navButton} disabled={siteNumber + 1 >= (posts.length / 9)} onClick={handleSiteUp}>Back</button>
+          <button className={navButton} disabled={siteNumber === 0 ? true : false} onClick={handleSiteDown}>	&lt;	&lt;	&lt;</button>
+          <button className={navButton} disabled={siteNumber + 1 >= (posts.length / 9)} onClick={handleSiteUp}>	&gt;	&gt;	&gt;</button>
         </div>
       </div>
     </Layout >

@@ -1,9 +1,8 @@
 4. Rozwijanie
 
-Zrobić ruszające się strzałki w dół na stronie głównej.
+mikronacje - Sealand
 Zrobić underline animacje
-Dodać atrybuty alt do obrazów.
-Improve SEO with Microdata on your Gatsby MDX blog, Schema.org (often called schema) is a semantic vocabulary of tags
+Zrobić linki w blogu do artykułów.
 
 
 Strona tworzona przy użyciu
@@ -11,13 +10,16 @@ mój tech stack - Specjalizuje się/ Znam
 Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
 Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
 
+--zmienić way na road
+- Dodać Dev diaries - co miesiąc jeden wpis
+
 - clean up the graphQL
 - filtrowanie po dziedzinach?
 - zmienić favicon
 
-- Dodać Dev diaries
 - intersection observer?
 - popracować nad SEO
+- Improve SEO with Microdata on your Gatsby MDX blog, Schema.org (often called schema) is a semantic vocabulary of tags
 - featured blog post - Co tydzień?
 - przycisk do donatów
 - w Road zrobić pojawienie się tekstu po prawej stronie? po klikniekciu.
@@ -32,7 +34,7 @@ Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
 Tematy na wpisy
 - Material UI
 Commit naming convention https://www.conventionalcommits.org/en/v1.0.0/
-mikronacje - Sealand
+
 mikronacje - Atlantium
 self-help ( https://www.youtube.com/watch?v=dmLTLkCBSN8, https://www.youtube.com/watch?v=qMmgDeyhamI )
 sałatka z Surimi

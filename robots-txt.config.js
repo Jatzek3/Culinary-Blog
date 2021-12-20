@@ -1,5 +1,5 @@
 module.exports = {
-    host: 'https://www.example.com',
-    sitemap: 'https://www.example.com/sitemap.xml',
+    host: 'https://jatzek3.gatsbyjs.io',
+    sitemap: 'https://jatzek3.gatsbyjs.io/sitemap-0.xml',
     policy: [{ userAgent: '*' }]
 };

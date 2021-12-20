@@ -6,6 +6,8 @@ scrambled eggs, orange chicken, spaghetti and meatballs) Programming (BEM),
 
 3. Yellow Pages configuration. cleaned up the directory structure, fixed warnings, added newest blog posts to home page
 
-4. Yellow Pages CSS. Added animations(call to action button, yellow card animation, links animation)
+4. Yellow Pages CSS. Added animations(call to action button, yellow card animation, links animation, underline animation, 
+page change animations)
 added css features for navigation(underline on active site, on hover, arrows down on main page),
  made site responsive(burger menu,display none on pictures, @media screen size 990 for mobile)
+changed favico

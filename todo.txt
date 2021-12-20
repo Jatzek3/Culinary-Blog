@@ -1,6 +1,5 @@
 4. Rozwijanie
 
-mikronacje - Sealand
 Zrobić underline animacje
 
 Strona tworzona przy użyciu
@@ -11,6 +10,7 @@ Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
 - Zrobić linki w blogu do artykułów.
 - zmienić way na road
 - Dodać Dev diaries - co miesiąc jeden wpis
+
 
 
 - clean up the graphQL

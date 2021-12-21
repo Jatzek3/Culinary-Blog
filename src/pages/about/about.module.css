@@ -10,8 +10,8 @@
     padding-top: 3rem;
     font-size: 1.2rem;
     animation-name: from-left;
-    animation-duration: 1.5s;
-    animation-timing-function:ease-out;
+    animation-duration: 800ms;
+    animation-timing-function:ease-in;
 }
 .text-header{
     font-size: 3rem;
@@ -51,9 +51,6 @@
 
 .about-img{
     height:80%;
-    animation-name: from-left;
-    animation-duration: 1.5s;
-    animation-timing-function:ease-out;
 }
 
 @media (max-width: 990px){
@@ -67,6 +64,6 @@
     }
 }
 @keyframes from-left{
-    0% {transform: translateX(-1000px);}
+    0% {transform: translateX(-1000px) rotateZ(360deg);}
     100% {transform: translateX(0px);}
   }

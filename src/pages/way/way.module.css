@@ -8,7 +8,7 @@
 }
 .all-parts{
     margin-left: 2rem;
-    animation-name: from-bottom;
+    animation-name: fall-from-right;
     animation-duration: 1s;
     animation-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transform-origin: top left;
@@ -53,7 +53,7 @@ transition: 1s;
     margin-left: -1rem;
 }
 }
-@keyframes from-bottom{
+@keyframes fall-from-right{
     0% {transform: rotateZ(-50deg);}
     60% {transform: rotateZ(15deg);}
     100% {transform: rotateZ(0deg);}

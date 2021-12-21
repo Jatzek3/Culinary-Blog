@@ -12,7 +12,7 @@ mikronacje - Atlantium
 - Dodać Dev diaries - co miesiąc jeden wpis
 - dodać do road i zrobić dobry graphQL dla niego
 - przycisk do donatów
-
+- ulepszyć animacje w map i about
 
 
 - clean up the graphQL

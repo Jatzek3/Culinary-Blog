@@ -8,11 +8,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        name: `The Yellow Pages`,
+        short_name: `Pages`,
+        start_url: `http://www.theyellowpages.live/`,
+        background_color: `#ebeae4`,
+        theme_color: `#ffe706`,
         display: `minimal-ui`,
         icon: `src/favicon/apple-touch-icon.png`, // This path is relative to the root of the site.
         cache_busting_mode: 'none',
@@ -30,14 +30,14 @@ module.exports = {
       options: {
         host: 'https://jatzek3.gatsby.io.com',
         sitemap: 'https://jatzek3.gatsby.io/sitemap-0.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
+        policy: [{ userAgent: '*', allow: '/' }],
       }
     },
     {
       resolve: "gatsby-plugin-offline",  // have to be after gatsby plugin manifest -- read documentation after removing
       options: {
         workboxConfig: {
-          globPatterns: ['**/src/favicon/apple-touch-icon.png*']
+          globPatterns: ['*src/favicon/apple-touch-icon.png*']
         }
       }
     },

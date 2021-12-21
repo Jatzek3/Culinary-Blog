@@ -23,6 +23,21 @@
 
     margin: 0.5rem;
     font-size: 1.5rem;
+
+}
+.map-window-link::before{
+    display: inline;
+    content: ' ';
+    width: 1rem;
+    transition: 10ms;
+}
+
+.map-window-link:hover::before{
+    display: inline;
+    content: '----';
+    background-color: black;
+    border-radius: 50%;
+    height: 10px;
 }
 
 .from-left{

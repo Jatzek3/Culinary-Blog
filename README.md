@@ -1,7 +1,9 @@
 A repository for my portfolio and blog on
-https://jatzek3.gatsbyjs.io/
+https://theyellowpages.live/
 
 ## Built in:
+
+- GraphQL
 - Gatsby
 - React
 - CSS modules

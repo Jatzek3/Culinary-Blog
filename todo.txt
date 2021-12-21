@@ -12,6 +12,8 @@ mikronacje - Atlantium
 - zmienić way na road
 - Dodać Dev diaries - co miesiąc jeden wpis
 
+
+- fix glob pattern for icon
 - hover na map 
 - clean up the graphQL
 - filtrowanie po dziedzinach?

@@ -1,13 +1,12 @@
 4. Rozwijanie
 
-Mam jedno główne query które egzekwuje się w 3 miejscach
+HTTP
 
 Strona tworzona przy użyciu
 mój tech stack - Specjalizuje się/ Znam
 Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
 Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
 
-HTTP
 mikronacje - Atlantium
 
 - Zrobić linki w blogu do artykułów.
@@ -16,20 +15,18 @@ mikronacje - Atlantium
 - przycisk do donatów
 - ulepszyć animacje w map i about
 
+Muliple sites = gatsby-node.js create pages, The net ninja Gatsby episode 19,
 
-- clean up the graphQL
+
 - intersection observer?
 - featured blog post - Co tydzień?
 
-
-
-- zrobić Apps
-- dodać do mapy aplikacje i road?
+- clean up the graphQL
 - calendar for blog posts
 - filtrowanie po dziedzinach?
 - add categories to map
 - zmienić way na road
-
+- zrobić Apps
 
 
 Tematy na wpisy

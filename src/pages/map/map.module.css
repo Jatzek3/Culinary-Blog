@@ -42,13 +42,13 @@
 
 .from-left{
     animation-name: from-left;
-    animation-duration: 1.5s;
-    animation-timing-function:ease-out;
+    animation-duration: 750ms;
+    animation-timing-function:ease-in;
 }
 .from-right{
     animation-name: from-right;
-    animation-duration: 1.5s;
-    animation-timing-function:ease-out;
+    animation-duration: 750ms;
+    animation-timing-function:ease-in;
 }
 @media (max-width: 990px){
 .map{
@@ -57,10 +57,10 @@
 }
 
 @keyframes from-left{
-    0% {transform: translateX(-500px);}
+    0% {transform: translateX(-1000px);}
     100% {transform: translateX(0px);}
   }
   @keyframes from-right{
-    0% {transform: translateX(500px);}
+    0% {transform: translateX(1000px);}
     100% {transform: translateX(0px);}
   }

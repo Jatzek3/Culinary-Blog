@@ -42,7 +42,8 @@ module.exports = {
       options: {
         host: 'https://jatzek3.gatsby.io.com',
         sitemap: 'https://jatzek3.gatsby.io/sitemap-0.xml',
-        policy: [{ userAgent: "Googlebot", allow: '/', disallow: "/apps" }],
+        // temporary fix to duplicate files in way && blog till I won't make 2 other sites
+        policy: [{ userAgent: "Googlebot", allow: '/', disallow: "/way" }],
         policy: [{ userAgent: '*', allow: '/' }],
 
       }
@@ -51,14 +52,14 @@ module.exports = {
       resolve: "gatsby-plugin-offline",  // have to be after gatsby plugin manifest -- read documentation after removing
       options: {
         workboxConfig: {
-          globPatterns: ['**/src/favicon/apple-touch-icon.png*']
+          globPatterns: ['**/apple-touch-icon.png*'], // this is bad globpattern
         }
       }
     },
     {
       resolve: "gatsby-plugin-sitemap",
       options: {
-        output: "/", // temporary workaround around not working plugin 
+        output: "/",
       }
     },
     {

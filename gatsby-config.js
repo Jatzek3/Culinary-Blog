@@ -42,14 +42,16 @@ module.exports = {
       options: {
         host: 'https://jatzek3.gatsby.io.com',
         sitemap: 'https://jatzek3.gatsby.io/sitemap-0.xml',
+        policy: [{ userAgent: "Googlebot", allow: '/', disallow: "/apps" }],
         policy: [{ userAgent: '*', allow: '/' }],
+
       }
     },
     {
       resolve: "gatsby-plugin-offline",  // have to be after gatsby plugin manifest -- read documentation after removing
       options: {
         workboxConfig: {
-          globPatterns: ['*src/favicon/apple-touch-icon.png*']
+          globPatterns: ['**/src/favicon/apple-touch-icon.png*']
         }
       }
     },

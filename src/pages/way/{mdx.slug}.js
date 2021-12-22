@@ -33,7 +33,7 @@ const WayPost = ({ data }) => {
 
 export const query = graphql`
   query($slug: String) {
-    mdx(slug: {eq: $slug}) {
+    mdx(slug: {eq: $slug}, fileAbsolutePath: {regex: "/way/"}) {
       body
       frontmatter {
         title

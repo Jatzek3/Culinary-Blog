@@ -1,5 +1,7 @@
 4. Rozwijanie
 
+Mam jedno główne query które egzekwuje się w 3 miejscach
+
 Strona tworzona przy użyciu
 mój tech stack - Specjalizuje się/ Znam
 Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.

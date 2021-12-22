@@ -24,7 +24,7 @@ const App = ({ data }) => {
 
 export const query = graphql`
   query($slug: String) {
-    mdx(slug: {eq: $slug}, fileAbsolutePath: {regex: "/apps/"}) {
+    mdx(slug: {eq: $slug}) {
       body
       frontmatter {
         technologies

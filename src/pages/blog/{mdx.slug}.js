@@ -43,7 +43,7 @@ const BlogPost = ({ data }) => {
 
 export const query = graphql`
   query($slug: String) {
-    mdx(slug: {eq: $slug}, fileAbsolutePath: {regex: "/way/"}) {
+    mdx(slug: {eq: $slug}) {
       body
       frontmatter {
         title

@@ -29,12 +29,6 @@ const NavLinks = () => {
                 </Link>
             </li>
             <li className={navLinkItem}>
-                <Link to="/apps" className={navLinkText}
-                    activeStyle={{ borderRight: "1rem", borderBottom: "4px solid black" }}>
-                    APPS
-                </Link>
-            </li>
-            <li className={navLinkItem}>
                 <Link to="/way" className={navLinkText}
                     activeStyle={{ borderRight: "1rem", borderBottom: "4px solid black" }}>
                     ROAD

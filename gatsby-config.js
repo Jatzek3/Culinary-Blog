@@ -92,18 +92,10 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: `apps`,
-        path: `${__dirname}/apps`,
-      },
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
         name: `way`,
         path: `${__dirname}/way`,
       },
     },
-
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {

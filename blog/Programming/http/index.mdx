@@ -1,0 +1,209 @@
+---
+title: "HTTP"
+subtitle: "Protocole which run the web"
+date: "2021-12-23"
+source: ""
+topic: "Programming"
+category: "Various"
+
+hero_image: "./http.jpg"
+hero_image_alt: "lower case http sign"
+hero_image_credit_text: "https://httpwg.org/"
+hero_image_credit_link: "https://httpwg.org/assets/http.svg"
+---
+Sending data over the web is transferred by HTTP protocol. It is an application layer protocol. It is designed to transfer data between the devices in the network. HTTP is the seventh and top layer of the network protocol stack.
+
+Communication most often has a place between the server and the client. This terminology, server and client, can be used to show a similar situation.
+When a person (client) goes to the restaurant and makes an order(request).
+Then Waiter (server) brings the dish(response). I find this metaphor very helpful
+since the technical words have a similar meaning to a real-world situation.
+
+### HTTP Structure
+
+#### HTTP Request
+
+When the client makes a request, it consists of at least  three to five parts:
+
+1. HTTP Version type - HTTP protocol is still evolving. The value of this 
+parameter can differ from HTTP 0.9 to HTTP 3.
+2. The address of the webpage, for example, www.theyellowpages.live
+3. HTTP Method - Most commonly used today methods are:
+    - GET - Used to retrieve information from the server. (Like a website)
+    - POST - Used to send data to the server. (Like a photo of kittens)
+    - PUT - Replaces a resource with a new one. (replace word "Luis XVI" with "Napoleon")
+    - DELETE - Removes all the current representations of the target resource given by URI.
+    (Like you should be able to delete your account from social media)
+
+
+        GET https://www.theyellowpages.live HTTP/2.0 <- example of simple request
+
+4. HTTP request headers -options.
+Request headers provide additional information to the server. A server can use to decide how to respond. Each header is composed of a name and value. For example, the header can state that the website should only be in Polish or English.
+
+        Accept-Language: pl, de <-example of request header
+
+5. HTTP request body - optional
+Some of the methods have request bodies, which will be sent to the server.
+
+
+#### HTTP response
+
+The HTTP response is what clients receive from servers after sending the request. 
+
+1. Message Status Line - HTTP Version, Status Code, and Status Code textual value.
+
+        HTTP/1.1 200 OK <-example of message status line 
+
+Status Codes are information from the server on how the server handled the request.
+It's in form of a three-digit number, where the first digit defines the class of the response:
+- 1xx - informational - the request was received, and the process continues.
+- 2xx - success - It means the request was processed without any errors.
+- 3xx - redirection - It means further action must be taken to complete the request.
+- 4xx - client error - there was an error in the request, and it cannot be fulfilled.
+- 5xx - server error - server failed to fulfill a valid request
+
+2. Response Header fields - gives the client information about the server and further access to the resource
+ 
+3. Body - most often its HTML, which will be translated to a webpage
+
+### History of HTTP
+
+#### The Invention of World Wide Web 
+
+Tim Berners-Lee, in 1989, while working in CERN, wrote a proposal to build an internet network.
+The World Wide Web was proposed to have four building blocks:
+ - textual format to represent documents, HTML 
+ - protocol to exchange these documents, HTTP
+ - clients to display and edit these documents, first web browser WorldWideWeb
+ - servers to give access to the documents
+
+6th of August 1991, is now considered the birthday of the World Wide Web
+
+#### HTTP/0.9
+
+It was simple protocol. To send a request you only needed one line.
+The full URL wasn't included as the protocol, server, and port weren't necessary
+once connected to the server.
+Only method GET was available:
+
+        GET /blog/pwa/index.html
+
+The response was the inside HTML of the file.
+
+        <html>
+        Hello World Wide Web!
+        </html>
+
+#### HTTP/1.0
+
+HTTP 0.9 was very limited and quickly expanded
+
+- Version information was appended, to the GET line in each request.
+- Status Code was sent at the beginning of the response.
+- Introduced headers in requests and responses. That allowed metadata
+to be easily transmitted. It was flexible and extensible.
+- Other than HTML documents could be transmitted.
+
+Example of request and response at the time:
+
+        GET /mypage.html HTTP/1.0
+        User-Agent: NCSA_Mosaic/2.0 (Windows 3.1)
+
+        200 OK
+        Date: Tue, 15 Nov 1994 08:12:31 GMT
+        Server: CERN/3.0 libwww/2.17
+        Content-Type: text/html
+        <HTML>
+        A page with an image
+        <IMG SRC="/myimage.gif">
+        </HTML>
+
+Because improvement implementation was decentralized, an informational document, describing best practices was released in November 1996. 
+It is known as RFC 1945 and defined HTTP/1.0.
+
+#### HTTP/1.1
+
+A few months after the release of best practices, HTTP had 
+its first standardized version, HTTP/1.1.
+
+- A connection between server and client could be reused. It no longer had to be opened multiple times, to display a single document.
+- Pipelining was added. It enabled sending a second request before the response for the first came back.
+- Chunked responses were allowed.
+- More cache control mechanisms.
+- Content negotiations were introduced. There was a possibility 
+sent a specific version of the response
+- Thanks to "Host" header, there was a possibility to host different domains under the same IP address.
+
+Example:
+
+        GET /en-US/docs/Glossary/Simple_header HTTP/1.1
+        Host: developer.mozilla.org
+        User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101 Firefox/50.0
+        Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+        Accept-Language: en-US,en;q=0.5
+        Accept-Encoding: gzip, deflate, br
+        Referer: https://developer.mozilla.org/en-US/docs/Glossary/Simple_header
+
+        200 OK
+        Connection: Keep-Alive
+        Content-Encoding: gzip
+        Content-Type: text/html; charset=utf-8
+        Date: Wed, 20 Jul 2016 10:55:30 GMT
+        Etag: "547fa7e369ef56031dd3bff2ace9fc0832eb251a"
+        Keep-Alive: timeout=5, max=1000
+        Last-Modified: Tue, 19 Jul 2016 00:59:33 GMT
+        Server: Apache
+        Transfer-Encoding: chunked
+        Vary: Cookie, Accept-Encoding
+        (content)
+
+HTTP/1.1 lasted as the prime version of the protocol for over 15 years. Until June 2014, when HTTP/2.0 was released. 
+
+- Largest change to HTTP protocol was introduced at the end of 1994, when
+Netscape Communications introduced another transmission layer on top of HTTP.
+It was SSL. SSL 1.0 was never released to the public, but SSL 2.0 and SSL 3.0 
+allowed secure financial transactions over the internet.
+- another major implementation to internet communication was designing REST, representational state transfer. It is based upon communication between specific URLs using HTTP methods. (more on REST -> https://theyellowpages.live/blog/rest/)
+- Websockets was another addition to the protocol, which added an UPGRADE method to HTTP. (more on WebSockets ->https://theyellowpages.live/blog/web-sockets/)
+
+#### HTTP/2
+
+More and more data was transferred through the web. Google introduced a new protocol, which had few drawbacks, but had better responsiveness and solved the problem of duplicate 
+data transmission. This protocol, named SPDY, laid the foundations for the HTTP/2.0 protocol.
+
+HTTP/2.0 differ from HTTP/1.1 in a few ways:
+- It's binary instead of text.
+- It's multiplexed protocol. Many parallel requests can be sent.
+- It compresses headers,  because those are often similar. Which removes duplication of data.
+- It allows a server to populate data in a client cache.
+
+In July 2016, 8,7% of all websites and 68% of all requests, were using HTTP/2.0.
+
+
+#### HTTP/3 -  HTTP over QUIC
+
+HTTP/3.0 Is being implemented at the moment. I plan to write a separate article about it 
+
+### Sources
+
+CS50 2017 - Lecture 6 - HTTP - up to 50 min - simple explanation
+https://www.youtube.com/watch?v=PUPDGbnpSjw
+
+HyperText Transfer Protocol Crash Course - HTTP 1.0, 1.1, HTTP/2, HTTP/3 - History and method of exchanging the data
+https://www.youtube.com/watch?v=0OrmKCB0UrQ
+
+Cloudflare - short description 
+https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/
+
+Request and response in more detail
+https://www.tutorialspoint.com/http/http_responses.htm
+
+MDN docs - History of HTTP
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP
+
+
+
+
+
+
+

@@ -2,66 +2,82 @@
 
 HTTP
 
+wyśrodkuje tekst i dam obrazek pomiędzy tekstem, tytułem
+Zmienic adres remote brancha
 Strona tworzona przy użyciu
 mój tech stack - Specjalizuje się/ Znam
 Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
 Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
+Zrobić linki w blogu do artykułów źródłowych.
 
 mikronacje - Atlantium
 
-- Zrobić linki w blogu do artykułów.
-- Dodać Dev diaries - co miesiąc jeden wpis
-- dodać do road i zrobić dobry graphQL dla niego
 - przycisk do donatów
-- ulepszyć animacje w map i about
-
-Muliple sites = gatsby-node.js create pages, The net ninja Gatsby episode 19,
-
-
+- Muliple sites = gatsby-node.js create pages, The net ninja Gatsby episode 19,
+- Dodać Dev diaries - co miesiąc jeden wpis- dodać do road i zrobić dobry graphQL dla niego
+- zrobić Apps
 - intersection observer?
 - featured blog post - Co tydzień?
-
 - clean up the graphQL
 - calendar for blog posts
 - filtrowanie po dziedzinach?
 - add categories to map
 - zmienić way na road
-- zrobić Apps
+
 
 
 Tematy na wpisy
+
+Society
+Flying Cars
+Euro Disneyland
+Bagger 293 - największa koparka
+Energy Vault
+self-help ( https://www.youtube.com/watch?v=dmLTLkCBSN8, https://www.youtube.com/watch?v=qMmgDeyhamI )
+Analiza Transakcyjna
+toxic masculinity
+Łysenkizm
+Hiroshima and Nagasaki/carpet bombings
+Du Pont i teflon
+-Slavoj Żizek
+Wisecrack
+
+
+Programming
+HTTP/3.0
 - Material UI
 Commit naming convention https://www.conventionalcommits.org/en/v1.0.0/
-self-help ( https://www.youtube.com/watch?v=dmLTLkCBSN8, https://www.youtube.com/watch?v=qMmgDeyhamI )
 Cors
-caching
-Analiza Transakcyjna
+caching E-Tag
 6. wpis o service workers
-toxic masculinity
-ziemniaki smażone w sosie piwnym
-glazurowana wieprzowina z warzywami
-Łysenkizm
 -wpis o svelte
 SEO
 Headless CMS
 CMS
+Wpis o Syntax
+Wpis o Talk Python to me
+wpis o hello roman
+wpis o TypeScript
+wpis o XSS
+Wpis o CSRF
+
+
+Cooking
+ziemniaki smażone w sosie piwnym
+glazurowana wieprzowina z warzywami
+Chopped cheese
+
+Movies
 Dróżnik
 Big short
 Social Network
 Mc empire
-Hiroshima and Nagasaki/carpet bombings
 Lobster
 Her
 Moon
-Du Pont i teflon
--Slavoj Żizek
-8 Out Of 10 Cats Does Countdown
-Wpis o Syntax
-Wpis o Talk Python to me
-wpis o hello roman
-Wisecrack
-wpis o TypeScript
-wpis o XSS
-Wpis o CSRF
+
+
+
+
 
 

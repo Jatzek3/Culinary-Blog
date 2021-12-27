@@ -45,9 +45,9 @@ Wisecrack
 
 Programming
 HTTP/3.0
+Cors
 - Material UI
 Commit naming convention https://www.conventionalcommits.org/en/v1.0.0/
-Cors
 caching E-Tag
 6. wpis o service workers
 -wpis o svelte

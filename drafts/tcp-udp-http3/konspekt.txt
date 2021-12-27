@@ -1,0 +1,7 @@
+Zaproszenie do zapoznania się z Artykułem o HTTP.
+Warstwy sieci
+1. Protokół TCP i TLS 
+2. Protokół UDP 
+3. Porównanie obu protokołów
+4. Protokół QUIC i HTTP3 - w jaki sposób UDP jest bezpieczny
+5. Wykorzystanie HTTP3 w tym momencie

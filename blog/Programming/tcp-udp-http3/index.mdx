@@ -1,0 +1,117 @@
+---
+title: "Transport layer and HTTP/3"
+subtitle: "The future of data transmiting"
+date: "2021-12-27"
+source: ""
+topic: "Programming"
+category: "Various"
+
+hero_image: "./QUIC-LOGO.png"
+hero_image_alt: "logo of Quic, four uppercase QUIC underneath"
+hero_image_credit_text: "https://www.litespeedtech.com/quic-http3-library"
+hero_image_credit_link: "https://www.litespeedtech.com/images/logos/QUIC-LOGO.png"
+---
+
+tl;dr: TCP is slow but accurate, UDP is fas,t but it loses data.
+HTTP3 uses UDP in a way(QUIC) that mitigates its drawbacks.
+
+
+### Introduction
+
+Lately, I have written an article about the HTTP protocol.
+https://theyellowpages.live/blog/http/
+HTTP is in 7 application layer of the OSI(Open System Interconnect)
+model. This model helps professionals to understand problems and 
+conceptualize thoughts. This model has the following layers:
+
+- Layer 7 - Application - about this layer of internet connection, you can read in the above mention HTTP article.
+- Layer 6 - Presentation.
+- Layer 5 - Session.
+- Layer 4 - Transport - This will be the main topic of this post.
+- Layer 3 - Network.
+- Layer 2 - Data Link.
+- Layer 1 - Physical.
+
+### TCP 
+
+Transmission Control Protocol work in client-server mode. Server awaits connection
+with the client on a proper port. 
+TCP is connection-oriented, so the connection has to be established before data can be sent.
+TCP guarantees delivery of all complete packets, in an appropriate order,  without duplicates.
+
+To make a connection three-way handshake procedure is used.
+- Host A (client) - sends to Host B(server) SYN segment. And change its state to SYN-SENT 
+- Host B (server) - after receiving the SYN segment, change its state to SYN-RECEIVED. 
+If Host B wants to make a connection with Host A, he sends him SYN and ACK segments.
+- Host A - after receiving SYN and ACK, changes its state to ESTABLISHED. Then sends ACK to Host B.
+- Host B - changes state to ESTABLISHED.
+- Host A - Can now transfer the data.
+
+The TCP layer is responsible for making sure that all bytes received will be in identical order, as the sent one. Since not always it is possible, in a simple way, TCP handles it with "positive acknowledgment with retransmission". When the receiver will get the packet,
+he sends an acknowledgment to the sender. The sender keep track of every packet sent, and if he won't receive an acknowledgment, within a certain time, he assumes it's lost and retransmits it.
+
+Data transfer:
+- Ordered data transfer: the destination host rearranges segments according to a sequence number.
+- Retransmission of lost packets: any cumulative stream not acknowledged is retransmitted.
+- Error-free data transfer: corrupted packets are treated as lost and are retransmitted.
+- Flow control: limits the rate a sender transfers data to guarantee reliable delivery.
+- Congestion control: lost packets (presumed due to congestion) trigger a reduction in data delivery rate.
+
+At the lower layer of the OSI model stack, due to various factors, some packets may be lost, delivered out of order, or duplicated. TCP detects these faults and requests 
+retransmission of the data. TCP specializes in an accurate, delivery, and long delays are possible. 
+Therefore it is not suitable for real-time applications.
+
+TCP is adopted in programs that use application layer protocols such as HTTP, SSH, FTP, SMTP/POP3, or IMAP.
+
+### UDP
+
+User Datagram Protocol, unlike TCP, uses connectionless communication. It has no handshaking
+dialog and therefore exposes user's programs to any unreliability of the network. There is no 
+guarantee of delivering, ordering, or duplicate protection. UDP is fast and time-sensitive 
+applications often are using UDP, since missing packets is preferable to delay.
+
+UDP is especially suited for certain applications:
+- It is transaction-oriented, suitable for simple query-response protocols such as the Domain Name System
+- It provides datagrams, suitable for modeling other protocols such as IP tunneling or remote procedure call and the Network File System.
+- It is simple, suitable for bootstrapping or other purposes without a full protocol stack, such as the DHCP (Dynamic Host Configuration Protocol)
+- It is stateless, suitable for very large numbers of clients, such as in streaming media applications such as IPTV.
+- The lack of retransmission delays makes it suitable for real-time applications such as Voice over IP or online games.
+- Because it supports multicast, it is suitable for broadcast information such as in many 
+kinds of service discovery and shared information such as Precision Time Protocol and Routing Information Protocol.
+
+Lacking reliability, UDP applications may encounter some packet loss, reordering, errors, or duplication.
+Some mechanisms add a little reliability but are rarely used. 
+
+### QUIC
+
+Is a general-purpose transport layer network protocol, which improves
+the performance of connection-oriented web applications, which currently are using TCP.
+It uses by creating many UDP connections between two endpoints. It's designed to 
+obsolete TCP, thus earning an occasional nickname "TCP/2"
+
+Some of the upgrades which were implemented in QUIC:
+- It aims to be nearly equivalent to a TCP connection but with much-reduced latency.
+- It  optimizes the speed of the initial connection, by ensuring secure connection (with TLS)
+on an initial handshake. 
+- It uses UDP underneath instead of TCP. This doesn't lead
+to losing data in transmission. Thanks to using many streams, if an error occurs on one stream, other streams can transmit data separately. 
+- it improves performance during network switches. For example, when traveling with a mobile device,
+when the network switches from a Wi-Fi hotspot to a mobile network in TCP a lengthy process starts.
+QUIC solves this problem.
+
+HTTP/3 was created to use the QUIC. And ss of December 2021 is still in "Internet Draft" phase,
+ but is already supported by 73% of web browsers
+
+
+### Sources:
+
+- Network layers:
+https://www.networkworld.com/article/3239677/the-osi-model-explained-and-how-to-easily-remember-its-7-layers.html
+- TCP UDP & QUICk in short video:
+https://www.youtube.com/watch?v=y8xHJJWwJt4
+- Wikipedia about TCP:
+https://en.wikipedia.org/wiki/Transmission_Control_Protocol
+- Wikipedia about UDP:
+https://en.wikipedia.org/wiki/User_Datagram_Protocol
+- Wikipedia about QUIC:
+https://en.wikipedia.org/wiki/QUIC

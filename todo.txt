@@ -45,6 +45,7 @@ Wisecrack
 
 Programming
 HTTP/3.0
+Pozostałe warstwy
 Cors
 - Material UI
 Commit naming convention https://www.conventionalcommits.org/en/v1.0.0/

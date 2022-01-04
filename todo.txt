@@ -1,6 +1,6 @@
 4. Rozwijanie
 
-HTTP
+mikronacje - Atlantium
 
 wyśrodkuje tekst i dam obrazek pomiędzy tekstem, tytułem
 Zmienic adres remote brancha
@@ -9,8 +9,6 @@ mój tech stack - Specjalizuje się/ Znam
 Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
 Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
 Zrobić linki w blogu do artykułów źródłowych.
-
-mikronacje - Atlantium
 
 - przycisk do donatów
 - Muliple sites = gatsby-node.js create pages, The net ninja Gatsby episode 19,
@@ -44,10 +42,9 @@ Wisecrack
 
 
 Programming
-HTTP/3.0
 Pozostałe warstwy
 Cors
-- Material UI
+Material UI
 Commit naming convention https://www.conventionalcommits.org/en/v1.0.0/
 caching E-Tag
 6. wpis o service workers
@@ -55,9 +52,6 @@ caching E-Tag
 SEO
 Headless CMS
 CMS
-Wpis o Syntax
-Wpis o Talk Python to me
-wpis o hello roman
 wpis o TypeScript
 wpis o XSS
 Wpis o CSRF

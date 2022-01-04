@@ -1,8 +1,0 @@
-Warstwy sieci
-https://www.networkworld.com/article/3239677/the-osi-model-explained-and-how-to-easily-remember-its-7-layers.html
-TCP UDP & QUICk in short video
-https://www.youtube.com/watch?v=y8xHJJWwJt4
-Wikipedia about TCP
-https://en.wikipedia.org/wiki/Transmission_Control_Protocol
-Wikipedia about UDP
-https://en.wikipedia.org/wiki/User_Datagram_Protocol

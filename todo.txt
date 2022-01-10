@@ -1,7 +1,5 @@
 4. Rozwijanie
 
-mikronacje - Atlantium
-
 wyśrodkuje tekst i dam obrazek pomiędzy tekstem, tytułem
 Zmienic adres remote brancha
 Strona tworzona przy użyciu
@@ -24,7 +22,9 @@ Zrobić linki w blogu do artykułów źródłowych.
 
 
 
-Tematy na wpisy
+Tematy na wpisy:
+1.TLS
+
 
 Society
 Flying Cars
@@ -37,8 +37,7 @@ toxic masculinity
 Łysenkizm
 Hiroshima and Nagasaki/carpet bombings
 Du Pont i teflon
--Slavoj Żizek
-Wisecrack
+Wu Wei
 
 
 Programming
@@ -63,8 +62,8 @@ glazurowana wieprzowina z warzywami
 Chopped cheese
 
 Movies
+
 Sekretarka
-Dróżnik
 Big short
 Social Network
 Mc empire

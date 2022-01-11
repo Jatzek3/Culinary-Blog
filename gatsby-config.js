@@ -37,6 +37,7 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
+    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
@@ -52,7 +53,7 @@ module.exports = {
       resolve: "gatsby-plugin-offline",  // have to be after gatsby plugin manifest -- read documentation after removing
       options: {
         workboxConfig: {
-          globPatterns: ['**/favicon-32x32.png*'], // this is bad globpattern?
+          globPatterns: ['**/favicon-32x32.png*'],
         }
       }
     },

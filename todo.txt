@@ -1,5 +1,6 @@
 4. Rozwijanie
 
+Zrobić żeby menu bylo zawsze u góry.
 wyśrodkuje tekst i dam obrazek pomiędzy tekstem, tytułem
 Zmienic adres remote brancha
 Strona tworzona przy użyciu
@@ -23,7 +24,8 @@ Zrobić linki w blogu do artykułów źródłowych.
 
 
 Tematy na wpisy:
-1.TLS
+1.Her
+2.TLS
 
 
 Society
@@ -68,7 +70,6 @@ Big short
 Social Network
 Mc empire
 Lobster
-Her
 Moon
 
 

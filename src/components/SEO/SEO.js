@@ -95,7 +95,7 @@ Seo.defaultProps = {
     title: 'The Yellow Pages',
     lang: `en`,
     meta: ["Programming", "Cooking", "Society", "Movies", "Jatzek3", "Blog", "Portfolio"],
-    description: `A personal blog about cooking, society, movies, and programming.`,
+    description: `A personal blog about cooking, coding and composing`,
 }
 
 Seo.propTypes = {

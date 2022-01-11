@@ -24,7 +24,7 @@ const AboutPage = () => {
                     <p className={textParagraph}>Throughout my 35 years long life,
                         I invested my attention into many diverse and exciting interests,
                         hobbies, and passions. Currently I stayed with selected few.</p>
-                    <p className={textParagraph}>I write blog posts about programming, society, cooking, and movies.
+                    <p className={textParagraph}>I write blog posts about cooking, coding and composing.
                         If you are also captivated by those topics, be sure to check out my <Link className={textParagraphLink} to="/blog">Blog</Link>.</p>
                     <p className={textParagraph}>I placed there my thoughts on a given topic and encourage You to check them out on your own. Some of them are amazing!</p>
                     <p className={textParagraph}>If you want to know about how I was learning to program, be sure to check out <Link className={textParagraphLink} to="/way">Road</Link>;</p>

@@ -8,7 +8,11 @@ mój tech stack - Specjalizuje się/ Znam
 Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
 Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
 Zrobić linki w blogu do artykułów źródłowych.
+- remove trailing slashes- plugin didnt work
+- menu ma komórce zawsze na górze
 
+
+- dorobić zdjęcia smartfonem potrawom
 - przycisk do donatów
 - Muliple sites = gatsby-node.js create pages, The net ninja Gatsby episode 19,
 - Dodać Dev diaries - co miesiąc jeden wpis- dodać do road i zrobić dobry graphQL dla niego
@@ -18,6 +22,8 @@ Zrobić linki w blogu do artykułów źródłowych.
 - clean up the graphQL
 - calendar for blog posts
 - filtrowanie po dziedzinach?
+
+
 - add categories to map
 - zmienić way na road
 
@@ -43,6 +49,7 @@ Wu Wei
 
 
 Programming
+Web3.0
 Pozostałe warstwy
 Cors
 Material UI
@@ -62,6 +69,7 @@ Cooking
 ziemniaki smażone w sosie piwnym
 glazurowana wieprzowina z warzywami
 Chopped cheese
+spaghetti al limone
 
 Movies
 

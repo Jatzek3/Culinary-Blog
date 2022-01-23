@@ -37,16 +37,14 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
-    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://jatzek3.gatsby.io.com',
         sitemap: 'https://jatzek3.gatsby.io/sitemap-0.xml',
         // temporary fix to duplicate files in way && blog 
-        policy: [{ userAgent: "Googlebot", allow: '/', disallow: "/way" }],
         policy: [{ userAgent: '*', allow: '/' }],
-
+        policy: [{ userAgent: "Googlebot", allow: '/', disallow: "/way" }],
       }
     },
     {

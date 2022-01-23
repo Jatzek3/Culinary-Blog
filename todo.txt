@@ -30,6 +30,7 @@ Zrobić linki w blogu do artykułów źródłowych.
 
 
 Tematy na wpisy:
+Spaghetti Napoli
 1.Her
 2.TLS
 
@@ -70,6 +71,8 @@ ziemniaki smażone w sosie piwnym
 glazurowana wieprzowina z warzywami
 Chopped cheese
 spaghetti al limone
+spaghetti al pomodorro
+
 
 Movies
 
@@ -80,7 +83,7 @@ Mc empire
 Lobster
 Moon
 
-
+Very Bad Movies
 
 
 

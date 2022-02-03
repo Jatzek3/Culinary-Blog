@@ -1,0 +1,9 @@
+Today I've read next chapter of JavaScript Guide. Chapter 15: Scripting Documents.
+Many informations was outdated, but there was some usefull ones:
+ 	about DOM manipulation
+	NodeList Arrays
+	specific infprmation about QuerySelectors
+The author wrote, that this chapter is possibly most important in the book. And
+I agree that understanding DOM, element hierarchy and communication beetweem the browser
+client is very important. Nowadays we have modern frontend frameworks, and we dont have to
+know about unused features of HTML.(aspecially <frame> and <iframe> elemnts).

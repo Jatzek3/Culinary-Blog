@@ -1,0 +1,20 @@
+Anpther day of learning to program without programing. 
+Some could argue that its, not the way to learn practical skill, but besides practice and
+skill in programming is also important to learn theory behind this. It can save you from 
+many misktakes. Today Im learning Chapter about Scripting CSS. Beside remembering 4 main 
+CSS posititions, I had the first contanct with Box model explanation. 
+How top, right, bottom, left and width, height. I heard about the trich how to memorize
+the order of top, right, bottom, left in many CSS general properties. Just remember Trouble
+wich have the constants in apropriate clockwise order. 
+So generally there was a little bit of CSS. Exsplantion why CSS in JS have other syntax.
+And ClassName also got some place for those who write in React
+
+I went to electronic shop to buy ethernet cables endings. I hade very nice chat with an 
+informatician, who showed me how little I know about electronics. He was very o and shared a litte about his worldview tith me.
+
+I then instaled Internet in my house, with neighbour who have private network. We managed to instal 
+everything, but didn't managed to get the internet working. I supose it is beacouse of very old 
+router, very poorly setup. There is also possibility beacouse of Windows settings, but I think
+Its not the case becouse Linux have no connetction also. I restored the windows setting to starting ones
+and very many of my apps need to be reinstalled. But hey if im gonna need them, I'm gonna get them.
+So in the end some rubbish, and time got wasted.  

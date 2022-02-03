@@ -8,13 +8,11 @@ mój tech stack - Specjalizuje się/ Znam
 Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
 Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
 Zrobić linki w blogu do artykułów źródłowych.
-- remove trailing slashes- plugin didnt work
 - menu ma komórce zawsze na górze
-
-
 - dorobić zdjęcia smartfonem potrawom
 - przycisk do donatów
 - Muliple sites = gatsby-node.js create pages, The net ninja Gatsby episode 19,
+- remove trailing slashes- plugin didnt work
 - Dodać Dev diaries - co miesiąc jeden wpis- dodać do road i zrobić dobry graphQL dla niego
 - zrobić Apps
 - intersection observer?
@@ -22,27 +20,26 @@ Zrobić linki w blogu do artykułów źródłowych.
 - clean up the graphQL
 - calendar for blog posts
 - filtrowanie po dziedzinach?
-
-
 - add categories to map
 - zmienić way na road
 
 
 
 Tematy na wpisy:
-Spaghetti Napoli
-1.Her
+1.Analiza Transakcyjna
 2.TLS
 
 
 Society
+
+toxic masculinity
+Karma
+self-help ( https://www.youtube.com/watch?v=dmLTLkCBSN8, https://www.youtube.com/watch?v=qMmgDeyhamI )
+
 Flying Cars
 Euro Disneyland
 Bagger 293 - największa koparka
 Energy Vault
-self-help ( https://www.youtube.com/watch?v=dmLTLkCBSN8, https://www.youtube.com/watch?v=qMmgDeyhamI )
-Analiza Transakcyjna
-toxic masculinity
 Łysenkizm
 Hiroshima and Nagasaki/carpet bombings
 Du Pont i teflon
@@ -50,8 +47,14 @@ Wu Wei
 
 
 Programming
+Layers of networking
+
+Symetric
+Asymetric Cipher
+
+Web Security
+Wpis o CSRF
 Web3.0
-Pozostałe warstwy
 Cors
 Material UI
 Commit naming convention https://www.conventionalcommits.org/en/v1.0.0/
@@ -63,15 +66,14 @@ Headless CMS
 CMS
 wpis o TypeScript
 wpis o XSS
-Wpis o CSRF
+
 
 
 Cooking
 ziemniaki smażone w sosie piwnym
 glazurowana wieprzowina z warzywami
 Chopped cheese
-spaghetti al limone
-spaghetti al pomodorro
+spaghetti al limonew
 
 
 Movies

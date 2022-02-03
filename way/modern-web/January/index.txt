@@ -1,5 +1,6 @@
 - Watching mathematics for computer science
 - Learning about Next.js - Next.js Documentation Tutorial, Next.js Crash Course for Beginners 2021 
+- Reading JavaScript: The Definive guide
 
 
 Articles
@@ -11,3 +12,5 @@ Articles
 Creative:
 - Choosing techstack
  
+January was a difficult month for me. I moved to a new appartment with a lower standard, but better localized. 
+Didn't have the internet at the start and there was a little problems with it.  

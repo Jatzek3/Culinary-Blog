@@ -1,0 +1,7 @@
+January. 
+After getting www.theyellowpages.live to usefull state, i didn't had the opportunity
+to write code that much. I learned a little bit about Next.js but Im very far from 
+making an application with.
+
+Since I didn't had connection on with the internet I read, chapter on The Window Object
+of JavaScript definitve guide.

@@ -1,0 +1,4 @@
+Dzisiaj czytałem o Eventach. Nie wiele się dowiedziałem, ponieważ większość API się zmieniła.
+Dobrze było poczytać o Bubbling, w DOM, chociaż nie było nic napisane o capturing.
+
+W końcu zaczął funkcjonować internet.

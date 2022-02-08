@@ -1,0 +1,11 @@
+I tried to fix the speed of my 1Mb/s connection. In result of that
+I reset the settings of my router and cannot connect to the internet again.
+
+I read another chapter of JavaScript: definitive guide. About events.
+Many outdated things abut browser compatybility wasn't so interesting.
+But i refreshed my knowledge about some, and I still have doubts if 
+I understand bubling and capturing correctly. 
+
+The events part gave me some usefull insights, becouse in react DOM manpiulation
+isn't used as much. Its becouse of, problems with memory managment when there is badly 
+written code, and React attitude towards components, and updating them.

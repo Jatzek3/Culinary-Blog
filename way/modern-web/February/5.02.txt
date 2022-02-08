@@ -1,0 +1,7 @@
+Today I've fixed the internet connection, almost by myself. This almost everytime takes
+90% of time fixing, but it's a process.
+
+Today i watched Next.js Tutorial by The Net Ninja. I see that it will be more complicated
+then gatsby is. There is many hard JavaScirpt to understand underneath, and even though
+I catch the overall meaning of it, I'm not sure about writing Next.js. It lot of time 
+mixes already complicated things, and add some problems from itself.

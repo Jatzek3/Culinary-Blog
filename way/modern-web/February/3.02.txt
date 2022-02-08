@@ -2,3 +2,6 @@ Dzisiaj pisałem tekst na temat TLS.
 Temat którego do końca nie rozumiem i nie wiele wiecej zrozumiałem z tej kryptografii.
 Fajnie było sie dowiedzieć na temat synchoniczanego i asynchronicznej kryptografii.
 I zrozumieć na czym polegają handshakes. Odrobina więcej czystej informatyki.
+
+
+Oglądałem 2 tutoriale o Copywritingu

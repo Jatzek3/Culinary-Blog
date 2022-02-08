@@ -4,7 +4,7 @@
 
 
 Articles
-	 Cooking - Stewed pork in peanut sauce
+	 Cooking - Stewed pork in peanut sauce, Spaghetti al Pomodoro
 	 Society - Zombies
 	 Movies - Her
 
@@ -12,5 +12,3 @@ Articles
 Creative:
 - Choosing techstack
  
-January was a difficult month for me. I moved to a new appartment with a lower standard, but better localized. 
-Didn't have the internet at the start and there was a little problems with it.  

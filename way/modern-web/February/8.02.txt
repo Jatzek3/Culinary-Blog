@@ -1,0 +1,7 @@
+Today I was learning about next.js and finished reading about it. The Tutorial isn't
+as usefull, as I wanted it to be. I still i need to find some starting point for 
+My Next.js Blog about the humanistic topics.
+
+I think that, mayby till 22.02.2022 finish 3 years of learnig by some summary, end reading JavaScript: Definitive Guide
+end Mathematics for computer Science. Not start any project till this time.
+

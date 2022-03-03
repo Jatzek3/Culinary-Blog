@@ -28,8 +28,8 @@ Zrobić linki w blogu do artykułów źródłowych.
 Tematy na wpisy:
 Next.js
 Social Network
-toxic masculinity
-OSI model
+OSI Model
+Transactional Analysis
 
 Society
 

@@ -22,7 +22,7 @@ Zrobić linki w blogu do artykułów źródłowych.
 - filtrowanie po dziedzinach?
 - add categories to map
 - zmienić way na road
-
+- niektóre 
 
 
 Tematy na wpisy:

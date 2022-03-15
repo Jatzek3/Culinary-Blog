@@ -1,0 +1,80 @@
+---
+title: "Next.js"
+subtitle: "The React Framework for Production"
+date: "2022-03-04"
+source: "https://www.rdegges.com/2018/please-stop-using-local-storage/"
+topic: "Programming"
+category: "Frontend"
+
+hero_image: "./nextjs-logo.png"
+hero_image_alt: "upper case Next.js sign"
+hero_image_credit_text: "Next.js"
+hero_image_credit_link: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"
+---
+
+
+### Introduction
+
+Two of my blog posts can be helpful for you to get a broader understanding.
+1. What is React - a library on which Next.js is based upon:
+https://theyellowpages.live/blog/react/
+2. A post about Gatsby.js. A similar framework in which this blog is built:
+https://theyellowpages.live/blog/gatsby/
+
+Vercel is the company behind developing this framework. It has its backend features developed in Node.js(JS on the backend). The company had big success with its hosting platform Vercel. 
+
+They call Next.js "The React Framework for Production". Because you can use many libraries and features more simply. Even without configuration.
+
+### Characteristics
+
+Some special options are enabled thanks to Next.js. The most outstanding are Server Side Rendering and Static Site Generation. That means a ready version of the site is built before a person will request it, or when it will be requested. That gives much better performance of the website and better experience. There is also another advantage of this. Robots that explore the website have much less to do, and the site will appear in better positions in search engines.
+
+Another feature is the possibility to use this framework also on the backend. The obvious choice for less complex applications is File System Routing. It allows you to place .md or .mdx in directories under the "/pages" folder. Those files and folders will be available for you through Next.js fast routing. You will also be able to connect them through the links on your site. If you need some more backend actions, You can create "/pages/api" and write Node.js code there.
+
+Next.js supports popular technologies:
+- TypeScript
+- Sass
+- CSS modules
+- CSS in Js
+
+In addition to this, it gives you many other tools, which can be helpful in application development, like image optimization.
+
+### Create React App vs Gatsby vs Next.js
+
+#### Create React App
+
+For commercial applications requiring good Search Engine Optimization, you don't want to use create-react-app (CRA). CRA gives you tools to build something in react, so you won't have to bundle and install everything. It is a useful bundle to:
+- learn React
+- build something that is not a webpage
+- develop a side project, game for example
+
+CRA is missing many features which both Next.js and Gatsby have. If you are not building a webpage, having only the most essential assets can be the best.
+
+#### Gatsby
+
+This page was made in Gatsby, which was very easy to learn and use at the start.
+But the deeper the configuration goes, the more problems appear. I started using Gatsby through the official documentation tutorial. Without much knowledge, about the framework, I created this site. Besides that, the deep knowledge about GraphQl isn't any problem at the start. 
+
+But when you move on, things are getting complicated:
+- Learning about things that weren't in the tutorial
+- Taking care of some unsupported plugin
+- Having problems with GraphQl and the need to learn it
+- And other problems which you will have to solve, which StackOverflow does not necessarily solve
+
+Gatsby sites can be refreshed only during the build. I've seen a way to add Server Side Rendering to the website, but don't put too much trust in that. Gatsby is more of a Static Site Generator.
+
+I see it as a tool for small projects, which can become very complicated if it grows too large.
+
+#### Next.js 
+
+From what I learned, Next.js has the same features as Gatsby but is much more popular and better supported. 
+
+It also does not use GraphQl, out of the box. It's an advantage. There are some more useful things to learn for me.
+
+It also has integrated Server Side Rendering and revitalization of static sites. 
+
+It's a great tool if you want to build websites.
+
+### Summary
+
+If you are wondering if you should choose between Gatsby and Next.js there are a few pros for the first. Next.js Is a very powerful tool. It can serve to build large applications with many components. It can also be used to build a small personal blog.

@@ -26,19 +26,18 @@ Zrobić linki w blogu do artykułów źródłowych.
 
 
 Tematy na wpisy:
-Next.js
-Social Network
+Pea Soup
 OSI Model
-Transactional Analysis
+Transactional Analysis modern
+Rewolucja francuska
+Pork and beans
+Spanish tortilla
+Github copilot
+
 
 Society
-
-
 Karma
 self-help ( https://www.youtube.com/watch?v=dmLTLkCBSN8, https://www.youtube.com/watch?v=qMmgDeyhamI )
-
-OSI Model
-
 Flying Cars
 Euro Disneyland
 Bagger 293 - największa koparka
@@ -75,14 +74,17 @@ wpis o TypeScript
 
 
 Cooking
-ziemniaki smażone w sosie piwnym
+Hiszpańska tortilla
 glazurowana wieprzowina z warzywami
+Fasolka po bretońsku
+
+ziemniaki smażone w sosie piwnym
 Chopped cheese
 spaghetti al limonew
 
 
 Movies
-
+Social Network
 Sekretarka
 Big short
 Mc empire

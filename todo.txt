@@ -26,7 +26,6 @@ Zrobić linki w blogu do artykułów źródłowych.
 
 
 Tematy na wpisy:
-Pea Soup
 OSI Model
 Facts vs opinions
 Transactional Analysis modern

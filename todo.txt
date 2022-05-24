@@ -26,6 +26,7 @@ Zrobić linki w blogu do artykułów źródłowych.
 
 
 Tematy na wpisy:
+Ozark
 Rogue Legacy 2
 OSI Model
 Facts vs opinions
@@ -51,14 +52,11 @@ Wu Wei
 
 Programming
 Layers of networking
-
 Symetric
 Asymetric Cipher
-
 Web Security
 Wpis o CSRF
 wpis o XSS
-
 Web3.0
 Cors
 Material UI
@@ -75,17 +73,13 @@ wpis o TypeScript
 
 
 Cooking
-Hiszpańska tortilla
 glazurowana wieprzowina z warzywami
-Fasolka po bretońsku
-
 ziemniaki smażone w sosie piwnym
-Chopped cheese
 spaghetti al limonew
 
 
 Movies
-
+Śmieszność
 Nagle, ostatniego lata; Suddenly, Last Summer (1959)
 Social Network
 Sekretarka

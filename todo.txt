@@ -26,7 +26,11 @@ Zrobić linki w blogu do artykułów źródłowych.
 
 
 Tematy na wpisy:
-Ozark
+Peaky blinders  
+Europa Universalis
+Rovello -  ta książka o Fizyce
+Glazed pork
+
 Rogue Legacy 2
 OSI Model
 Facts vs opinions
@@ -73,12 +77,12 @@ wpis o TypeScript
 
 
 Cooking
-glazurowana wieprzowina z warzywami
 ziemniaki smażone w sosie piwnym
 spaghetti al limonew
 
 
 Movies
+
 Śmieszność
 Nagle, ostatniego lata; Suddenly, Last Summer (1959)
 Social Network

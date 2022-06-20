@@ -29,10 +29,10 @@ Tematy na wpisy:
 Inventing Anna
 Europa Universalis
 Glazed pork
+Smażone ziemniaczki
 
 Rogue Legacy 2
 OSI Model
-Facts vs opinions
 Transactional Analysis modern
 Rewolucja francuska
 Github copilot
@@ -71,11 +71,8 @@ CMS
 wpis o TypeScript
 
 
-
-
 Cooking
-ziemniaki smażone w sosie piwnym
-spaghetti al limonew
+
 
 
 Movies

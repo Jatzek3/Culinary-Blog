@@ -1,5 +1,4 @@
 Story starts slow, Anna keeps turning to be a scamer and a victim
-Inventing the Abbotts
 1. Gra pozoórw - fake it untill you make it,
     - płacenie za startup bez rzelnych podstaw(przez inwestorów).
     - domniemanie placenie(zmalwersowanie 3kk$) za pieniędzy ze Startupu na codzinne wydatki

@@ -72,6 +72,7 @@ const Seo = ({ description, lang, meta, title }) => {
                 }
             ].concat(meta)}
         >
+            <script src="https://www.googleoptimize.com/optimize.js?id=OPT-KS9HN74"></script>
             <script type="application/ld+json">
                 {`
                     {

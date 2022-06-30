@@ -26,12 +26,16 @@ Zrobić linki w blogu do artykułów źródłowych.
 
 
 Tematy na wpisy:
+VPN
+Rzeczywistoś nie jest tym czym się wydaje
+OSI Model
+Funny Games
+Knock Knock
+Smażone ziemniaczki
 Europa Universalis
 Glazed pork
-Smażone ziemniaczki
-
 Rogue Legacy 2
-OSI Model
+
 Transactional Analysis modern
 Rewolucja francuska
 Github copilot

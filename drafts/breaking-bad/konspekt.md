@@ -5,5 +5,6 @@
 
 - Simmilar developing of the Charachter of Skyler as with the (lawyer woman in Better Call Saul.). From Supporting actor to main role. 
 -Skylar, habits are used in the drug bussiness, and are used in it. Her morality changes but her character doesent. Unlike Walt which morality and habits, undergo heavy (stopniową) transformation
-- Two faces of Walt. Walt says sorry twice for involving his exlover Gretchen from Gray Matter (sponsoring his cqancer treatment), but when the discussion changes sides and she says "sorry" - he says "fuck you" For something long in the past.
+- Two faces of Walt. Walt says sorry twice for involving his exlover Gretchen from Gray Matter (sponsoring his cqancer treatment), but when the discussion changes sides and she says "sorry" - he says "fuck you" For something long in the past. 
+    -When Jesse girlfriend is choking on her pukes, Walt decides not to help her. Before he is concerned that Jesse can end as Junkie when he takes his share of money from the drugs.
 - Two faces of Jesse. A lowlife drug addict, but take care of poor children, give people second chances

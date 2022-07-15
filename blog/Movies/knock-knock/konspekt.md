@@ -1,3 +1,7 @@
+Nazwa nawiązuje do funny games, Jako że knock knock jest zabawą
+
+- Karą nie była śmierć tylko udostępnienia wideo na facebooku. Widać było komentarze ganiące zachowanie Keanu Reevesa. Jednocześnie dziewczyny powiedziały, że każdy ulega.
+
 1. Introduction
  - Actors - Keanu reeves +++, Lorenza Izzo +, Anna de Armas(at the start of her career) ++
  - Director - Eli Roth, helping tarantino in directing and as actor(Donny Donnovitz) on Inglorious bastards. Directed some slashers(Hostel, Hostel 2, Cabin Fever) in his carrer
@@ -21,3 +25,7 @@ This is followed with loud rock music. This time we know the source of the music
  8. Eventually "Monter" speaks, when girls tell him what punishment will be given to him. And though the punishment is very severe Evan would rather take it then what will be instead given.
  9. Funny games came out in 1997 and 2007, social media wasn't really a thing. Eventually it shows which life is more meanigfull for Evan, the one he try to show for others, or the actual life. It's indeed interesting that banishment after Two millenia became the most sever punishent.
  10. There are a ton of simmilarities beetween both movies. And also lots of way of interpretation. If youre not interested in comparing the movies, and want to just enjoyably spend the evening, then there are Beutifll actresses, Keanu Reeves and a lots of action.
+
+ nowa wersja filmu z 1974 roku Death Game. How much personal relationships matter in film industry.
+https://www.youtube.com/watch?v=rwfmiR1jFMc
+ 

@@ -26,11 +26,9 @@ Zrobić linki w blogu do artykułów źródłowych.
 
 
 Tematy na wpisy:
-VPN
-Rzeczywistoś nie jest tym czym się wydaje
-OSI Model
-Funny Games
 Knock Knock
+Node.js
+OSI Model
 Smażone ziemniaczki
 Europa Universalis
 Glazed pork
@@ -55,14 +53,8 @@ Wu Wei
 
 
 Programming
-Layers of networking
 Symetric
-Asymetric Cipher
-Web Security
-Wpis o CSRF
-wpis o XSS
-Web3.0
-Cors
+Network Security: security Asymetric Cipher, CSRF, XSS, Cors
 Material UI
 Commit naming convention https://www.conventionalcommits.org/en/v1.0.0/
 caching E-Tag
@@ -77,9 +69,7 @@ wpis o TypeScript
 Cooking
 
 
-
 Movies
-
 Śmieszność
 Nagle, ostatniego lata; Suddenly, Last Summer (1959)
 Social Network
@@ -89,8 +79,9 @@ Mc empire
 Lobster
 Moon
 
-Very Bad Movies
-
+Themtics
+Identity - Moon, Oxygen, Annihilation, Bladerunner 2049
+Games people play - Transactional Anlysis, Funny Games, Knock knock, Śmieszność, Death game
 
 
 

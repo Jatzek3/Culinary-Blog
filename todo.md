@@ -27,16 +27,17 @@
 ### Tematy na wpisy:
 
 - Behave Yourself
+- Node.js
 - Breaking Bad
 - OSI Model
-- Node.js
 - Smażone ziemniaczki
+- DeadPool
 - Europa Universalis
 - World of warships
 
 ### Pomysły
 
-- Society
+#### Society
 - Karma
 - self-help ( https://www.youtube.com/watch?v=dmLTLkCBSN8, https://www.youtube.com/watch?v=qMmgDeyhamI )
 - Flying Cars
@@ -49,7 +50,7 @@
 - Wu Wei
 
 
-### Programming
+#### Programming
 - Network Security: security Asymetric Cipher, CSRF, XSS, Cors
 - Material UI
 - Commit naming convention https://www.conventionalcommits.org/en/v1.0.0/
@@ -60,13 +61,16 @@
 - Headless CMS
 - CMS
 - wpis o TypeScript
+- Tor
 
 
-### Cooking
+#### Cooking
 
 - Smażone ziemniaki
+- Zupa z Ciecierzycą
+- Karkówka w sosie własnym
 
-### Movies
+#### Movies
 Śmieszność
 Nagle, ostatniego lata; Suddenly, Last Summer (1959)
 Social Network

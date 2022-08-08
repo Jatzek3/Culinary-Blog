@@ -12,7 +12,7 @@ import {
   partTo,
   wayImg,
   allParts,
-} from "./way.module.css"
+} from "./road.module.css"
 
 const BlogPage = ({ data }) => {
   return (
@@ -21,12 +21,12 @@ const BlogPage = ({ data }) => {
       <div className={way}>
         <StaticImage className={wayImg}
           alt="black and white picture of a road with surrounding trees"
-          src="./way.jpg"
+          src="./road.jpg"
         />
         <div className={allParts}>
           {
             data.allMdx.nodes.map(node => (
-              <Link className={partContainer} to={`/way/${node.slug}`}>
+              <Link className={partContainer} to={`/road/${node.slug}`}>
                 <article key={node.id} className={part}>
                   <h2 className={partName} >
                     {node.frontmatter.title}
@@ -47,7 +47,7 @@ export const query = graphql`
   query {
     allMdx(
       sort: {fields: frontmatter___from, order: DESC}
-      filter: {fileAbsolutePath: {regex: "/way/"}}
+      filter: {fileAbsolutePath: {regex: "/road/"}}
     ) {
       nodes {
         frontmatter {

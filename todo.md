@@ -1,14 +1,13 @@
 ### Rozwijanie
 
-1. Zrobić żeby menu bylo zawsze u góry.
-2. wyśrodkuje tekst i dam obrazek pomiędzy tekstem, tytułem
+1. Zrobić żeby menu bylo zawsze u góry. 
+2. wyśrodkuje tekst i dam obrazek pomiędzy tekstem, tytułem jak na stronie z blogami
 3. Zmienic adres remote brancha
-4. Strona tworzona przy użyciu
+4. Strona tworzona przy użyciu 
 5. mój tech stack - Specjalizuje się/ Znam
 6. Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
 7. Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
-8. Zrobić linki w blogu do artykułów źródłowych.
-9. menu ma komórce zawsze na górze
+8. Zrobić linki w blogu do artykułów źródłowych.V
 10. dorobić zdjęcia smartfonem potrawom
 11. przycisk do donatów
 12. Muliple sites = gatsby-node.js create pages, The net ninja Gatsby episode 19,
@@ -20,7 +19,6 @@
 18. calendar for blog posts
 19. filtrowanie po dziedzinach?
 20. add categories to map
-21. zmienić way na road w strukturze plików
 22. dodać zarządzanie trścią (Contenfull? coś podobnego)
 
 

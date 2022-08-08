@@ -93,7 +93,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: `way`,
-        path: `${__dirname}/way`,
+        path: `${__dirname}/road`,
       },
     },
     {

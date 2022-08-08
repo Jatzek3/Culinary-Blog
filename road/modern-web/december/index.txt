@@ -1,0 +1,32 @@
+---
+year: "2021
+monnth: "December"
+title: "Intensive work on the Blog"
+
+hero_image: "none"
+hero_image_alt: "none"
+hero_image_credit_text: "none"
+hero_image_credit_link: "none"
+---
+Yellow Pages
+
+1.Yellow Pages Content. 
+Micronations (Introduction, Rose Island, Sealand, Atlantia) 
+and cooking (simple crab stick salad, scrambled eggs, orange chicken, spaghetti and meatballs) 
+Programming (BEM, HTTP, TCP/UDP), 
+
+2. Yellow Pages SEO. Optimized Seo-React( helmet, robots.txt, manifest, preact,gatsby plugin offline, sitemap, plugin-gatsby-cloud )
+added Domain, google analytics and google search console, images accessible and copyright correct).
+
+3. Yellow Pages configuration. cleaned up the directory structure, fixed warnings, added newest blog posts to home page.
+
+4. Yellow Pages CSS. Added animations(call to action button, yellow card animation, links animation, underline animation, 
+page change animations, dot on map hover)
+added css features for navigation(underline on active site  arrows down on main page),
+ made site responsive(burger menu,display none on pictures, @media screen size 990 for mobile)
+changed favico
+
+1. Major Bugs.
+- Lighthouse shows x-robots-tag:none in gatsby hosting - SOLVED It should show on gatsby hosting since gatsby give this tag 
+to preview builds
+2. Duplicate pages from {mdx.slug}

@@ -2,33 +2,31 @@
 
 1. Zrobić żeby menu bylo zawsze u góry. 1111111111111111
 2. wyśrodkuje tekst i dam obrazek pomiędzy tekstem, tytułem jak na stronie z blogami111111111111
-3. Zmienic adres remote brancha1111111111111111
-4. Strona tworzona przy użyciu 
-5. mój tech stack - Specjalizuje się/ Znam
-6. Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
-7. Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
-10. dorobić zdjęcia smartfonem potrawom
-11. przycisk do donatów1111111111111111
-12. Muliple sites = gatsby-node.js create pages, The net ninja Gatsby episode 191111111111111111
-13. remove trailing slashes- plugin didnt work
-14. Dodać Dev diaries - co miesiąc jeden wpis- dodać do road i zrobić dobry graphQL dla niego
-15. zrobić Apps
-16. intersection observer?
-17. featured blog post - Co tydzień?
-18. calendar for blog posts
-19. filtrowanie po dziedzinach?
-20. add categories to map
-22. dodać zarządzanie trścią (Contenfull? coś podobnego) 11111111111111111111111111111111
+3. Strona tworzona przy użyciu 
+4. mój tech stack - Specjalizuje się/ Znam
+5. Jeżeli widzisz błąd literówkę, będzie fajnie jak napiszesz.
+6. Jeżeli masz pomysł jak ulepszyć bloga będę wdzięczny.
+7. dorobić zdjęcia smartfonem potrawom
+8. przycisk do donatów1111111111111111
+9. Muliple sites = gatsby-node.js create pages, The net ninja Gatsby episode 191111111111111111
+10. remove trailing slashes- plugin didnt work
+11. Dodać Dev diaries - co miesiąc jeden wpis- dodać do road i zrobić dobry graphQL dla niego
+12. zrobić Apps
+13. intersection observer?
+14. featured blog post - Co tydzień?
+15. calendar for blog posts
+16. filtrowanie po dziedzinach?
+17. add categories to map
 
 
 ### Tematy na wpisy:
-- Breaking Bad
+- World of warships
 - Node.js
 - OSI Model
 - Smażone ziemniaczki
 - DeadPool
 - Europa Universalis
-- World of warships
+
 
 ### Pomysły
 

@@ -20,12 +20,10 @@
 
 
 ### Tematy na wpisy:
-- World of warships
-- Node.js
+- ZBIERANIE GRZYBÓW
 - OSI Model
 - Smażone ziemniaczki
 - DeadPool
-- Europa Universalis
 
 
 ### Pomysły

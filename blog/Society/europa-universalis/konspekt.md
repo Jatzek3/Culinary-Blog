@@ -13,6 +13,7 @@ Europa Universalis is 4X grand strategy, which means It has elements of:
 - expansion
 - exploitation
 - extermination
+
 This kind of game takes a very long time to finish, is very complex, and is almost impossible to master. You constantly learn the mechanics and gameplay of different nations. 
 
 Most often, in the 1444 year, the earliest starting date is chosen. But you can pick any date from 1444 to 1821. The game will try to resemble the actual historical one. You can try to lead English colonies to independence, or fight with the whole of Europe as revolutionary France.

@@ -20,9 +20,7 @@
 
 
 ### Tematy na wpisy:
-- ZBIERANIE GRZYBÓW
 - OSI Model
-- Smażone ziemniaczki
 - DeadPool
 
 

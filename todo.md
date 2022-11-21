@@ -24,7 +24,6 @@
 - DeadPool
 
 
-### Pomysły
 
 #### Society
 - Karma

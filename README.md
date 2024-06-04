@@ -1,5 +1,5 @@
 A repository for my portfolio and blog on
-https://theyellowpages.live/
+https://theyellowpages.live/ -nieaktualne
 
 ## Built in:
 

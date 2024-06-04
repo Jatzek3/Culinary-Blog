@@ -1,0 +1,16 @@
+### Introduction
+
+
+    Ałbena Grabowska is polish woman with bulgarian roots. Neurologist with second degree of specialization (highiest degree of specialization in polish medicine ) and Ph. D. In past she was dedicated solely to her patients (specially to those with epilepsy). From nine years she is author of books for children and adults. She gladly writes books in different genres. She wrote "Stulecie Winnych" on which basis a movie was created, and drama novels like "kosci proroka" and "Matki i córki". She lives with her three children, four cats and one dog.
+### trylogy
+
+The trylogy "Students of hypocrates", which consists of "Doktor Bogumił", "Doktor Anna" and "Doktor Zosia" is linked by by several features. 
+- They share the same timeline, from XIX century "Doctor Bogumił" till the end of second world war, which end concludes 3 tome of trylogy "Doktor Zosia"
+- The action takes place in Warsaw, and concentrates around healthcare institutions, people which are in need and doctors, who manage and work in those institutions
+- Books tell the history of medicine in time when major scientific breakthroughs happen. This period (XIX century - to the end of world war) was crucial for medicine and healthcare. 
+- Ałbena Grabowska tries to show us what struggles had to overcome women and innovators. The progress was so fast that few of the intelectual elite could catch up with them. Often new inventions met opposition from other doctors. The other side of this was that qomen still hadn't have equal rightes with men, and it was seldom sought that a woman would become a doctor. Entrance to this proffesion was (ustrudnione) or even forbiden. Women if they had to had been (ograniczone) to the roles of nurses or (akuszerek)
+
+
+### Summary
+
+The subject of the books should be atractive for educated women. Even though there are strong feminist tones, the book is entertaining and I read   every tome in just few days. Every book have around five hundred pages, and it was really a pleasure to read so engaging lectures. Last tome "Doktor Zosia" is my least favourite, but still  it was fun to read and time well spent

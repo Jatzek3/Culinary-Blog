@@ -1,5 +1,5 @@
 ### Rozwijanie
-
+1. zrobić żeby przycisk w lewo na pierwszej oraz przycisk w prawo na ostatniej zniknął.
 1. Zrobić żeby menu bylo zawsze u góry. 1111111111111111
 2. wyśrodkuje tekst i dam obrazek pomiędzy tekstem, tytułem jak na stronie z blogami111111111111
 3. Strona tworzona przy użyciu 
